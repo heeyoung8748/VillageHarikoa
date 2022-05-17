@@ -48,6 +48,7 @@ void init_title(void)
 
 	data->FontSize = 24;
 	Text_CreateText(&data->TestText, "d2coding.ttf", data->FontSize, L"이 텍스트가 변합니다.", 13);
+	
 
 	data->RenderMode = SOLID;
 
@@ -103,6 +104,11 @@ void update_title(void)
 	if (Input_GetKeyDown(VK_SPACE))
 	{
 		Scene_SetNextScene(SCENE_MAIN);
+	}
+
+	if (Input_GetKeyDown('O'))
+	{
+		Scene_SetNextScene(SCENE_EXTRA);
 	}
 }
 
@@ -334,7 +340,7 @@ void release_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-	for (int32 i = 0; i < 10; ++i)
+	for (int32 i = 0; i < GUIDELINE_COUNT; ++i)
 	{
 		Text_FreeText(&data->GuideLine[i]);
 	}
@@ -344,6 +350,57 @@ void release_main(void)
 	SafeFree(g_Scene.Data);
 }
 #pragma endregion
+
+#pragma region ExtraScene
+
+typedef struct ExtraSceneData
+{
+	Text TestText1;
+} ExtraSceneData;
+//CsvFile csvFile;
+void init_extra(void)
+{
+	g_Scene.Data = malloc(sizeof(ExtraSceneData));
+	memset(g_Scene.Data, 0, sizeof(ExtraSceneData));
+	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+
+	Text_CreateText(&data->TestText1, "d2coding.ttf", 16, L"엑스트라씬", 6);
+}
+
+void update_extra(void)
+{
+	//ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+
+	//for (int r = 0; r < csvFile.RowCount; ++r)
+	//{
+	//	for (int c = 0; c < csvFile.ColumnCount; ++c)
+	//	{
+	//		char* str = ParseToAscii(csvFile.Items[r][c]);
+	//		//printf("%s\t", str);
+	//		
+
+	//		free(str);
+	//	}
+
+	//	puts("");
+	//}
+}
+
+void render_extra(void)
+{
+	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+	
+	SDL_Color color = { .a = 255 };
+	Renderer_DrawTextSolid(&data->TestText1, 20, 20, color);
+}
+
+void release_extra(void)
+{
+
+	SafeFree(g_Scene.Data);
+}
+#pragma endregion
+
 
 bool Scene_IsSetNextScene(void)
 {
@@ -387,6 +444,12 @@ void Scene_Change(void)
 		g_Scene.Update = update_main;
 		g_Scene.Render = render_main;
 		g_Scene.Release = release_main;
+		break;
+	case SCENE_EXTRA:
+		g_Scene.Init = init_extra;
+		g_Scene.Update = update_extra;
+		g_Scene.Render = render_extra;
+		g_Scene.Release = release_extra;
 		break;
 	}
 
