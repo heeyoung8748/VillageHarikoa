@@ -4,11 +4,13 @@
 #include "Framework.h"
 #include "Framework/Scene.h"
 #include "Framework/Window.h"
+#include <locale.h>
 
 App g_App;
 
 bool App_Init(void)
 {
+	setlocale(LC_ALL, "kr_KR.utf8");
 	if (0 != SDL_Init(SDL_INIT_VIDEO | SDL_INIT_AUDIO))
 	{
 		LogWithErrorCode("Fail to initialize SDL", SDL_GetError());
