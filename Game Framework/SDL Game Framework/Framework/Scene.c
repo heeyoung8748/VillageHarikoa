@@ -21,54 +21,57 @@ static ESceneType s_nextScene = SCENE_NULL;
 #define SHADED 1
 #define BLENDED 2
 
+void logOnFinished(void) // 배경음악 출력 관련 필수 항목
+{
+	LogInfo("You can show this log on stopped the music");
+}
+
 const wchar_t* str[] = {
 	L"여기는 타이틀씬입니다. 텍스트와 관련된 여러가지를 테스트해봅시다.",
 };
 
 typedef struct TitleSceneData
 {
-	
+	Image	TitleBackGroundImage;
+	Text	Title;
+	Music	TitleMusic;
+
 } TitleSceneData;
 
 void init_title(void)
 {
-	if (!isCreated)
-	{
-		CreateCsvFile(&csvFile, "db.csv");  // 희희 
-		isCreated = true;
-
-	}
 
 	g_Scene.Data = malloc(sizeof(TitleSceneData));
 	memset(g_Scene.Data, 0, sizeof(TitleSceneData));
-
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 
-	for (int r = 0; r < csvFile.RowCount; ++r)
-	{
-		for (int c = 0; c < csvFile.ColumnCount; ++c)
-		{
-			wchar_t* str = ParseToUnicode(csvFile.Items[r][c]);
-			Text_CreateText(&CsvText[r][c], "d2coding.ttf", 16, str, wcslen(str));
-			free(str);
-		}
+	Image_LoadImage(&data->TitleBackGroundImage, "TitleTestImage.jpg");
+	Text_CreateText(&data->Title, "d2coding.ttf", 20, L"스페이스바를 누르면 시작합니다", sizeof(L"스페이스바를 누르면 시작합니다"));
+	Audio_LoadMusic(&data->TitleMusic, "powerful.mp3");
+	Audio_HookMusicFinished(logOnFinished);
+	Audio_PlayFadeIn(&data->TitleMusic, INFINITY_LOOP, 3000);
 
-		//puts("");
-	}
 
 }
 
 void update_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-
+	if (Input_GetKeyDown(VK_SPACE))
+	{
+		Scene_SetNextScene(SCENE_CREDIT);
+	}
 	
 }
 
 void render_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-	
+	data->TitleBackGroundImage.ScaleX = WINDOW_WIDTH;
+	data->TitleBackGroundImage.ScaleY = WINDOW_HEIGHT;
+	Renderer_DrawImage(&data->TitleBackGroundImage, 0, 0 );
+	SDL_Color color = {.r = 255, .g =255, .b = 255, .a = 255 };
+	Renderer_DrawTextSolid(&data->Title, 450, 500, color);
 }
 
 void release_title(void)
@@ -87,13 +90,11 @@ void release_title(void)
 
 typedef struct MainSceneData
 {
-	
+	int a;
+
 } MainSceneData;
 
-void logOnFinished(void) // 배경음악 출력 관련 필수 항목
-{
-	LogInfo("You can show this log on stopped the music");
-}
+
 
 void log2OnFinished(int32 channel) // 이펙트사운드 출력 관련 필수 항목
 {
@@ -131,6 +132,82 @@ void release_main(void)
 	
 
 	SafeFree(g_Scene.Data);
+}
+#pragma endregion
+
+#pragma region CreditScene
+
+const wchar_t* str2[] = {
+   L"CREDIT",
+   L"PD 박팀장",
+   L"스토리기획 이누구",
+   L"무슨기획 김무슨",
+   L"-",
+   L"리드프로그래머 권희영",
+   L"응원단장 김재민",
+   L"^^프로그래머 이재혁"
+};
+
+typedef struct CreditSceneData
+{
+	Text	CreditText[8];
+	int16	X;
+	int16	Y;
+	int		TextCoord[8];
+	Image	CreditBackGroundImage;
+	Music	CreditMusic;
+	float	elapsedTime;
+} CreditSceneData;
+
+
+
+void init_credit()
+{
+	g_Scene.Data = malloc(sizeof(CreditSceneData));
+	memset(g_Scene.Data, 0, sizeof(CreditSceneData));
+	CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
+
+	data->elapsedTime = 0.0f;
+	data->X = 500;
+	data->Y = 500;
+	Image_LoadImage(&data->CreditBackGroundImage, "TitleTestImage.jpg");
+	for (int i = 0; i < 8; i++)
+	{
+		Text_CreateText(&data->CreditText[i], "d2coding.ttf", 20, str2[i], sizeof(L"스페이스바를 누르면 시작합니다"));
+	}
+
+	Audio_LoadMusic(&data->CreditMusic, "powerful.mp3");
+	Audio_HookMusicFinished(logOnFinished);
+	Audio_PlayFadeIn(&data->CreditMusic, INFINITY_LOOP, 3000);
+
+}
+void update_credit()
+{
+	CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
+	data->elapsedTime += Timer_GetDeltaTime();
+	if (data->elapsedTime > 0.005f)
+	{
+		data->Y--;
+		data->elapsedTime = 0.0f;
+	}
+}
+void render_credit()
+{
+	CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
+	data->CreditBackGroundImage.ScaleX = WINDOW_WIDTH;
+	data->CreditBackGroundImage.ScaleY = WINDOW_HEIGHT;
+	Renderer_DrawImage(&data->CreditBackGroundImage, 0, 0);
+	int count = 0;
+	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	for (int i = 40; i < 360; i+=40)
+	{
+		Renderer_DrawTextSolid(&data->CreditText[count], data->X, data->Y + i, color);
+		count++;
+	}
+}
+void release_credit()
+{
+
 }
 #pragma endregion
 
@@ -176,6 +253,12 @@ void Scene_Change(void)
 		g_Scene.Update = update_main;
 		g_Scene.Render = render_main;
 		g_Scene.Release = release_main;
+		break;
+	case SCENE_CREDIT:
+		g_Scene.Init = init_credit;
+		g_Scene.Update = update_credit;
+		g_Scene.Render = render_credit;
+		g_Scene.Release = release_credit;
 		break;
 	}
 
