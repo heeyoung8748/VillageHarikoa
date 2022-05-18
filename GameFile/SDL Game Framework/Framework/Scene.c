@@ -91,7 +91,7 @@ void update_title(void)
 
 	if (Input_GetKeyDown(VK_SPACE))
 	{
-		Scene_SetNextScene(SCENE_EXTRA);
+		Scene_SetNextScene(SCENE_SCENE1);
 	}
 
 	if (Input_GetKeyDown('1'))
@@ -352,34 +352,34 @@ void release_main(void)
 }
 #pragma endregion
 
-#pragma region ExtraScene
+#pragma region Scene1
 CsvFile csvFile;
-typedef struct ExtraSceneData
+typedef struct Scene1_Data
 {
-	Text	saveText[3];
-	Text	script;
+	Text	Scene1_Text[3];
+	Text	Script;
 	Image	BackGroundImage;
 	Image	TestImage;
 	int16	SelectScript;
-} ExtraSceneData;
+} Scene1_Data;
 //CsvFile csvFile;
-const wchar_t* str[] = {
+const wchar_t* scene1_Str[] = {
 	L"나는 김기자다.",
 	L"올해 26살이지.",
 	L"어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만..."
 };
-void init_extra(void)
+void init_scene1(void)
 {
-	g_Scene.Data = malloc(sizeof(ExtraSceneData));
-	memset(g_Scene.Data, 0, sizeof(ExtraSceneData));
-	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+	g_Scene.Data = malloc(sizeof(Scene1_Data));
+	memset(g_Scene.Data, 0, sizeof(Scene1_Data));
+	Scene1_Data* data = (Scene1_Data*)g_Scene.Data;
 
 	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
 	Image_LoadImage(&data->TestImage, "SCENE_PROLOGUE_1.jpg");
 
 	for (int32 i = 0; i < 3; ++i)
 	{
-		Text_CreateText(&data->saveText[i], "d2coding.ttf", 16, str[i], wcslen(str[i]));
+		Text_CreateText(&data->Scene1_Text[i], "d2coding.ttf", 16, scene1_Str[i], wcslen(scene1_Str[i]));
 	}
 	data->SelectScript = 0;
 
@@ -408,9 +408,9 @@ void init_extra(void)
 	}*/
 }
 
-void update_extra(void)
+void update_scene1(void)
 {
-	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+	Scene1_Data* data = (Scene1_Data*)g_Scene.Data;
 
 	//for (int r = 0; r < csvFile.RowCount; ++r)
 	//{
@@ -429,12 +429,16 @@ void update_extra(void)
 	if (Input_GetKeyDown(VK_SPACE))
 	{
 		data->SelectScript++;
+		if (data->SelectScript == 3)
+		{
+			Scene_SetNextScene(SCENE_SCENE2);
+		}
 	}
 }
 
-void render_extra(void)
+void render_scene1(void)
 {
-	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+	Scene1_Data* data = (Scene1_Data*)g_Scene.Data;
 	
 	/*SDL_Color color = { .a = 255 };
 	Renderer_DrawTextSolid(&data->TestText1, 20, 20, color);*/
@@ -446,19 +450,88 @@ void render_extra(void)
 	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
 
 	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-	Renderer_DrawTextBlended(&data->saveText[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
+	Renderer_DrawTextBlended(&data->Scene1_Text[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
 	
 
 	
 }
 
-void release_extra(void)
+void release_scene1(void)
 {
 	FreeCsvFile(&csvFile);
 	SafeFree(g_Scene.Data);
 }
 #pragma endregion
 
+#pragma region Scene2
+
+typedef struct Scene2_Data
+{
+	Text	Scene2_Text[4];
+	Text	Script;
+	Image	BackGroundImage;
+	Image	TestImage;
+	int16	SelectScript;
+} Scene2_Data;
+
+const wchar_t* scene2_Str[] = {
+	L"너무 상대방 때문에 화가나서 때릴지 말지 고민했다.",
+	L" 때린다 ",
+	L" 도망간다 ",
+	L"휘익 퍽!!!!!! 진짜 머리를 내려쳤어??!!",
+};
+void init_scene2(void)
+{
+	g_Scene.Data = malloc(sizeof(Scene2_Data));
+	memset(g_Scene.Data, 0, sizeof(Scene2_Data));
+	Scene2_Data* data = (Scene2_Data*)g_Scene.Data;
+
+	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
+	Image_LoadImage(&data->TestImage, "SCENE_ROADSIDE_1.jpg");
+
+	for (int32 i = 0; i < 4; ++i)
+	{
+		Text_CreateText(&data->Scene2_Text[i], "d2coding.ttf", 16, scene2_Str[i], wcslen(scene2_Str[i]));
+	}
+	data->SelectScript = 0;
+
+}
+
+void update_scene2(void)
+{
+	Scene2_Data* data = (Scene2_Data*)g_Scene.Data;
+
+	if (Input_GetKeyDown(VK_SPACE))
+	{
+		data->SelectScript++;
+	}
+}
+
+void render_scene2(void)
+{
+	Scene2_Data* data = (Scene2_Data*)g_Scene.Data;
+
+	/*SDL_Color color = { .a = 255 };
+	Renderer_DrawTextSolid(&data->TestText1, 20, 20, color);*/
+	data->BackGroundImage.Height = WINDOW_HEIGHT;
+	data->BackGroundImage.Width = WINDOW_WIDTH;
+	Renderer_DrawImage(&data->BackGroundImage, 0, 0);
+	data->TestImage.Height = WINDOW_HEIGHT * 0.6;
+	data->TestImage.Width = WINDOW_WIDTH * 0.8;
+	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
+
+	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextBlended(&data->Scene2_Text[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
+
+
+}
+
+void release_scene2(void)
+{
+	FreeCsvFile(&csvFile);
+	SafeFree(g_Scene.Data);
+}
+#pragma endregion
 
 bool Scene_IsSetNextScene(void)
 {
@@ -503,11 +576,17 @@ void Scene_Change(void)
 		g_Scene.Render = render_main;
 		g_Scene.Release = release_main;
 		break;
-	case SCENE_EXTRA:
-		g_Scene.Init = init_extra;
-		g_Scene.Update = update_extra;
-		g_Scene.Render = render_extra;
-		g_Scene.Release = release_extra;
+	case SCENE_SCENE1:
+		g_Scene.Init = init_scene1;
+		g_Scene.Update = update_scene1;
+		g_Scene.Render = render_scene1;
+		g_Scene.Release = release_scene1;
+		break;
+	case SCENE_SCENE2:
+		g_Scene.Init = init_scene2;
+		g_Scene.Update = update_scene2;
+		g_Scene.Render = render_scene2;
+		g_Scene.Release = release_scene2;
 		break;
 	}
 

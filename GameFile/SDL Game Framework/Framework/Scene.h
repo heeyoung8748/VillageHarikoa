@@ -16,9 +16,10 @@ typedef enum SceneType
 	SCENE_NULL,
 	SCENE_TITLE,
 	SCENE_MAIN,
-	SCENE_EXTRA,
+	SCENE_SCENE1,
+	SCENE_SCENE2,
 	SCENE_MAX
-} ESceneType;
+} ESceneType; 
 
 extern Scene g_Scene;
 
