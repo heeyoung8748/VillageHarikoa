@@ -52,6 +52,7 @@ void init_title(void)
 
 	}
 
+
 	g_Scene.Data = malloc(sizeof(TitleSceneData));
 	memset(g_Scene.Data, 0, sizeof(TitleSceneData));
 
