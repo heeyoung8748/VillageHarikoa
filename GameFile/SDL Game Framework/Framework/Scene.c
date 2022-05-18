@@ -37,16 +37,6 @@ typedef struct TitleSceneData
 	Music	BGM;
 } TitleSceneData;
 
-void Title_logOnFinished(void)
-{
-	LogInfo("You can show this log on stopped the music");
-}
-
-void Title_log2OnFinished(int32 channel)
-{
-	LogInfo("You can show this log on stopped the effect");
-}
-
 void init_title(void)
 {
 	g_Scene.Data = malloc(sizeof(TitleSceneData));
@@ -54,9 +44,6 @@ void init_title(void)
 
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 
-	Audio_LoadMusic(&data->BGM, "SOUND_PROLOGUE_1.mp3");
-	Audio_HookMusicFinished(Title_logOnFinished);
-	Audio_PlayFadeIn(&data->BGM, INFINITY_LOOP, 3000);
 	/*for (int32 i = 0; i < 10; ++i)
 	{
 		Text_CreateText(&data->GuideLine[i], "d2coding.ttf", 16, str[i], wcslen(str[i]));
@@ -353,7 +340,15 @@ void release_main(void)
 #pragma endregion
 
 #pragma region Scene1
-CsvFile csvFile;
+void Scene1_logOnFinished(void)
+{
+	LogInfo("You can show this log on stopped the music");
+}
+
+void Scene1_log2OnFinished(int32 channel)
+{
+	LogInfo("You can show this log on stopped the effect");
+}
 typedef struct Scene1_Data
 {
 	Text	Scene1_Text[3];
@@ -361,6 +356,8 @@ typedef struct Scene1_Data
 	Image	BackGroundImage;
 	Image	TestImage;
 	int16	SelectScript;
+	Music	BGM;
+	
 } Scene1_Data;
 //CsvFile csvFile;
 const wchar_t* scene1_Str[] = {
@@ -376,13 +373,20 @@ void init_scene1(void)
 
 	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
 	Image_LoadImage(&data->TestImage, "SCENE_PROLOGUE_1.jpg");
+	
+
+	Audio_LoadMusic(&data->BGM, "SOUND_PROLOGUE_1.mp3");
+	Audio_HookMusicFinished(Scene1_logOnFinished);
+	Audio_LoadSoundEffect(&data->Effect, "effect2.wav");
+	Audio_HookSoundEffectFinished(log2OnFinished);
+	Audio_PlayFadeIn(&data->BGM, INFINITY_LOOP, 3000);
 
 	for (int32 i = 0; i < 3; ++i)
 	{
 		Text_CreateText(&data->Scene1_Text[i], "d2coding.ttf", 16, scene1_Str[i], wcslen(scene1_Str[i]));
 	}
 	data->SelectScript = 0;
-
+	
 
 	/*_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
 
@@ -449,6 +453,8 @@ void render_scene1(void)
 	data->TestImage.Width = WINDOW_WIDTH * 0.8;
 	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
 
+
+
 	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
 	Renderer_DrawTextBlended(&data->Scene1_Text[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
 	
@@ -458,13 +464,21 @@ void render_scene1(void)
 
 void release_scene1(void)
 {
-	FreeCsvFile(&csvFile);
+	//FreeCsvFile(&csvFile);
 	SafeFree(g_Scene.Data);
 }
 #pragma endregion
 
 #pragma region Scene2
+void Scene2_logOnFinished(void)
+{
+	LogInfo("You can show this log on stopped the music");
+}
 
+void Scene2_log2OnFinished(int32 channel)
+{
+	LogInfo("You can show this log on stopped the effect");
+}
 typedef struct Scene2_Data
 {
 	Text	Scene2_Text[4];
@@ -472,6 +486,10 @@ typedef struct Scene2_Data
 	Image	BackGroundImage;
 	Image	TestImage;
 	int16	SelectScript;
+	bool	isSelect;
+	bool	PlayerSelect;
+	Music	BGM;
+	Image	CharacterImage[2];
 } Scene2_Data;
 
 const wchar_t* scene2_Str[] = {
@@ -488,13 +506,20 @@ void init_scene2(void)
 
 	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
 	Image_LoadImage(&data->TestImage, "SCENE_ROADSIDE_1.jpg");
+	Image_LoadImage(&data->CharacterImage[0], "CHARACTER_1.jpg");
+	Image_LoadImage(&data->CharacterImage[1], "CHARACTER_2.jpg");
+
+	Audio_LoadMusic(&data->BGM, "SOUND_FINAL_1.mp3");
+	Audio_HookMusicFinished(Scene1_logOnFinished);
+	Audio_PlayFadeIn(&data->BGM, INFINITY_LOOP, 3000);
 
 	for (int32 i = 0; i < 4; ++i)
 	{
 		Text_CreateText(&data->Scene2_Text[i], "d2coding.ttf", 16, scene2_Str[i], wcslen(scene2_Str[i]));
 	}
 	data->SelectScript = 0;
-
+	data->isSelect = false;
+	data->PlayerSelect = true;
 }
 
 void update_scene2(void)
@@ -504,6 +529,31 @@ void update_scene2(void)
 	if (Input_GetKeyDown(VK_SPACE))
 	{
 		data->SelectScript++;
+		if (data->SelectScript == 1)
+		{
+			data->isSelect = true;
+		}
+		if (data->SelectScript == 2)
+		{
+			
+			data->isSelect = false;
+			data->SelectScript++;
+		}
+	}
+	if (Input_GetKeyDown(VK_SPACE) && data->PlayerSelect == false)
+		Scene_SetNextScene(SCENE_SCENE1);
+	if (Input_GetKeyDown(VK_LEFT))
+	{
+		data->PlayerSelect = true;
+		Text_SetFontStyle(&data->Scene2_Text[1], FS_BOLD);
+		Text_SetFontStyle(&data->Scene2_Text[2], FS_NORMAL);
+	}
+
+	if (Input_GetKeyDown(VK_RIGHT))
+	{
+		data->PlayerSelect = false;
+		Text_SetFontStyle(&data->Scene2_Text[1], FS_NORMAL);
+		Text_SetFontStyle(&data->Scene2_Text[2], FS_BOLD);
 	}
 }
 
@@ -520,15 +570,32 @@ void render_scene2(void)
 	data->TestImage.Width = WINDOW_WIDTH * 0.8;
 	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
 
+	if (data->SelectScript == 0)
+	{
+		data->CharacterImage[1].Height = WINDOW_HEIGHT * 0.3;
+		data->CharacterImage[1].Width = WINDOW_WIDTH * 0.8;
+		Renderer_DrawImage(&data->CharacterImage[1], WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
+	}
+	if (data->SelectScript == 3)
+	{
+		data->CharacterImage[0].Height = WINDOW_HEIGHT * 0.3;
+		data->CharacterImage[0].Width = WINDOW_WIDTH * 0.2;
+		Renderer_DrawImage(&data->CharacterImage[0], WINDOW_WIDTH * 0.5, WINDOW_HEIGHT * 0.1);
+	}
 	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	if(data->isSelect == false)
 	Renderer_DrawTextBlended(&data->Scene2_Text[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
-
-
+	if (data->isSelect == true)
+	{
+		Renderer_DrawTextBlended(&data->Scene2_Text[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
+		Renderer_DrawTextBlended(&data->Scene2_Text[data->SelectScript + 1], WINDOW_WIDTH * 0.6, 600, color);
+	}
+	
 }
 
 void release_scene2(void)
 {
-	FreeCsvFile(&csvFile);
+	//FreeCsvFile(&csvFile);
 	SafeFree(g_Scene.Data);
 }
 #pragma endregion

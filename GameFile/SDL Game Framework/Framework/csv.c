@@ -7,6 +7,7 @@
 
 #include "csv.h"
 
+
 static char* s_Buffer;
 static char* s_BufferPointer;
 
