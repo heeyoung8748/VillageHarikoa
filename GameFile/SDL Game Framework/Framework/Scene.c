@@ -1,6 +1,6 @@
 #include "stdafx.h"
 #include "Scene.h"
-
+#include <crtdbg.h>
 #include "Framework.h"
 
 Scene g_Scene;
@@ -13,18 +13,18 @@ static ESceneType s_nextScene = SCENE_NULL;
 #define SHADED 1
 #define BLENDED 2
 
-const wchar_t* str[] = {
-	L"여기는 타이틀씬입니다. 텍스트와 관련된 여러가지를 테스트해봅시다.",
-	L"B키를 누르면 폰트가 굵게 변합니다.",
-	L"I키를 누르면 폰트가 이탤릭체로 변합니다.",
-	L"U키를 누르면 텍스트에 밑줄이 생깁니다.",
-	L"S키를 누르면 텍스트에 취소선이 생깁니다.",
-	L"N키를 누르면 다시 원래대로 돌아옵니다.",
-	L"C키를 누르면 렌더 모드가 바뀝니다. (Solid -> Shaded -> Blended)",
-	L"1키를 누르면 텍스트가 작아집니다.",
-	L"2키를 누르면 텍스트가 커집니다.",
-	L"스페이스 키를 누르면 다음 씬으로 넘어갑니다."
-};
+//const wchar_t* str[] = {
+//	L"여기는 타이틀씬입니다. 텍스트와 관련된 여러가지를 테스트해봅시다.",
+//	L"B키를 누르면 폰트가 굵게 변합니다.",
+//	L"I키를 누르면 폰트가 이탤릭체로 변합니다.",
+//	L"U키를 누르면 텍스트에 밑줄이 생깁니다.",
+//	L"S키를 누르면 텍스트에 취소선이 생깁니다.",
+//	L"N키를 누르면 다시 원래대로 돌아옵니다.",
+//	L"C키를 누르면 렌더 모드가 바뀝니다. (Solid -> Shaded -> Blended)",
+//	L"1키를 누르면 텍스트가 작아집니다.",
+//	L"2키를 누르면 텍스트가 커집니다.",
+//	L"스페이스 키를 누르면 다음 씬으로 넘어갑니다."
+//};
 
 typedef struct TitleSceneData
 {
@@ -32,8 +32,20 @@ typedef struct TitleSceneData
 	Text	TestText;
 	int32	FontSize;
 	int32	RenderMode;
-	Image	TestImage;
+	//Image	TestImage;
+	Image	BackGroundImage;
+	Music	BGM;
 } TitleSceneData;
+
+void Title_logOnFinished(void)
+{
+	LogInfo("You can show this log on stopped the music");
+}
+
+void Title_log2OnFinished(int32 channel)
+{
+	LogInfo("You can show this log on stopped the effect");
+}
 
 void init_title(void)
 {
@@ -41,55 +53,31 @@ void init_title(void)
 	memset(g_Scene.Data, 0, sizeof(TitleSceneData));
 
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-	for (int32 i = 0; i < 10; ++i)
+
+	Audio_LoadMusic(&data->BGM, "SOUND_PROLOGUE_1.mp3");
+	Audio_HookMusicFinished(Title_logOnFinished);
+	Audio_PlayFadeIn(&data->BGM, INFINITY_LOOP, 3000);
+	/*for (int32 i = 0; i < 10; ++i)
 	{
 		Text_CreateText(&data->GuideLine[i], "d2coding.ttf", 16, str[i], wcslen(str[i]));
-	}
+	}*/
 
 	data->FontSize = 24;
-	Text_CreateText(&data->TestText, "d2coding.ttf", data->FontSize, L"이 텍스트가 변합니다.", 13);
+	Text_CreateText(&data->TestText, "d2coding.ttf", data->FontSize, L"스페이스 바를 누르면 시작합니다", 18);
 	
-
 	data->RenderMode = SOLID;
-
-	Image_LoadImage(&data->TestImage, "Background.jfif");
+	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
+	//Image_LoadImage(&data->TestImage, "SCENE_ROADSIDE_1.jpg");
+	
 }
 
 void update_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 
-	if (Input_GetKeyDown('B'))
-	{
-		Text_SetFontStyle(&data->TestText, FS_BOLD);
-	}
+	
 
-	if (Input_GetKeyDown('I'))
-	{
-		Text_SetFontStyle(&data->TestText, FS_ITALIC);
-	}
-
-	if (Input_GetKeyDown('U'))
-	{
-		Text_SetFontStyle(&data->TestText, FS_UNDERLINE);
-	}
-
-	if (Input_GetKeyDown('S'))
-	{
-		Text_SetFontStyle(&data->TestText, FS_STRIKETHROUGH);
-	}
-
-	if (Input_GetKeyDown('N'))
-	{
-		Text_SetFontStyle(&data->TestText, FS_NORMAL);
-	}
-
-	if (Input_GetKeyDown('C'))
-	{
-		data->RenderMode = (data->RenderMode + 1) % 3;
-	}
-
-	if (Input_GetKey('1'))
+	/*if (Input_GetKey('1'))
 	{
 		--data->FontSize;
 		Text_SetFont(&data->TestText, "d2coding.ttf", data->FontSize);
@@ -99,51 +87,64 @@ void update_title(void)
 	{
 		++data->FontSize;
 		Text_SetFont(&data->TestText, "d2coding.ttf", data->FontSize);
-	}
+	}*/
 
 	if (Input_GetKeyDown(VK_SPACE))
+	{
+		Scene_SetNextScene(SCENE_EXTRA);
+	}
+
+	if (Input_GetKeyDown('1'))
 	{
 		Scene_SetNextScene(SCENE_MAIN);
 	}
 
-	if (Input_GetKeyDown('O'))
-	{
-		Scene_SetNextScene(SCENE_EXTRA);
-	}
 }
 
 void render_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-	for (int32 i = 0; i < 10; ++i)
+	/*for (int32 i = 0; i < 10; ++i)
 	{
 		SDL_Color color = { .a = 255 };
 		Renderer_DrawTextSolid(&data->GuideLine[i], 10, 20 * i, color);
-	}
+	}*/
+	data->BackGroundImage.Height = WINDOW_HEIGHT;
+	data->BackGroundImage.Width = WINDOW_WIDTH;
+	Renderer_DrawImage(&data->BackGroundImage,0 ,0);
+	/*data->TestImage.Height = WINDOW_HEIGHT * 0.6;
+	data->TestImage.Width = WINDOW_WIDTH * 0.8;
+	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);*/
 	
-	switch (data->RenderMode)
+	
+	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextBlended(&data->TestText, 450, 600, color);
+	/*switch (data->RenderMode)
 	{
 	case SOLID:
 	{
 		SDL_Color color = { .a = 255 };
-		Renderer_DrawTextSolid(&data->TestText, 400, 400, color);
+		Renderer_DrawTextSolid(&data->TestText, 400, 350, color);
 	}
 	break;
 	case SHADED:
 	{
 		SDL_Color bg = { .a = 255 };
 		SDL_Color fg = { .r = 255, .g = 255, .a = 255 };
-		Renderer_DrawTextShaded(&data->TestText, 400, 400, fg, bg);
+		Renderer_DrawTextShaded(&data->TestText, 400, 350, fg, bg);
 	}
 	break;
 	case BLENDED:
 	{
 		Renderer_DrawImage(&data->TestImage, 400, 400);
 		SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-		Renderer_DrawTextBlended(&data->TestText, 400, 400, color);
+		Renderer_DrawTextBlended(&data->TestText, 400, 350, color);
 	}
 	break;
-	}
+	}*/
+
+	
+
 }
 
 void release_title(void)
@@ -161,16 +162,16 @@ void release_title(void)
 #pragma endregion
 
 #pragma region MainScene
-const wchar_t* str2[] = {
-	L"여기서는 사운드와 이미지 블렌딩에 대해서 알아봅시다.",
-	L"화살표키로 이미지를 이동시킬 수 있습니다.",
-	L"E키를 누르면 이펙트를 재생시킬 수 있습니다. 이펙트 소리가 작으니 볼륨을 낮춘 후 진행하세요.",
-	L"M키로 음악을 끄거나 켤 수 있습니다.",
-	L"P키로 음악을 멈추거나 재개할 수 있습니다.",
-	L"1번과 2번으로 볼륨을 조절할 수 있습니다.",
-	L"WASD로 이미지의 스케일을 조정할 수 있습니다.",
-	L"KL키로 이미지의 투명도를 조절할 수 있습니다."
-};
+//const wchar_t* str2[] = {
+//	L"여기서는 사운드와 이미지 블렌딩에 대해서 알아봅시다.",
+//	L"화살표키로 이미지를 이동시킬 수 있습니다.",
+//	L"E키를 누르면 이펙트를 재생시킬 수 있습니다. 이펙트 소리가 작으니 볼륨을 낮춘 후 진행하세요.",
+//	L"M키로 음악을 끄거나 켤 수 있습니다.",
+//	L"P키로 음악을 멈추거나 재개할 수 있습니다.",
+//	L"1번과 2번으로 볼륨을 조절할 수 있습니다.",
+//	L"WASD로 이미지의 스케일을 조정할 수 있습니다.",
+//	L"KL키로 이미지의 투명도를 조절할 수 있습니다."
+//};
 
 #define GUIDELINE_COUNT 8
 
@@ -204,14 +205,14 @@ void init_main(void)
 
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-	for (int32 i = 0; i < GUIDELINE_COUNT; ++i)
+	/*for (int32 i = 0; i < GUIDELINE_COUNT; ++i)
 	{
 		Text_CreateText(&data->GuideLine[i], "d2coding.ttf", 16, str2[i], wcslen(str2[i]));
-	}
+	}*/
 	
 	Image_LoadImage(&data->BackGround, "unnamed.jfif");
 
-	Audio_LoadMusic(&data->BGM, "powerful.mp3");
+	Audio_LoadMusic(&data->BGM, "SOUND_PROLOGUE_1.mp3");
 	Audio_HookMusicFinished(logOnFinished);
 	Audio_LoadSoundEffect(&data->Effect, "effect2.wav");
 	Audio_HookSoundEffectFinished(log2OnFinished);
@@ -352,24 +353,64 @@ void release_main(void)
 #pragma endregion
 
 #pragma region ExtraScene
-
+CsvFile csvFile;
 typedef struct ExtraSceneData
 {
-	Text TestText1;
+	Text	saveText[3];
+	Text	script;
+	Image	BackGroundImage;
+	Image	TestImage;
+	int16	SelectScript;
 } ExtraSceneData;
 //CsvFile csvFile;
+const wchar_t* str[] = {
+	L"나는 김기자다.",
+	L"올해 26살이지.",
+	L"어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만..."
+};
 void init_extra(void)
 {
 	g_Scene.Data = malloc(sizeof(ExtraSceneData));
 	memset(g_Scene.Data, 0, sizeof(ExtraSceneData));
 	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
 
-	Text_CreateText(&data->TestText1, "d2coding.ttf", 16, L"엑스트라씬", 6);
+	Image_LoadImage(&data->BackGroundImage, "BackGround.jpg");
+	Image_LoadImage(&data->TestImage, "SCENE_PROLOGUE_1.jpg");
+
+	for (int32 i = 0; i < 3; ++i)
+	{
+		Text_CreateText(&data->saveText[i], "d2coding.ttf", 16, str[i], wcslen(str[i]));
+	}
+	data->SelectScript = 0;
+
+
+	/*_CrtSetDbgFlag(_CRTDBG_ALLOC_MEM_DF | _CRTDBG_LEAK_CHECK_DF);
+
+	
+	memset(&csvFile, 0, sizeof(CsvFile));
+	CreateCsvFile(&csvFile, "final.csv");*/
+
+	// CSV 파일 파싱한 후 텍스트 그려본 다음
+	// 유니코드 제대로 출력 안되면
+	// App_Init()에 아래 구문 추가
+	// setlocale(LC_ALL, "kr_KR.utf8");
+
+	/*for (int r = 0; r < csvFile.RowCount; ++r)
+	{
+		for (int c = 0; c < csvFile.ColumnCount; ++c)
+		{
+			char* str = ParseToAscii(csvFile.Items[r][c]);
+			printf("%s\t", str);
+			free(str);
+		}
+
+		puts("");
+	}*/
 }
 
 void update_extra(void)
 {
-	//ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
+	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
 
 	//for (int r = 0; r < csvFile.RowCount; ++r)
 	//{
@@ -384,19 +425,36 @@ void update_extra(void)
 
 	//	puts("");
 	//}
+
+	if (Input_GetKeyDown(VK_SPACE))
+	{
+		data->SelectScript++;
+	}
 }
 
 void render_extra(void)
 {
 	ExtraSceneData* data = (ExtraSceneData*)g_Scene.Data;
 	
-	SDL_Color color = { .a = 255 };
-	Renderer_DrawTextSolid(&data->TestText1, 20, 20, color);
+	/*SDL_Color color = { .a = 255 };
+	Renderer_DrawTextSolid(&data->TestText1, 20, 20, color);*/
+	data->BackGroundImage.Height = WINDOW_HEIGHT;
+	data->BackGroundImage.Width = WINDOW_WIDTH;
+	Renderer_DrawImage(&data->BackGroundImage, 0, 0);
+	data->TestImage.Height = WINDOW_HEIGHT * 0.6;
+	data->TestImage.Width = WINDOW_WIDTH * 0.8;
+	Renderer_DrawImage(&data->TestImage, WINDOW_WIDTH * 0.1, WINDOW_HEIGHT * 0.1);
+
+	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextBlended(&data->saveText[data->SelectScript], WINDOW_WIDTH * 0.1, 600, color);
+	
+
+	
 }
 
 void release_extra(void)
 {
-
+	FreeCsvFile(&csvFile);
 	SafeFree(g_Scene.Data);
 }
 #pragma endregion

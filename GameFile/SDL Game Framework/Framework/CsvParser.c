@@ -12,7 +12,7 @@ void Parser(void)
 
 	CsvFile csvFile;
 	memset(&csvFile, 0, sizeof(CsvFile));
-	CreateCsvFile(&csvFile, "teest.csv");
+	CreateCsvFile(&csvFile, "final.csv");
 
 	// CSV 파일 파싱한 후 텍스트 그려본 다음
 	// 유니코드 제대로 출력 안되면

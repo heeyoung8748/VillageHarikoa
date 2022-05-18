@@ -1,0 +1,4 @@
+씬 번호,텍스트,배경 이미지,캐릭터 이미지,사운드 파일명,효과음 파일명,1번 선택지,1번 선택 시 이동 씬,2번 선택지,2번 선택 시 이동 씬
+0,나는 김기자다. 올해 26살이지. 어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만...,SCENE_PROLOGUE_1,,SOUND_PROLOGUE_1,,,,,
+1,너무 상대방 때문에 화가나서 때릴지 말지 고민했다.,SCENE_ROADSIDE_1,CHARACTER_2,SOUND_FINAL_1,,때린다,2,도망간다,0
+2,휘익 퍽!!!!!! 진짜 머리를 내려쳤어??!!,SCENE_ROADSIDE_1,CHARACTER_1,SOUND_FINAL_1,SOUND_EFFECT_DDING,,,,
