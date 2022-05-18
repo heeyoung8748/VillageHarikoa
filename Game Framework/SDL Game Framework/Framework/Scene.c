@@ -1,9 +1,17 @@
 #include "stdafx.h"
 #include "Scene.h"
+#include "csv.h"
+#include "Text.h"
 
 #include "Framework.h"
 
 Scene g_Scene;
+CsvFile csvFile;
+Text CsvText[100][100]; // 여기는 계속 내가 손으로 바꿔줘야함 //여기 크게 하니까 에러 안난다
+
+
+bool isCreated = false;
+
 
 static ESceneType s_nextScene = SCENE_NULL;
 
@@ -37,14 +45,30 @@ typedef struct TitleSceneData
 
 void init_title(void)
 {
+	if (!isCreated)
+	{
+		CreateCsvFile(&csvFile, "db.csv");  // 희희 
+		isCreated = true;
+
+	}
+
 	g_Scene.Data = malloc(sizeof(TitleSceneData));
 	memset(g_Scene.Data, 0, sizeof(TitleSceneData));
 
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-	for (int32 i = 0; i < 10; ++i)
+
+	for (int r = 0; r < csvFile.RowCount; ++r)
 	{
-		Text_CreateText(&data->GuideLine[i], "d2coding.ttf", 16, str[i], wcslen(str[i]));
+		for (int c = 0; c < csvFile.ColumnCount; ++c)
+		{
+			wchar_t* str = ParseToUnicode(csvFile.Items[r][c]);
+			Text_CreateText(&CsvText[r][c], "d2coding.ttf", 16, str, wcslen(str));
+			free(str);
+		}
+
+		//puts("");
 	}
+
 
 	data->FontSize = 24;
 	Text_CreateText(&data->TestText, "d2coding.ttf", data->FontSize, L"이 텍스트가 변합니다.", 13);
@@ -109,11 +133,12 @@ void update_title(void)
 void render_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-	for (int32 i = 0; i < 10; ++i)
-	{
-		SDL_Color color = { .a = 255 };
-		Renderer_DrawTextSolid(&data->GuideLine[i], 10, 20 * i, color);
-	}
+	SDL_Color color = { .a = 255 };
+	for (int r = 0; r < csvFile.RowCount; ++r)
+		for (int c = 0; c < csvFile.ColumnCount; ++c)
+		{
+			Renderer_DrawTextSolid(&CsvText[r][c], 150 * r, 30 * c, color);
+		}
 	
 	switch (data->RenderMode)
 	{
@@ -203,7 +228,7 @@ void init_main(void)
 		Text_CreateText(&data->GuideLine[i], "d2coding.ttf", 16, str2[i], wcslen(str2[i]));
 	}
 	
-	Image_LoadImage(&data->BackGround, "unnamed.jfif");
+	Image_LoadImage(&data->BackGround, "background.jfif");
 
 	Audio_LoadMusic(&data->BGM, "powerful.mp3");
 	Audio_HookMusicFinished(logOnFinished);

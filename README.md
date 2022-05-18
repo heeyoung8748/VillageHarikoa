@@ -1,2 +1,2 @@
-# VillageHarikoa
-하리코아 마을 프로젝트
+# SDL-Game-Framework
+Game Framwork with SDL
