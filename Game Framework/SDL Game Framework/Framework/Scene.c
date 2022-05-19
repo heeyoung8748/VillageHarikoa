@@ -57,7 +57,7 @@ void update_title(void)
     TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
     if (Input_GetKeyDown(VK_SPACE))
     {
-        Scene_SetNextScene(SCENE_CREDIT);
+        Scene_SetNextScene(SCENE_MAIN);
     }
 
 }
@@ -88,11 +88,7 @@ void release_title(void)
 
 typedef struct MainSceneData
 {
-    int32 SceneNumber[10];
-    Text Script[10];
-    Image TestImageDataArray[10];
-    Music   MainMusic;
-    int32 GotoScene[10];
+    int a;
 } MainSceneData;
 
 
@@ -104,9 +100,16 @@ void log2OnFinished(int32 channel) // 이펙트사운드 출력 관련 필수 항목
 
 void init_main(void)
 {
+
+
     g_Scene.Data = malloc(sizeof(TitleSceneData));
     memset(g_Scene.Data, 0, sizeof(TitleSceneData));
     MainSceneData* data = (MainSceneData*)g_Scene.Data;
+
+
+
+
+
 
 }
 
@@ -114,7 +117,10 @@ void update_main(void)
 {
     MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-
+    if (Input_GetKeyDown(VK_SPACE))
+    {
+        Scene_SetNextScene(SCENE_CREDIT);
+    }
 }
 
 void render_main(void)
