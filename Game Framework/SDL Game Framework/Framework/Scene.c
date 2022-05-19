@@ -2,16 +2,14 @@
 #include "Scene.h"
 #include "csv.h"
 #include "Text.h"
-
+#include "Window.h"
 #include "Framework.h"
 
 Scene g_Scene;
 CsvFile csvFile;
 Text CsvText[100][100]; // 여기는 계속 내가 손으로 바꿔줘야함 //여기 크게 하니까 에러 안난다
 
-
 bool isCreated = false;
-
 
 static ESceneType s_nextScene = SCENE_NULL;
 
@@ -45,9 +43,9 @@ void init_title(void)
     memset(g_Scene.Data, 0, sizeof(TitleSceneData));
     TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 
-    Image_LoadImage(&data->TitleBackGroundImage, "TitleTestImage.jpg");
-    Text_CreateText(&data->Title, "d2coding.ttf", 20, L"스페이스바를 누르면 시작합니다", sizeof(L"스페이스바를 누르면 시작합니다"));
-    Audio_LoadMusic(&data->TitleMusic, "powerful.mp3");
+    Image_LoadImage(&data->TitleBackGroundImage, "SCENE_INTRO.jpg");
+    Text_CreateText(&data->Title, "d2coding.ttf", 20, L"- 스페이스바를 누르면 시작합니다 -", sizeof(L"- 스페이스바를 누르면 시작합니다 -"));
+    Audio_LoadMusic(&data->TitleMusic, "BGM_INTRO.mp3");
     Audio_HookMusicFinished(logOnFinished);
     Audio_PlayFadeIn(&data->TitleMusic, INFINITY_LOOP, 3000);
 
@@ -59,7 +57,7 @@ void update_title(void)
     TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
     if (Input_GetKeyDown(VK_SPACE))
     {
-        Scene_SetNextScene(SCENE_MAIN);
+        Scene_SetNextScene(SCENE_CREDIT);
     }
 
 }
@@ -67,11 +65,11 @@ void update_title(void)
 void render_title(void)
 {
     TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
-    data->TitleBackGroundImage.ScaleX = WINDOW_WIDTH;
-    data->TitleBackGroundImage.ScaleY = WINDOW_HEIGHT;
+    data->TitleBackGroundImage.ScaleX = 1;
+    data->TitleBackGroundImage.ScaleY = 1;
     Renderer_DrawImage(&data->TitleBackGroundImage, 0, 0);
     SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-    Renderer_DrawTextSolid(&data->Title, 450, 500, color);
+    Renderer_DrawTextSolid(&data->Title, 471, 640, color);
 }
 
 void release_title(void)
@@ -106,14 +104,7 @@ void log2OnFinished(int32 channel) // 이펙트사운드 출력 관련 필수 항목
 
 void init_main(void)
 {
-    g_Scene.Data = malloc(sizeof(MainSceneData));
-    memset(g_Scene.Data, 0, sizeof(MainSceneData));
-
-    MainSceneData* data = (MainSceneData*)g_Scene.Data;
-    Image_LoadImage(&data->TestImageDataArray, "TitleTestImage.jpg");
-    Text_CreateText(&data->Script, "d2coding.ttf", 20, 스크립트가 저장된 배열, sizeof(스크립트가 저장된 배열));
-    Audio_PlayFadeIn(&data->TitleMusic, INFINITY_LOOP, 3000);
-
+  
 }
 
 void update_main(void)
@@ -143,22 +134,23 @@ void release_main(void)
 #pragma region CreditScene
 
 const wchar_t* str2[] = {
-   L"CREDIT",
-   L"PD 박팀장",
-   L"스토리기획 이누구",
-   L"무슨기획 김무슨",
-   L"-",
-   L"리드프로그래머 권희영",
-   L"응원단장 김재민",
-   L"^^프로그래머 이재혁"
+   L"        CREDIT",
+   L"       - 기획 -",
+   L"       PD 황현태",
+   L"        박민응",
+   L"        남정현",
+   L"    - 프로그래머 -",
+   L"        권희영",
+   L"        김재민",
+   L"        이재혁"
 };
 
 typedef struct CreditSceneData
 {
-    Text   CreditText[8];
+    Text   CreditText[9];
     int16   X;
     int16   Y;
-    int      TextCoord[8];
+    int      TextCoord[9];
     Image   CreditBackGroundImage;
     Music   CreditMusic;
     float   elapsedTime;
@@ -180,10 +172,10 @@ void init_credit()
     }
 
     data->elapsedTime = 0.0f;
-    data->X = 500;
+    data->X = 510;
     data->Y = 500;
-    Image_LoadImage(&data->CreditBackGroundImage, "TitleTestImage.jpg");
-    for (int i = 0; i < 8; i++)
+    Image_LoadImage(&data->CreditBackGroundImage, "SCENE_ENDING_CREDIT.jpg");
+    for (int i = 0; i < 9; i++)
     {
         Text_CreateText(&data->CreditText[i], "d2coding.ttf", 20, str2[i], sizeof(L"스페이스바를 누르면 시작합니다"));
     }
@@ -206,12 +198,12 @@ void update_credit()
 void render_credit()
 {
     CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
-    data->CreditBackGroundImage.ScaleX = WINDOW_WIDTH;
-    data->CreditBackGroundImage.ScaleY = WINDOW_HEIGHT;
+    data->CreditBackGroundImage.ScaleX = 1;
+    data->CreditBackGroundImage.ScaleY = 1;
     Renderer_DrawImage(&data->CreditBackGroundImage, 0, 0);
     int count = 0;
     SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-    for (int i = 40; i < 360; i += 40)
+    for (int i = 40; i < 400; i += 40)
     {
         Renderer_DrawTextSolid(&data->CreditText[count], data->X, data->Y + i, color);
         count++;
