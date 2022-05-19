@@ -108,7 +108,6 @@ void init_main(void)
 
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-	
 }
 
 void update_main(void)
@@ -207,7 +206,7 @@ void render_credit()
 }
 void release_credit()
 {
-
+	
 }
 #pragma endregion
 
