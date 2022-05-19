@@ -166,6 +166,13 @@ void init_credit()
 	memset(g_Scene.Data, 0, sizeof(CreditSceneData));
 	CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
 
+	if (!isCreated)
+	{
+		CreateCsvFile(&csvFile, "db.csv");  // ÈñÈñ 
+		isCreated = true;
+
+	} 
+
 	data->elapsedTime = 0.0f;
 	data->X = 500;
 	data->Y = 500;
