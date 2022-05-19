@@ -104,7 +104,10 @@ void log2OnFinished(int32 channel) // 이펙트사운드 출력 관련 필수 항목
 
 void init_main(void)
 {
-  
+    g_Scene.Data = malloc(sizeof(TitleSceneData));
+    memset(g_Scene.Data, 0, sizeof(TitleSceneData));
+    MainSceneData* data = (MainSceneData*)g_Scene.Data;
+
 }
 
 void update_main(void)
