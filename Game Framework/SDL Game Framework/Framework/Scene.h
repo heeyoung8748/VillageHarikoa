@@ -4,10 +4,10 @@
 
 typedef struct Scene
 {
-	void (*Init)(void);		// 씬을 초기화 하는 함수
-	void (*Update)(void);	// 업데이트
-	void (*Render)(void);	// 렌더
-	void (*Release)(void);	// 씬에서 사용한 자원을 정리
+	void (*Init)(void);      // 씬을 초기화 하는 함수
+	void (*Update)(void);   // 업데이트
+	void (*Render)(void);   // 렌더
+	void (*Release)(void);   // 씬에서 사용한 자원을 정리
 	void* Data;
 } Scene;
 
@@ -16,6 +16,7 @@ typedef enum SceneType
 	SCENE_NULL,
 	SCENE_TITLE,
 	SCENE_MAIN,
+	SCENE_CREDIT,
 	SCENE_MAX
 } ESceneType;
 
