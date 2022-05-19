@@ -59,7 +59,7 @@ void update_title(void)
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 	if (Input_GetKeyDown(VK_SPACE))
 	{
-		Scene_SetNextScene(SCENE_CREDIT);
+		Scene_SetNextScene(SCENE_MAIN);
 	}
 	
 }
@@ -90,7 +90,7 @@ void release_title(void)
 
 typedef struct MainSceneData
 {
-	int a;
+	Image	CreditBackGroundImage;
 
 } MainSceneData;
 
@@ -108,20 +108,52 @@ void init_main(void)
 
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
+	if (!isCreated)
+	{
+		CreateCsvFile(&csvFile, "db.csv");  // »Ò»Ò 
+		isCreated = true;
+
+	}
+
+	for (int r = 0; r < csvFile.RowCount; ++r)
+	{
+		for (int c = 0; c < csvFile.ColumnCount; ++c)
+		{
+			wchar_t* str = ParseToUnicode(csvFile.Items[r][c]);
+			Text_CreateText(&CsvText[r][c], "d2coding.ttf", 16, str, wcslen(str));
+			free(str);
+		}
+
+		//puts("");
+	}
+
+
+	Image_LoadImage(&data->CreditBackGroundImage, "TitleTestImage.jpg");
+
 }
 
 void update_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-	
+	if (Input_GetKeyDown(VK_SPACE))
+	{
+		Scene_SetNextScene(SCENE_CREDIT);
+	}
 }
 
 void render_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-	
+
+	data->CreditBackGroundImage.ScaleX = WINDOW_WIDTH;
+	data->CreditBackGroundImage.ScaleY = WINDOW_HEIGHT;
+	Renderer_DrawImage(&data->CreditBackGroundImage, 0, 0);
+
+
+	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextSolid(&CsvText[0][0], 500, 500, color);
 }
 
 void release_main(void)
@@ -165,13 +197,6 @@ void init_credit()
 	g_Scene.Data = malloc(sizeof(CreditSceneData));
 	memset(g_Scene.Data, 0, sizeof(CreditSceneData));
 	CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
-
-	if (!isCreated)
-	{
-		CreateCsvFile(&csvFile, "db.csv");  // »Ò»Ò 
-		isCreated = true;
-
-	} 
 
 	data->elapsedTime = 0.0f;
 	data->X = 500;
