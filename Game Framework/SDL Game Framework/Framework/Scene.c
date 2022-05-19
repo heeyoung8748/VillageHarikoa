@@ -61,7 +61,7 @@ void update_title(void)
 	{
 		Scene_SetNextScene(SCENE_CREDIT);
 	}
-
+	
 }
 
 void render_title(void)
@@ -69,8 +69,8 @@ void render_title(void)
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 	data->TitleBackGroundImage.ScaleX = WINDOW_WIDTH;
 	data->TitleBackGroundImage.ScaleY = WINDOW_HEIGHT;
-	Renderer_DrawImage(&data->TitleBackGroundImage, 0, 0);
-	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
+	Renderer_DrawImage(&data->TitleBackGroundImage, 0, 0 );
+	SDL_Color color = {.r = 255, .g =255, .b = 255, .a = 255 };
 	Renderer_DrawTextSolid(&data->Title, 450, 500, color);
 }
 
@@ -78,7 +78,7 @@ void release_title(void)
 {
 	TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
 
-
+	
 
 	SafeFree(g_Scene.Data);
 }
@@ -114,21 +114,21 @@ void update_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-
+	
 }
 
 void render_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-
+	
 }
 
 void release_main(void)
 {
 	MainSceneData* data = (MainSceneData*)g_Scene.Data;
 
-
+	
 
 	SafeFree(g_Scene.Data);
 }
@@ -198,7 +198,7 @@ void render_credit()
 	Renderer_DrawImage(&data->CreditBackGroundImage, 0, 0);
 	int count = 0;
 	SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-	for (int i = 40; i < 360; i += 40)
+	for (int i = 40; i < 360; i+=40)
 	{
 		Renderer_DrawTextSolid(&data->CreditText[count], data->X, data->Y + i, color);
 		count++;
@@ -206,7 +206,7 @@ void render_credit()
 }
 void release_credit()
 {
-
+	
 }
 #pragma endregion
 
