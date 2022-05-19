@@ -49,3 +49,4 @@ char*		ParseToAscii(const CsvItem item);
 /// <param name="item">·¹ÄÚµå</param>
 /// <returns></returns>
 wchar_t*	ParseToUnicode(const CsvItem item);
+
