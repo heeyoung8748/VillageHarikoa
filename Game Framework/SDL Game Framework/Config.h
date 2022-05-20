@@ -19,3 +19,15 @@
 #define CLEAR_COLOR_G	255
 #define CLEAR_COLOR_B	255
 #define CLEAR_COLOR_A	255
+
+// Page 备己 夸家
+#define DEFAULT_FONT		"GmarketSansTTFLight.ttf"
+#define DEFAULT_FONT_SIZE	16
+#define PAGE_INDEX_POS_X	10
+#define PAGE_INDEX_POS_Y	10
+#define PAGE_OPTION_POS_X	100
+#define PAGE_OPTION_POS_Y	550
+#define PAGE_OPTION_WIDTH	500
+
+// PageManager 包访 汲沥
+#define MAX_PAGE_COUNT		21

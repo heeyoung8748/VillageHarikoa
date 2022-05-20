@@ -1,13 +1,10 @@
 #include "stdafx.h"
 #include "Scene.h"
-#include "csv.h"
-#include "Text.h"
-#include "Window.h"
+
 #include "Framework.h"
+#include "Framework/Csv.h"
 
 Scene g_Scene;
-CsvFile csvFile;
-Text CsvText[100][100]; // 여기는 계속 내가 손으로 바꿔줘야함 //여기 크게 하니까 에러 안난다
 
 bool isCreated = false;
 
@@ -24,9 +21,9 @@ void logOnFinished(void) // 배경음악 출력 관련 필수 항목
     LogInfo("You can show this log on stopped the music");
 }
 
-const wchar_t* str[] = {
-   L"여기는 타이틀씬입니다. 텍스트와 관련된 여러가지를 테스트해봅시다.",
-};
+// const wchar_t* str[] = {
+//    L"여기는 타이틀씬입니다. 텍스트와 관련된 여러가지를 테스트해봅시다.",
+// };
 
 typedef struct TitleSceneData
 {
@@ -57,7 +54,7 @@ void update_title(void)
     TitleSceneData* data = (TitleSceneData*)g_Scene.Data;
     if (Input_GetKeyDown(VK_SPACE))
     {
-        Scene_SetNextScene(SCENE_CREDIT);
+        Scene_SetNextScene(SCENE_PAGE);
     }
 
 }
@@ -82,53 +79,51 @@ void release_title(void)
 }
 #pragma endregion
 
-#pragma region MainScene
+#pragma region PageScene
 
+#include "Game/PageManager.h"
 
-
-typedef struct MainSceneData
+typedef struct PageSceneData
 {
-    int32 SceneNumber[10];
-    Text Script[10];
-    Image TestImageDataArray[10];
-    Music   MainMusic;
-    int32 GotoScene[10];
-} MainSceneData;
+    PageManager PageManager;
+} PageSceneData;
 
-
-
-void log2OnFinished(int32 channel) // 이펙트사운드 출력 관련 필수 항목
+void init_page(void)
 {
-    LogInfo("You can show this log on stopped the effect");
+    g_Scene.Data = malloc(sizeof(PageSceneData));
+
+    PageSceneData* data = (PageSceneData*)g_Scene.Data;
+    memset(data, 0, sizeof(PageSceneData));
+
+    CsvFile csvFile = { 0 };
+    CreateCsvFile(&csvFile, "db.csv");
+
+    PageManager_Init(&data->PageManager);
 }
 
-void init_main(void)
+void update_page(void)
 {
-  
+    PageSceneData* data = (PageSceneData*)g_Scene.Data;
+
+    PageManager_Update(&data->PageManager);
 }
 
-void update_main(void)
+void render_page(void)
 {
-    MainSceneData* data = (MainSceneData*)g_Scene.Data;
+    PageSceneData* data = (PageSceneData*)g_Scene.Data;
 
-
+    PageManager_Render(&data->PageManager);
 }
 
-void render_main(void)
+void release_page(void)
 {
-    MainSceneData* data = (MainSceneData*)g_Scene.Data;
+    PageSceneData* data = (PageSceneData*)g_Scene.Data;
 
-
-}
-
-void release_main(void)
-{
-    MainSceneData* data = (MainSceneData*)g_Scene.Data;
-
-
+    PageManager_Release(&data->PageManager);
 
     SafeFree(g_Scene.Data);
 }
+
 #pragma endregion
 
 #pragma region CreditScene
@@ -164,12 +159,12 @@ void init_credit()
     memset(g_Scene.Data, 0, sizeof(CreditSceneData));
     CreditSceneData* data = (CreditSceneData*)g_Scene.Data;
 
-    if (!isCreated)
-    {
-        CreateCsvFile(&csvFile, "db.csv");  // 희희 
-        isCreated = true;
-
-    }
+    // if (!isCreated)
+    // {
+    //     CreateCsvFile(&csvFile, "db.csv");  // 희희 
+    //     isCreated = true;
+    //
+    // }
 
     data->elapsedTime = 0.0f;
     data->X = 510;
@@ -252,12 +247,12 @@ void Scene_Change(void)
         g_Scene.Render = render_title;
         g_Scene.Release = release_title;
         break;
-    case SCENE_MAIN:
-        g_Scene.Init = init_main;
-        g_Scene.Update = update_main;
-        g_Scene.Render = render_main;
-        g_Scene.Release = release_main;
-        break;
+	case SCENE_PAGE:
+		g_Scene.Init = init_page;
+		g_Scene.Update = update_page;
+		g_Scene.Render = render_page;
+		g_Scene.Release = release_page;
+		break;
     case SCENE_CREDIT:
         g_Scene.Init = init_credit;
         g_Scene.Update = update_credit;
