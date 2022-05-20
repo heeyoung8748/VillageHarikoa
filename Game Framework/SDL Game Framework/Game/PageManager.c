@@ -49,6 +49,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
 	pageManager->NextPage = NULL;
+	
 }
 
 void PageManager_Update(PageManager* pageManager)
@@ -60,11 +61,13 @@ void PageManager_Update(PageManager* pageManager)
 	}
 
 	Page_Update(pageManager->CurrentPage);
-
+	
 	if (Input_GetKeyDown(VK_SPACE))
-	{
+	{ 
+		
 		int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
 		pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+			
 	}
 }
 

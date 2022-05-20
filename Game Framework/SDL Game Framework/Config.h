@@ -32,4 +32,4 @@
 #define SPACE_BETWEEN_LINES 50
 
 // PageManager 관련 설정
-#define MAX_PAGE_COUNT		50
+#define MAX_PAGE_COUNT		930
