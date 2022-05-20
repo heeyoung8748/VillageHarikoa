@@ -11,14 +11,32 @@ void PageManager_Init(PageManager* pageManager)
 	{
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
 
+		const wchar_t* saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
+		//const wchar_t* lineStart = saveScript;
+		//for  (int32 line = 0; L'\0' != *saveScript && line < TEXT_MAX_LINE; line++) // 
+		//{
+		//	const wchar_t* lineEnd = lineStart;
+		//	while (true)
+		//	{
+		//		if (L'\n' == *lineEnd || L'\0' == *lineEnd)
+		//		{
+		//			break;
+		//		}
+		//		++lineEnd;
+		//	}
+		//	int32 lineLength = lineEnd - saveScript;
+		//	Text_CreateText(&pageManager->Pages[page].Script[line], DEFAULT_FONT, DEFAULT_FONT_SIZE, lineStart, lineLength);
+
+		//	lineStart = lineEnd + 1;
+		//	
+		//}
+
+		Text_CreateText(&pageManager->Pages[page].Script, DEFAULT_FONT, DEFAULT_FONT_SIZE, saveScript, 128);
 		for (int32 i = 0; i < 5; ++i)
 		{
 			Text_CreateText(&pageManager->Pages[page].TextID, DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page], COL_PAGE_INDEX + i);
 		}
-		for (int32 i = 0; i < 5; i++)
-		{
-			Text_CreateText(&pageManager->Pages[page].Script[i], DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page + 1], 128);
-		}
+		
 		const char* backgroundImageFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_IMAGE]);
 		Image_LoadImage(&pageManager->Pages[page].Background, backgroundImageFileName);
 		const char* characterImageFileName = ParseToAscii(csvFile.Items[page][COL_CHARACTER_IMAGE]);
@@ -64,16 +82,16 @@ void PageManager_Update(PageManager* pageManager)
 	
 	if (Input_GetKeyDown(VK_SPACE))
 	{ 
-		
 		int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
 		pageManager->NextPage = &pageManager->Pages[nextPageIndex];
-			
 	}
 }
 
 void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage);
+	
+	
 }
 
 void PageManager_Release(PageManager* pageManager)

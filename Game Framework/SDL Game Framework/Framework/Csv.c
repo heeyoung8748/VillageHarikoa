@@ -24,7 +24,7 @@ void readFileToBuffer(const char* filename)
 	memset(s_Buffer, 0, fileSize + 1);
 
 	fseek(fp, 0, SEEK_SET);
-	fread(s_Buffer, fileSize, 1, fp);
+	fread(s_Buffer, fileSize + 1, 1, fp);
 
 	fclose(fp);
 }
