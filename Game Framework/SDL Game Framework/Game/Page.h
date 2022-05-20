@@ -8,8 +8,11 @@ typedef struct Page
 {
 	EPageIndex	ID;
 	Text		TextID;
+	Text        Script[5];
 	Image		Background;
+	Image		Character;
 	Music		Bgm;
+	Music		Effect;
 	Option		Options[2];
 	int32		CurrentOption;
 } Page;
@@ -17,16 +20,20 @@ typedef struct Page
 enum EColumn
 {
 	COL_PAGE_INDEX,
+	COL_TEXT,
 	COL_BACKGROUND_IMAGE,
+	COL_CHARACTER_IMAGE,
 	COL_BACKGROUND_MUSIC,
+	COL_EFFECT_MUSIC,
 	COL_OPTION1,
 	COL_OPTION1_PAGE_INDEX,
-	COL_OPTION1_FONT,
-	COL_OPTION1_FONT_SIZE,
+	//COL_OPTION1_FONT,
+	//COL_OPTION1_FONT_SIZE,
 	COL_OPTION2,
 	COL_OPTION2_PAGE_INDEX,
-	COL_OPTION2_FONT,
-	COL_OPTION2_FONT_SIZE
+	//COL_OPTION2_FONT,
+	//COL_OPTION2_FONT_SIZE
+	COL_OPTION_SCENE_EFFECT
 };
 
 void Page_Init(Page* page);

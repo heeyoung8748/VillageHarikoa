@@ -95,8 +95,6 @@ void init_page(void)
     PageSceneData* data = (PageSceneData*)g_Scene.Data;
     memset(data, 0, sizeof(PageSceneData));
 
-    CsvFile csvFile = { 0 };
-    CreateCsvFile(&csvFile, "db.csv");
 
     PageManager_Init(&data->PageManager);
 }

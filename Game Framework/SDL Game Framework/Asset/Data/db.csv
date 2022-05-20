@@ -1,7 +1,92 @@
-씬 번호,텍스트,배경 이미지,캐릭터 이미지,사운드 파일명,효과음 파일명,1번 선택지,1번 선택 시 이동 씬,2번 선택지,2번 선택 시 이동 씬,
-0,"나는 김기자다. 올해 26살이지. 
-어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만...",SCENE_PROLOGUE_1,,SOUND_PROLOGUE_1,,,,,,
-1,"너무 상대방 때문에 화가나서
-때릴지 말지 고민했다.",SCENE_ROADSIDE_1,CHARACTER_2,SOUND_FINAL_1,,때린다,2,도망간다,0,
-2,"휘익 퍽!!!
-!!! 진짜 머리를 내려쳤어??!!",SCENE_ROADSIDE_1,CHARACTER_1,SOUND_FINAL_1,SOUND_EFFECT_DDING,,,,,
+화면 인덱스|텍스트|배경 이미지|캐릭터 이미지|사운드 파일명|효과음 파일명|1번 선택지|1번 선택 시 이동 씬|2번 선택지|2번 선택 시 이동 씬|연출 효과 요청
+1|"나는 김기자다. 올해 26살이지. 
+어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만..."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||2|||
+2|"기레기라는 소리를 들어가며 사람들의 치부를 드러내는 일에 지쳐 방송국을 그만두고 
+어렸을 때부터 꿈이었던 나만의 소설을 쓰기 위해, 한적한 마을로 이사하기로 마음먹었다."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||3|||
+3|"여러 마을을 찾아봤지만 마음에 드는 곳을 찾을 수 없었고 오랜 검색 끝에 '하리코아' 마을을 찾을 수 있었다. 
+하리코아는 뉴질랜드 사투리로 행복이라는 뜻이었다."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||4|||
+4|"한적하고 도시와 왕래가 거의 없는 듯한 이 마을은 내가 생각했던 마을과 완벽히 일치했기 때문에 
+나는 그 마을로 이사가기로 마음먹었다."|SCENE_STORY_PROLOGUE2.jpg||BGM_STORY_INTRO.mp3|||5|||
+5|"드디어 이사 당일! 기쁜 마음으로 나는 비행기에 올랐다. 
+어서 가서 자연을 느끼며 힐링도 하고 소설도 써야지!"|SCENE_STORY_PROLOGUE3.jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_AIRPLANE.wav||6|||G
+6|"비행기를 타고... 택시를 타고 나는 하리코아 마을로 향했다.
+드디어 도착인가?! 하리코아 마을!! 오는데 너무 멀어서 좀 피곤하지만..."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||7|||
+7|"그래도 도착이다!!! 이 산뜻한 바람! 맑은 공기!! 평화로... 음... 느낌이 좀 음산하긴 하지만... 
+그래도 이 마을에서 이제 소설을 쓰며 내 꿈을 펼쳐 나가는거야!!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||8|||
+8|"나는 힘찬 발걸음으로 마을 안으로 들어섰고, 마을 안에는 나무로 된 여러 집들과 
+큰 자루를 메고 나르는 사람, 밭을 가꾸는 사람, 그리고 이장으로 보이는 노인 한 명과 어린 소녀가 있었다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||9|||
+9|"아마 저 나이 많은 사람이... 이장님인 것 같으니 인사드리고 내가 살 집이 어디 있는지 물어봐야겠다. 
+나는 노인에게 다가가 말을 건넸다. 
+안녕하세요!! 혹시 이 마을 이장님이신가요?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||10|||
+10|"노인: ... 자네는 누군가? 
+아! 저는 오늘부로 여기 이사 온 김 기자라고합니다. 이장님인 것 같아서 집 위치를 물을 겸 인사차 왔습니다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||11|||
+11|"노인: ... 반갑네. 내가 이 마을의 이장이야. 
+오늘부터 그러면 여기서 쭉 지내려고 하는 건가? 
+네! 원래는 도시에서 기자 일하면서 살았었는데... 좀 지쳐서 한적한 곳에서 글 쓰면서 지내고 싶어서 이사 오게 됐어요!"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||12|||
+12|"이장: 기자...? 
+기자 일을 했다는 말에 이장의 눈빛이 경계에서 적대하는 느낌으로 변했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||13|||
+13|"음..? 왜 저런 눈빛이지? 기자를 싫어하시나?? 
+갑자기 눈빛이 달라진 이장이 이상하긴 했지만, 기자를 좋아하지 않는 사람들은 원래 많았기 때문에 
+크게 신경 쓰지 않고 다시 대답했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||14|||
+14|아니요! 원래는 기자 일했지만, 일하는 데 지쳐서 그만두고 오게 된 거라... 그냥 소설을 쓰면서 힐링하려고 해요!|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||15|||
+15|"이장: ... 그렇구만... 자네가 지낼 집은 저길세. 
+기사가 아니라 소설을 쓴다는 말에 조금 누그러졌지만, 
+여전히 적대하는 느낌은 남아있었다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||16|||
+16|"아! 감사합니다. 저기가 제가 지낼 집이군요! 얼른 가서 짐 풀고 좀 정리해야겠어요! 
+다음에 또 봬요! 
+이장에게 인사를 하고 돌아서려는데"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||17|||
+17|이장: ... 잠깐만 기다리게.|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||18|||
+18|네?|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||19|||
+19|"이장은 나를 불러세우더니 근처에 있던 소녀를 불러 무언가를 지시했다. 
+소녀는 이장의 지시를 듣고는 식당으로 뛰어갔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_FOOTSTEPS(GIRL).wav||20|||
+20|"나는 나를 불러세운 이장에게 물었다. 
+왜 그러시죠?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||21|||
+21|"이장: 그래도 우리 마을에 왔는데, 반갑다는 의미로 우리 마을 명물 미트파이를 주려고 하네. 
+방금 그 소녀에게 시켰으니, 곧 가져다줄 게야. 
+집에 가서 먹어보게나."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||22|||
+22|"미트파이?? 이 마을의 명물 음식이 있었던가??? 인터넷에서는 못 봤는데... 
+나는 내가 찾아봤던 정보에 없던 미트파이가 좀 의아했지만, 더 깊이 생각해보기 전에 소녀가 식당에서 미트파이를 가져왔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||23|||
+23|"소녀: ... 여기요. 
+어? 어.. 고마워! 
+소녀가 불쑥 내민 미트파이를 나는 무의식적으로 받았고, 감사의 인사를 했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_GIRL.png|BGM_STORY_INTRO.mp3|||24|||
+24|"이장: 이 미트파이가 아까 말한 우리 마을의 명물 음식일세 
+그리고 우리 마을에선 매일 저녁 7시에 광장에 모여서 함께 식사한다네 
+오늘 이 미트파이 먹고도 배가 더 고프다면 나와서 같이 식사하면 되네."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||25|||
+25|"마을 사람들이 다 같이 함께 식사한다고? 살면서 이런 식으로 저녁 식사를 하는 경우는 본 적이 없는데... 
+인적이 드문 마을이라 이 마을만의 문화가 있는 건가?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||26|||
+26|"아.. 그렇군요! 저녁에 배고프면 저도 나가서 함께 식사해볼게요! 감사합니다. 
+이제 집에 가서 짐 좀 정리해야 되겠네요. 나중에 뵙겠습니다! 안녕! 나중에 보자! 
+나는 이장과 소녀에게 인사를 하고 집으로 향했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||27|||
+27|"집에 도착한 나는 짐을 풀고 정리하고, 청소도 하며 시간을 보냈다. 
+아이고! 삭신이야... 이제 어느 정도 정리가 끝난 건가? 
+노트북도 잘 연결된 것 같고... 오랫동안 비행기타고 이동하다보니 피로가 이만저만이 아니네..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||28|||
+28|"배도 고프긴 한데... 
+아! 아까 받은 미트파이가 있지! 
+미트파이를 먹어볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||먹는다|29|일단 잔다|449|
+29|"이사 오면서 한 끼도 안 먹어서 너무 배가 고프다...
+일단 아까 받은 미트파이를 먹어야겠어!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|||30|||
+30|"음! 맛이 좀... 특이한데??? 
+이 향은 뭐지?? 처음 맡아보는 향인데... 
+그래도 먹다 보니 생각보다 맛있네!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_EATING.wav||31|||
+31|"나는 받은 미트파이를 모두 먹은 후 이제 뭘 할지 고민했다. 
+저녁 7시에 광장에서 식사한다 했으니... 거의 5시간 남았네? 
+주민들한테 인사를 좀 해볼까? 아니면... 피곤하니 그때까지 잠을 잘까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||주민을 만난다|32|피곤하니 일단 잔다|84|
+32|"그래도 이사 첫날인데!! 피곤하지만 주민들 얼굴도 익힐 겸 인사나 하러 다녀보자! 
+이삿짐을 정리하느라 먼지를 뒤집어쓴 나는 샤워를 하고 주민들을 만나보기 위해 밖으로 나왔다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||33|||
+33|"음... 저기 망치 들고 걸어가는 분이랑... 약초 가방을 메고 다니는 분이 보이네. 
+어느 분에게 먼저 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||망치 든 사람|34|약초 가방 멘 사람|85|
+34|"일단 망치를 든 사람에게 가보자! 
+나는 망치를 들고 마을 밖으로 나가려는 사람에게 빠르게 다가가서 인사를 건넸다. 
+안녕하세요!!!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||35|||
+35|"내가 인사를 하며 말을 걸자 망치를 든 남자는 순간 표정이 굳더니 
+망치를 치켜세웠다. 
+헉! 나를 처음 봐서 그런가??? 잘못하면 망치로 한 대 맞겠는데?? 어쩌지? 도망갈까? 아니면 이사 온 걸 설명할까?"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3||도망간다|92|설명한다|36|
+36|"저... 저는 수상한 사람이 아니고 오늘 이사 와서 앞으로 이 마을에서 지내게 된 김기자입니다... 
+아까 이장님한테 인사도 하고 미트파이도 선물 받았어요!"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||37|||
+37|이장님에게 미트파이를 받았다는 말을 들은 그 사람은 표정을 풀고 망치를 내렸다.|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||38|||
+38|휴... 다행히 내려치려던 건 아니구나... 심장이 멎는 줄 알았네.|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||39|||
+39|"망치를 든 사람: ""... 나한텐 무슨 볼일이지?""
+망치를 든 사람은 낮은 목소리로 나에게 물었다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||40|||
+40|"아... 오늘 처음 이사 와서 주민들한테 얼굴도 알릴 겸 인사드리려고 한 거예요!
+다른 의도는 없었습니다!
+망치로 나를 때릴 것 같았던 모습 때문인지 나는 망치를 든 사람의 낮은 목소리에 순간 깜짝 놀라며 대답했다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||41|||

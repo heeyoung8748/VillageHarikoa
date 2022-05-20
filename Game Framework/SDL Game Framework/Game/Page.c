@@ -52,6 +52,12 @@ void Page_Render(Page* page)
 	SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
 
+	SDL_Color black = { .a = 255 };
+	for (int32 i = 0; i < 5; i++)
+	{
+	    Renderer_DrawTextBlended(&page->Script[i], 580, 600, black);
+	}
+
 	for (int32 i = 0; i < 2; ++i)
 	{
 		Option_Render(&page->Options[i]);
@@ -74,12 +80,12 @@ void Page_SetOption(Page* page, int32 optionIndex, const CsvItem* csvRow, int32 
 	const wchar_t* text = ParseToUnicode(csvRow[startColumn]);
 	int32 len = wcslen(text);
 	int32 nextPageIndex = ParseToInt(csvRow[startColumn + 1]);
-	const char* font = ParseToAscii(csvRow[startColumn + 2]);
-	int32 fontSize = ParseToInt(csvRow[startColumn + 3]);
+	// const char* font = ParseToAscii(csvRow[startColumn + 2]);
+	// int32 fontSize = ParseToInt(csvRow[startColumn + 3]);
 
-	Text_CreateText(&page->Options[optionIndex].Text, font, fontSize, text, len);
+	Text_CreateText(&page->Options[optionIndex].Text, DEFAULT_FONT, DEFAULT_FONT_SIZE, text, len);
 	page->Options[optionIndex].NextPage = nextPageIndex;
 
 	SafeFree(text);
-	SafeFree(font);
+	// SafeFree(font);
 }

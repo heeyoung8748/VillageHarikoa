@@ -5,17 +5,29 @@
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = { 0 };
-	CreateCsvFile(&csvFile, "CsvTest.csv");
+	CreateCsvFile(&csvFile, "db.csv");
 
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
 
+		for (int32 i = 0; i < 5; ++i)
+		{
+			Text_CreateText(&pageManager->Pages[page].TextID, DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page], COL_PAGE_INDEX + i);
+		}
+		for (int32 i = 0; i < 5; i++)
+		{
+			Text_CreateText(&pageManager->Pages[page].Script[i], DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page + 1], 128);
+		}
 		const char* backgroundImageFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_IMAGE]);
 		Image_LoadImage(&pageManager->Pages[page].Background, backgroundImageFileName);
+		const char* characterImageFileName = ParseToAscii(csvFile.Items[page][COL_CHARACTER_IMAGE]);
+		Image_LoadImage(&pageManager->Pages[page].Character, characterImageFileName);
 
 		const char* backgroundMusicFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_MUSIC]);
 		Audio_LoadMusic(&pageManager->Pages[page].Bgm, backgroundMusicFileName);
+		const char* effectMusicFileName = ParseToAscii(csvFile.Items[page][COL_EFFECT_MUSIC]);
+		Audio_LoadMusic(&pageManager->Pages[page].Effect, effectMusicFileName);
 
 		int32 diff = COL_OPTION2 - COL_OPTION1;
 		for (int32 i = 0; i < 2; ++i)
@@ -23,8 +35,12 @@ void PageManager_Init(PageManager* pageManager)
 			Page_SetOption(&pageManager->Pages[page], i, csvFile.Items[page], COL_OPTION1 + i * diff);
 		}
 
+		// pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
+
 		SafeFree(backgroundImageFileName);
+		SafeFree(characterImageFileName);
 		SafeFree(backgroundMusicFileName);
+		SafeFree(effectMusicFileName);
 
 		Page_Init(&pageManager->Pages[page]);
 	}
