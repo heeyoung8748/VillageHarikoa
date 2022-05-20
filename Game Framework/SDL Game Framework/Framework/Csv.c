@@ -146,7 +146,6 @@ char* ParseToAscii(const CsvItem item)
 
 	return result;
 }
-
 wchar_t* ParseToUnicode(const CsvItem item)
 {
 	int32 size = strlen(item.RawData);
