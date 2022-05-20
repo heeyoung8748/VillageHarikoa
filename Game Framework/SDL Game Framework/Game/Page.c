@@ -51,13 +51,13 @@ void Page_Render(Page* page)
 
 	SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
-	SDL_Color black = { .a = 255 };
-	Renderer_DrawTextBlended(&page->Script, 200, 600, black);
 	
-	/*for (int32 i = 0; ; i++)
+	
+	for (int32 i = 0; i< 3 ; i++)
 	{
-	    
-	}*/
+	    SDL_Color black = { .a = 255 };
+	Renderer_DrawTextBlended(&page->Script[i], 200, 600 + i * 20, black);
+	}
 
 	for (int32 i = 0; i < 2; ++i)
 	{

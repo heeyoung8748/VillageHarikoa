@@ -5,33 +5,33 @@
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = { 0 };
-	CreateCsvFile(&csvFile, "db.csv");
+	CreateCsvFile(&csvFile, "DB_TEST_FINAL.csv");
 
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
 
 		const wchar_t* saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
-		//const wchar_t* lineStart = saveScript;
-		//for  (int32 line = 0; L'\0' != *saveScript && line < TEXT_MAX_LINE; line++) // 
-		//{
-		//	const wchar_t* lineEnd = lineStart;
-		//	while (true)
-		//	{
-		//		if (L'\n' == *lineEnd || L'\0' == *lineEnd)
-		//		{
-		//			break;
-		//		}
-		//		++lineEnd;
-		//	}
-		//	int32 lineLength = lineEnd - saveScript;
-		//	Text_CreateText(&pageManager->Pages[page].Script[line], DEFAULT_FONT, DEFAULT_FONT_SIZE, lineStart, lineLength);
+		const wchar_t* lineStart = saveScript;
+		for  (int32 line = 0; L'\0' != *lineStart || line < TEXT_MAX_LINE; line++) // 
+		{
+			const wchar_t* lineEnd = lineStart;
+			while (true)
+			{
+				if (L'\n' == *lineEnd || L'\0' == *lineEnd)
+				{
+					break;
+				}
+				++lineEnd;
+			}
+			int32 lineLength = lineEnd - saveScript;
+			Text_CreateText(&pageManager->Pages[page].Script[line], DEFAULT_FONT, DEFAULT_FONT_SIZE, lineStart, lineLength);
 
-		//	lineStart = lineEnd + 1;
-		//	
-		//}
+			lineStart = lineEnd + 1;
+			
+		}
 
-		Text_CreateText(&pageManager->Pages[page].Script, DEFAULT_FONT, DEFAULT_FONT_SIZE, saveScript, 128);
+		//Text_CreateText(&pageManager->Pages[page].Script, DEFAULT_FONT, DEFAULT_FONT_SIZE, saveScript, 128);
 		for (int32 i = 0; i < 5; ++i)
 		{
 			Text_CreateText(&pageManager->Pages[page].TextID, DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page], COL_PAGE_INDEX + i);

@@ -8,7 +8,7 @@ typedef struct Page
 {
 	EPageIndex	ID;
 	Text		TextID;
-	Text        Script;
+	Text        Script[5];
 	Image		Background;
 	Image		Character;
 	Music		Bgm;
