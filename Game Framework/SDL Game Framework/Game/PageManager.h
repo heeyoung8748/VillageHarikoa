@@ -8,6 +8,7 @@ typedef struct PageManager
 	Page	Pages[MAX_PAGE_COUNT];
 	Page* CurrentPage;
 	Page* NextPage;
+	wchar_t* saveScript;
 } PageManager;
 
 void PageManager_Init(PageManager* pageManager);

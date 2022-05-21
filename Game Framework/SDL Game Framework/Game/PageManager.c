@@ -11,10 +11,10 @@ void PageManager_Init(PageManager* pageManager)
 	{
 
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
-		const wchar_t* saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
-		const wchar_t* lineStart = saveScript;
+		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
+		const wchar_t* lineStart = pageManager->saveScript;
 		
-		for  (int32 line = 0; L'\0' != *lineStart || line < TEXT_MAX_LINE; line++) // 
+		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
 			const wchar_t* lineEnd = lineStart;
@@ -26,10 +26,14 @@ void PageManager_Init(PageManager* pageManager)
 				}
 				++lineEnd;
 			}
-			int32 lineLength = lineEnd - saveScript;
+			int32 lineLength = lineEnd - lineStart;
 		
 			Text_CreateText(&pageManager->Pages[page].Script[line], DEFAULT_FONT, DEFAULT_FONT_SIZE, lineStart, lineLength);
 
+			if (L'\0' == *lineEnd)
+			{
+				break;
+			}
 			lineStart = lineEnd + 1;
 			
 		}
@@ -70,6 +74,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
 	pageManager->NextPage = NULL;
+	SafeFree(pageManager->saveScript);
 	
 }
 
