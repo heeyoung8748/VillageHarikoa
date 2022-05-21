@@ -66,7 +66,7 @@ void render_title(void)
     data->TitleBackGroundImage.ScaleY = 1;
     Renderer_DrawImage(&data->TitleBackGroundImage, 0, 0);
     SDL_Color color = { .r = 255, .g = 255, .b = 255, .a = 255 };
-    Renderer_DrawTextSolid(&data->Title, 471, 640, color);
+    Renderer_DrawTextSolid(&data->Title, 471, 675, color);
 }
 
 void release_title(void)

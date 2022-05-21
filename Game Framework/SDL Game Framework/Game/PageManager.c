@@ -9,7 +9,7 @@ int32 lineSaveCount=0;
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = {0};
-	CreateCsvFile(&csvFile, "DB_TEST_FINAL.csv");
+	CreateCsvFile(&csvFile, "db.csv");
 
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
@@ -124,7 +124,7 @@ void PageManager_Render(PageManager* pageManager)
 	//{
 		//memset(&page->Script[i], 0, sizeof(page->Script));
 		SDL_Color black = { .a = 255 };
-		Renderer_DrawTextBlended(&pageManager->Pages[ccount].Script[count], 200, 600, black);
+		Renderer_DrawTextBlended(&pageManager->Pages[ccount].Script[count], 200, 540, black);
 
 	//}
 }

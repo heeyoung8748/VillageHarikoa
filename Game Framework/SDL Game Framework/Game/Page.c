@@ -49,6 +49,7 @@ void Page_Render(Page* page, bool selectActive)
 {
 	
 	Renderer_DrawImage(&page->Background, 0, 0);
+	Renderer_DrawImage(&page->Character, 0, 0);
 
 	SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
