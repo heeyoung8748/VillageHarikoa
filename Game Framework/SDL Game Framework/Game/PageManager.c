@@ -4,7 +4,8 @@
 
 int32 count = 0;
 int32 ccount = 1;
-int32 textCount;
+int32 lineSave[1000];
+int32 lineSaveCount=0;
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = {0};
@@ -16,7 +17,7 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
-		textCount = 0;
+		
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -25,7 +26,6 @@ void PageManager_Init(PageManager* pageManager)
 			{
 				if (L'\n' == *lineEnd || L'\0' == *lineEnd)
 				{
-					textCount++;
 					break;
 				}
 				++lineEnd;
@@ -36,6 +36,8 @@ void PageManager_Init(PageManager* pageManager)
 			
 			if (L'\0' == *lineEnd)
 			{
+				lineSave[lineSaveCount] = line + 1;
+				lineSaveCount++;
 				break;
 			}
 			lineStart = lineEnd + 1;
@@ -95,11 +97,12 @@ void PageManager_Update(PageManager* pageManager)
 	if (Input_GetKeyDown(VK_SPACE))
 	{ 
 		count++;
-		if (count == textCount)
+		if (count == lineSave[ccount-1])
 		{
 			int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
 			pageManager->NextPage = &pageManager->Pages[nextPageIndex];
 			count = 0;
+			
 			ccount++;
 		}
 		
