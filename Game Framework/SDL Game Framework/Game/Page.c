@@ -53,13 +53,7 @@ void Page_Render(Page* page)
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
 	
 	
-	for (int32 i = 0; i< 5 ; i++)
-	{
-		//memset(&page->Script[i], 0, sizeof(page->Script));
-	    SDL_Color black = { .a = 255 };
-	    Renderer_DrawTextBlended(&page->Script[i], 200, 600 + i * 20, black);
-		
-	}
+	
 
 	for (int32 i = 0; i < 2; ++i)
 	{
@@ -90,8 +84,6 @@ void Page_SetOption(Page* page, int32 optionIndex, const CsvItem* csvRow, int32 
 	Text_CreateText(&page->Options[optionIndex].Text, DEFAULT_FONT, DEFAULT_FONT_SIZE, text, len);
 	page->Options[optionIndex].NextPage = nextPageIndex;
 
-	
-
-	SafeFree(text);
+	 SafeFree(text);
 	// SafeFree(font);
 }

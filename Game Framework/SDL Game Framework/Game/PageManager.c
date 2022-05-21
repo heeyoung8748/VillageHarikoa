@@ -2,6 +2,9 @@
 #include "PageManager.h"
 #include "PageIndex.h"
 
+int32 count = 0;
+int32 ccount = 1;
+int32 textCount;
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = {0};
@@ -13,7 +16,7 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
-		
+		textCount = 0;
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -22,6 +25,7 @@ void PageManager_Init(PageManager* pageManager)
 			{
 				if (L'\n' == *lineEnd || L'\0' == *lineEnd)
 				{
+					textCount++;
 					break;
 				}
 				++lineEnd;
@@ -29,7 +33,7 @@ void PageManager_Init(PageManager* pageManager)
 			int32 lineLength = lineEnd - lineStart;
 		
 			Text_CreateText(&pageManager->Pages[page].Script[line], DEFAULT_FONT, DEFAULT_FONT_SIZE, lineStart, lineLength);
-
+			
 			if (L'\0' == *lineEnd)
 			{
 				break;
@@ -90,8 +94,15 @@ void PageManager_Update(PageManager* pageManager)
 	
 	if (Input_GetKeyDown(VK_SPACE))
 	{ 
-		int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
-		pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+		count++;
+		if (count == textCount)
+		{
+			int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
+			pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+			count = 0;
+			ccount++;
+		}
+		
 	}
 }
 
@@ -99,7 +110,13 @@ void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage);
 	
-	
+	//for (int32 i = 0; i < 5; i++)
+	//{
+		//memset(&page->Script[i], 0, sizeof(page->Script));
+		SDL_Color black = { .a = 255 };
+		Renderer_DrawTextBlended(&pageManager->Pages[ccount].Script[count], 200, 600, black);
+
+	//}
 }
 
 void PageManager_Release(PageManager* pageManager)
