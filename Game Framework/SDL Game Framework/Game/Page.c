@@ -30,7 +30,7 @@ void Page_Update(Page* page)
 	{
 		page->CurrentOption = Min(1, page->CurrentOption + 1);
 	}
-
+	
 	for (int32 i = 0; i < 2; ++i)
 	{
 		Option_Update(&page->Options[i]);
@@ -45,20 +45,21 @@ void Page_Update(Page* page)
 	page->Options[page->CurrentOption].Color = SELECTED_COLOR_RED;
 }
 
-void Page_Render(Page* page)
+void Page_Render(Page* page, bool selectActive)
 {
+	
 	Renderer_DrawImage(&page->Background, 0, 0);
 
 	SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
-	
-	
-	
 
+	
 	for (int32 i = 0; i < 2; ++i)
 	{
-		Option_Render(&page->Options[i]);
+		Option_Render(&page->Options[i], selectActive);
 	}
+	
+	
 }
 
 void Page_Release(Page* page)

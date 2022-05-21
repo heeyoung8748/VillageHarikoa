@@ -38,6 +38,6 @@ enum EColumn
 
 void Page_Init(Page* page);
 void Page_Update(Page* page);
-void Page_Render(Page* page);
+void Page_Render(Page* page, bool selectActive);
 void Page_Release(Page* page);
 void Page_SetOption(Page* page, int32 optionIndex, const CsvItem* csvRow, int32 startColumn);

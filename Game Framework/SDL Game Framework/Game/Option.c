@@ -12,8 +12,9 @@ void Option_Update(Option* option)
 
 }
 
-void Option_Render(Option* option)
+void Option_Render(Option* option, bool selectActive)
 {
+	if (selectActive == true)
 	Renderer_DrawTextBlended(&option->Text, option->PosX, option->PosY, option->Color);
 }
 

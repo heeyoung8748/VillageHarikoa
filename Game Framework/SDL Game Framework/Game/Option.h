@@ -14,5 +14,5 @@ typedef struct Option
 
 void Option_Init(Option* option, int32 posX, int32 posY);
 void Option_Update(Option* option);
-void Option_Render(Option* option);
+void Option_Render(Option* option, bool selectActive);
 void Option_Release(Option * option);

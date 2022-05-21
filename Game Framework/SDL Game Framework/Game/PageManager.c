@@ -18,6 +18,7 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
 		
+
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -75,7 +76,7 @@ void PageManager_Init(PageManager* pageManager)
 
 		Page_Init(&pageManager->Pages[page]);
 	}
-
+	
 	FreeCsvFile(&csvFile);
 
 	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
@@ -91,12 +92,17 @@ void PageManager_Update(PageManager* pageManager)
 		pageManager->CurrentPage = pageManager->NextPage;
 		pageManager->NextPage = NULL;
 	}
-
 	Page_Update(pageManager->CurrentPage);
+
+	
 	
 	if (Input_GetKeyDown(VK_SPACE))
 	{ 
 		count++;
+		pageManager->selectActive = false;
+		if(count == lineSave[ccount-1]-1)
+			pageManager->selectActive = true;
+		
 		if (count == lineSave[ccount-1])
 		{
 			int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
@@ -107,11 +113,12 @@ void PageManager_Update(PageManager* pageManager)
 		}
 		
 	}
+	
 }
 
 void PageManager_Render(PageManager* pageManager)
 {
-	Page_Render(pageManager->CurrentPage);
+	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
 	//for (int32 i = 0; i < 5; i++)
 	//{
