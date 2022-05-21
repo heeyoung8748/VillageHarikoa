@@ -925,6 +925,7 @@ typedef enum EPageIndex
 	PAGE_920,
 	PAGE_921,
 	PAGE_922,
-	PAGE_923
+	PAGE_923,
+	PAGE_924
 
 } EPageIndex;
