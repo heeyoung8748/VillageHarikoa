@@ -16,7 +16,7 @@ void Page_Init(Page* page)
 
 	//Audio_Play(&page->Bgm, INFINITY_LOOP);
 	
-	Image_SetAlphaValue(&page->Background, 255 * 0.6);
+	Image_SetAlphaValue(&page->Background, 255 * 0.7);
 }
 
 void Page_Update(Page* page)
