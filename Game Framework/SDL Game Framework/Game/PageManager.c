@@ -78,7 +78,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_237];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
@@ -89,6 +89,8 @@ int32 count = 0;
 int32 ccount = 0;
 void PageManager_Update(PageManager* pageManager)
 {
+	
+	
 	if (pageManager->NextPage != NULL)
 	{
 		pageManager->CurrentPage = pageManager->NextPage;
@@ -131,6 +133,8 @@ void PageManager_Update(PageManager* pageManager)
 			}
 			count = 0;
 		}
+		if (&pageManager->Pages[nextPage].Bgm != &pageManager->Pages[nextPage + 1].Bgm)
+			Audio_Play(&pageManager->Pages[nextPage + 1].Bgm, INFINITY_LOOP);
 	}
 	if (nextPage == 1000)
 		Scene_SetNextScene(SCENE_CREDIT);
@@ -140,8 +144,8 @@ void PageManager_Update(PageManager* pageManager)
 
 void PageManager_Render(PageManager* pageManager)
 {
-	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
+	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
 	SDL_Color black = { .a = 255 };
 	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
