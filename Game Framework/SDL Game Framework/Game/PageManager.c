@@ -101,7 +101,7 @@ void PageManager_Update(PageManager* pageManager)
 		selected = 0;
 	}
 
-	if (Input_GetKeyDown(VK_RIGHT))
+	if (Input_GetKeyDown(VK_RIGHT) && pageManager->selectActive == true)
 	{
 		selected = 1;
 	}
