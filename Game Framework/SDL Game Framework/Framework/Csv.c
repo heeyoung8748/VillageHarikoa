@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "csv.h"
 
+#define DELIMETER    '|'
+
 static byte* s_Buffer;
 static byte* s_BufferPointer;
 static char s_Path[MAX_PATH];
@@ -16,13 +18,13 @@ void readFileToBuffer(const char* filename)
 	}
 
 	fseek(fp, 0, SEEK_END);
-	long fileSize = ftell(fp);
+	long long fileSize = ftell(fp);
 
 	s_Buffer = malloc(fileSize + 1);
 	memset(s_Buffer, 0, fileSize + 1);
 
 	fseek(fp, 0, SEEK_SET);
-	fread(s_Buffer, fileSize, 1, fp);
+	fread(s_Buffer, fileSize + 1, 1, fp);
 
 	fclose(fp);
 }
@@ -32,7 +34,7 @@ int32 countCategory(const char* firstLine)
 	int result = 1;
 	while (*firstLine != '\n')
 	{
-		if (*firstLine == ',')
+		if (*firstLine == DELIMETER)
 		{
 			++result;
 		}
@@ -56,19 +58,19 @@ void CreateCsvFile(CsvFile* csvFile, const char* filename)
 	s_BufferPointer = s_Buffer;
 	while (*s_BufferPointer != '\0')
 	{
-		int row = csvFile->RowCount;
+		int32 row = csvFile->RowCount;
 
 		int commaCount = 0;
 		const char* lineStart = s_BufferPointer;
 		const char* lineEnd = lineStart;
 		while (true)
 		{
-			if (csvFile->ColumnCount - 1 == commaCount && '\n' == *lineEnd)
+			if (csvFile->ColumnCount - 1 <= commaCount && '\n' == *lineEnd)
 			{
 				break;
 			}
 
-			if (',' == *lineEnd)
+			if (DELIMETER == *lineEnd)
 			{
 				++commaCount;
 			}
@@ -80,7 +82,7 @@ void CreateCsvFile(CsvFile* csvFile, const char* filename)
 		const char* recordEnd = recordStart;
 		for (int i = 0; i < csvFile->ColumnCount; ++i)
 		{
-			while (*recordEnd != ',' && recordEnd != lineEnd)
+			while (*recordEnd != DELIMETER && recordEnd != lineEnd)
 			{
 				++recordEnd;
 			}
@@ -147,9 +149,19 @@ char* ParseToAscii(const CsvItem item)
 
 wchar_t* ParseToUnicode(const CsvItem item)
 {
-	int size = MultiByteToWideChar(CP_ACP, NULL, item.RawData, -1, NULL, NULL);
-	wchar_t* result = (wchar_t*)malloc(sizeof(wchar_t) * (size + 1));
-	MultiByteToWideChar(CP_ACP, NULL, item.RawData, -1, result, size);
+	int32 size = strlen(item.RawData);
+	int32 wideLen = MultiByteToWideChar(CP_ACP, NULL, item.RawData, -1, NULL, 0);
+	wchar_t* result = (wchar_t*)malloc(sizeof(wchar_t) * wideLen);
+	memset(result, 0, sizeof(wchar_t) * wideLen);
+
+	if (item.RawData[0] == '"' && item.RawData[size - 1] == '"')
+	{
+		MultiByteToWideChar(CP_ACP, NULL, &item.RawData[1], -1, result, wideLen - 3);
+	}
+	else
+	{
+		MultiByteToWideChar(CP_ACP, NULL, item.RawData, -1, result, wideLen);
+	}
 
 	return result;
 }

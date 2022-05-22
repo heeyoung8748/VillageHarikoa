@@ -20,15 +20,17 @@ void Text_Cleanup(void)
 
 void Text_CreateText(Text* text, const char* fontFile, int32 fontSize, const wchar_t* str, int32 length)
 {
-	Text_SetFont(text, fontFile, fontSize);
-	
+	LogInfo("Loading Font : %s", fontFile);
+	sprintf_s(s_path, sizeof(s_path), "%s/%s", FONT_DIRECTORY, fontFile);
+	text->Font = TTF_OpenFont(s_path, fontSize);
+
 	text->String = malloc(sizeof(wchar_t) * (length + 1));
 	for (int32 i = 0; i < length; ++i)
 	{
 		(text->String)[i] = str[i];
 	}
 	(text->String)[length] = L'\0';
-	
+
 	text->Length = length;
 }
 
@@ -38,7 +40,7 @@ void Text_FreeText(Text* text)
 	text->Font = NULL;
 
 	SafeFree(text->String);
-	
+
 	text->Length = 0;
 }
 

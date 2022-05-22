@@ -1,7 +1,205 @@
-씬 번호,텍스트,배경 이미지,캐릭터 이미지,사운드 파일명,효과음 파일명,1번 선택지,1번 선택 시 이동 씬,2번 선택지,2번 선택 시 이동 씬,
-0,"나는 김기자다. 올해 26살이지. 
-어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만...",SCENE_PROLOGUE_1,,SOUND_PROLOGUE_1,,,,,,
-1,"너무 상대방 때문에 화가나서
-때릴지 말지 고민했다.",SCENE_ROADSIDE_1,CHARACTER_2,SOUND_FINAL_1,,때린다,2,도망간다,0,
-2,"휘익 퍽!!!
-!!! 진짜 머리를 내려쳤어??!!",SCENE_ROADSIDE_1,CHARACTER_1,SOUND_FINAL_1,SOUND_EFFECT_DDING,,,,,
+화면 인덱스|텍스트|배경 이미지|캐릭터 이미지|사운드 파일명|효과음 파일명|1번 선택지|1번 선택 시 이동 씬|2번 선택지|2번 선택 시 이동 씬|연출 효과 요청
+1|"나는 김기자다. 올해 26살이지. 
+어제까지만 해도 방송국 기자로 일하면서 각종 특종을 취재하러 다녔지만..."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||2|||
+2|"기레기라는 소리를 들어가며 사람들의 치부를 드러내는 일에 지쳐 방송국을 그만두고 
+어렸을 때부터 꿈이었던 나만의 소설을 쓰기 위해, 한적한 마을로 이사하기로 마음먹었다."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||3|||
+3|"여러 마을을 찾아봤지만 마음에 드는 곳을 찾을 수 없었고 오랜 검색 끝에 '하리코아' 마을을 찾을 수 있었다. 
+하리코아는 뉴질랜드 사투리로 행복이라는 뜻이었다."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||4|||
+4|"한적하고 도시와 왕래가 거의 없는 듯한 이 마을은 내가 생각했던 마을과 완벽히 일치했기 때문에 
+나는 그 마을로 이사가기로 마음먹었다."|SCENE_STORY_PROLOGUE2.jpg||BGM_STORY_INTRO.mp3|||5|||
+5|"드디어 이사 당일! 기쁜 마음으로 나는 비행기에 올랐다. 
+어서 가서 자연을 느끼며 힐링도 하고 소설도 써야지!"|SCENE_STORY_PROLOGUE3.jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_AIRPLANE.wav||6|||G
+6|"비행기를 타고... 택시를 타고 나는 하리코아 마을로 향했다.
+드디어 도착인가?! 하리코아 마을!! 오는데 너무 멀어서 좀 피곤하지만..."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||7|||
+7|"그래도 도착이다!!! 이 산뜻한 바람! 맑은 공기!! 평화로... 음... 느낌이 좀 음산하긴 하지만... 
+그래도 이 마을에서 이제 소설을 쓰며 내 꿈을 펼쳐 나가는거야!!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||8|||
+8|"나는 힘찬 발걸음으로 마을 안으로 들어섰고, 마을 안에는 나무로 된 여러 집들과 
+큰 자루를 메고 나르는 사람, 밭을 가꾸는 사람, 그리고 이장으로 보이는 노인 한 명과 어린 소녀가 있었다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||9|||
+9|"아마 저 나이 많은 사람이... 이장님인 것 같으니 인사드리고 내가 살 집이 어디 있는지 물어봐야겠다. 
+나는 노인에게 다가가 말을 건넸다. 
+안녕하세요!! 혹시 이 마을 이장님이신가요?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||10|||
+10|"노인: ... 자네는 누군가? 
+아! 저는 오늘부로 여기 이사 온 김 기자라고합니다. 이장님인 것 같아서 집 위치를 물을 겸 인사차 왔습니다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||11|||
+11|"노인: ... 반갑네. 내가 이 마을의 이장이야. 
+오늘부터 그러면 여기서 쭉 지내려고 하는 건가? 
+네! 원래는 도시에서 기자 일하면서 살았었는데... 좀 지쳐서 한적한 곳에서 글 쓰면서 지내고 싶어서 이사 오게 됐어요!"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||12|||
+12|"이장: 기자...? 
+기자 일을 했다는 말에 이장의 눈빛이 경계에서 적대하는 느낌으로 변했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||13|||
+13|"음..? 왜 저런 눈빛이지? 기자를 싫어하시나?? 
+갑자기 눈빛이 달라진 이장이 이상하긴 했지만, 기자를 좋아하지 않는 사람들은 원래 많았기 때문에 
+크게 신경 쓰지 않고 다시 대답했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||14|||
+14|아니요! 원래는 기자 일했지만, 일하는 데 지쳐서 그만두고 오게 된 거라... 그냥 소설을 쓰면서 힐링하려고 해요!|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||15|||
+15|"이장: ... 그렇구만... 자네가 지낼 집은 저길세. 
+기사가 아니라 소설을 쓴다는 말에 조금 누그러졌지만, 
+여전히 적대하는 느낌은 남아있었다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||16|||
+16|"아! 감사합니다. 저기가 제가 지낼 집이군요! 얼른 가서 짐 풀고 좀 정리해야겠어요! 
+다음에 또 봬요! 
+이장에게 인사를 하고 돌아서려는데"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||17|||
+17|이장: ... 잠깐만 기다리게.|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||18|||
+18|네?|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||19|||
+19|"이장은 나를 불러세우더니 근처에 있던 소녀를 불러 무언가를 지시했다. 
+소녀는 이장의 지시를 듣고는 식당으로 뛰어갔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_FOOTSTEPS(GIRL).wav||20|||
+20|"나는 나를 불러세운 이장에게 물었다. 
+왜 그러시죠?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||21|||
+21|"이장: 그래도 우리 마을에 왔는데, 반갑다는 의미로 우리 마을 명물 미트파이를 주려고 하네. 
+방금 그 소녀에게 시켰으니, 곧 가져다줄 게야. 
+집에 가서 먹어보게나."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||22|||
+22|"미트파이?? 이 마을의 명물 음식이 있었던가??? 인터넷에서는 못 봤는데... 
+나는 내가 찾아봤던 정보에 없던 미트파이가 좀 의아했지만, 더 깊이 생각해보기 전에 소녀가 식당에서 미트파이를 가져왔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||23|||
+23|"소녀: ... 여기요. 
+어? 어.. 고마워! 
+소녀가 불쑥 내민 미트파이를 나는 무의식적으로 받았고, 감사의 인사를 했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_GIRL.png|BGM_STORY_INTRO.mp3|||24|||
+24|"이장: 이 미트파이가 아까 말한 우리 마을의 명물 음식일세 
+그리고 우리 마을에선 매일 저녁 7시에 광장에 모여서 함께 식사한다네 
+오늘 이 미트파이 먹고도 배가 더 고프다면 나와서 같이 식사하면 되네."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||25|||
+25|"마을 사람들이 다 같이 함께 식사한다고? 살면서 이런 식으로 저녁 식사를 하는 경우는 본 적이 없는데... 
+인적이 드문 마을이라 이 마을만의 문화가 있는 건가?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||26|||
+26|"아.. 그렇군요! 저녁에 배고프면 저도 나가서 함께 식사해볼게요! 감사합니다. 
+이제 집에 가서 짐 좀 정리해야 되겠네요. 나중에 뵙겠습니다! 안녕! 나중에 보자! 
+나는 이장과 소녀에게 인사를 하고 집으로 향했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||27|||
+27|"집에 도착한 나는 짐을 풀고 정리하고, 청소도 하며 시간을 보냈다. 
+아이고! 삭신이야... 이제 어느 정도 정리가 끝난 건가? 
+노트북도 잘 연결된 것 같고... 오랫동안 비행기타고 이동하다보니 피로가 이만저만이 아니네..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||28|||
+28|"배도 고프긴 한데... 
+아! 아까 받은 미트파이가 있지! 
+미트파이를 먹어볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||먹는다|29|일단 잔다|449|
+29|"이사 오면서 한 끼도 안 먹어서 너무 배가 고프다...
+일단 아까 받은 미트파이를 먹어야겠어!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|||30|||
+30|"음! 맛이 좀... 특이한데??? 
+이 향은 뭐지?? 처음 맡아보는 향인데... 
+그래도 먹다 보니 생각보다 맛있네!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_EATING.wav||31|||
+31|"나는 받은 미트파이를 모두 먹은 후 이제 뭘 할지 고민했다. 
+저녁 7시에 광장에서 식사한다 했으니... 거의 5시간 남았네? 
+주민들한테 인사를 좀 해볼까? 아니면... 피곤하니 그때까지 잠을 잘까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||주민을 만난다|32|피곤하니 일단 잔다|84|
+32|"그래도 이사 첫날인데!! 피곤하지만 주민들 얼굴도 익힐 겸 인사나 하러 다녀보자! 
+이삿짐을 정리하느라 먼지를 뒤집어쓴 나는 샤워를 하고 주민들을 만나보기 위해 밖으로 나왔다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||33|||
+33|"음... 저기 망치 들고 걸어가는 분이랑... 약초 가방을 메고 다니는 분이 보이네. 
+어느 분에게 먼저 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||망치 든 사람|34|약초 가방 멘 사람|85|
+34|"일단 망치를 든 사람에게 가보자! 
+나는 망치를 들고 마을 밖으로 나가려는 사람에게 빠르게 다가가서 인사를 건넸다. 
+안녕하세요!!!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||35|||
+35|"내가 인사를 하며 말을 걸자 망치를 든 남자는 순간 표정이 굳더니 
+망치를 치켜세웠다. 
+헉! 나를 처음 봐서 그런가??? 잘못하면 망치로 한 대 맞겠는데?? 어쩌지? 도망갈까? 아니면 이사 온 걸 설명할까?"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3||도망간다|92|설명한다|36|
+36|"저... 저는 수상한 사람이 아니고 오늘 이사 와서 앞으로 이 마을에서 지내게 된 김기자입니다... 
+아까 이장님한테 인사도 하고 미트파이도 선물 받았어요!"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||37|||
+37|이장님에게 미트파이를 받았다는 말을 들은 그 사람은 표정을 풀고 망치를 내렸다.|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||38|||
+38|휴... 다행히 내려치려던 건 아니구나... 심장이 멎는 줄 알았네.|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||39|||
+39|"망치를 든 사람: ""... 나한텐 무슨 볼일이지?""
+망치를 든 사람은 낮은 목소리로 나에게 물었다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||40|||
+40|"아... 오늘 처음 이사 와서 주민들한테 얼굴도 알릴 겸 인사드리려고 한 거예요!
+다른 의도는 없었습니다!
+망치로 나를 때릴 것 같았던 모습 때문인지 나는 망치를 든 사람의 낮은 목소리에 순간 깜짝 놀라며 대답했다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||41|||
+41|"휴고: ""... 난 휴고라고 하네. 앞으로 잘 지내보지.""
+휴고는 이 한마디를 마치고 더 이야기할 생각이 없다는 듯 등을 돌려 마을 밖으로 걸어 나갔다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||42|||
+42|"흠... 되게 무서운 사람이네... 그래도 잘 지내보자는 거 보니 나쁜 사람은 아닌가??? 
+... 모르겠다!! 이젠 어디로 가볼까? 
+아까 약초 가방 메고 다니던 분은 안 보이고... 저기 식당이 보이는데 식당으로 가볼까?"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3||식당으로 간다|43|집에 가서 쉰다|84|
+43|"이제 겨우 한 명한테 인사한 건데 집으로 갈 순 없지! 
+식당에 사람이 있나 한번 가보자! 없으면 요리사분에게라도 인사를 할 수 있겠지!"|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_INTRO.mp3|||44|||
+44|"식당으로 향한 나는 이상한 냄새를 맡게 되었다. 
+이건... 피비린내 같은데... 오늘 돼지 잡은 날인가??"|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_INTRO.mp3|||45|||
+45|"애초에 외지와 많이 떨어진 마을이라 돼지고기 & 소고기 등을 직접 도축하고 요리할 수도 있었기 때문에 
+나는 대수롭지 않게 생각하고 식당으로 들어갔다."|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_INTRO.mp3|||46|||
+46|"안녕하세요!!! 
+문을 열면서 들어가며 나는 크게 인사했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||47|||
+47|".....
+하지만, 들려오는 답은 없었고 식당 내부에도 아무도 보이지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||48|||
+48|"다 어디 간 건가??? 아무도 없네... 헉!! 
+주변을 둘러보던 나는 바닥의 핏자국을 발견했고, 
+그 핏자국이 주방을 향하는 것을 볼 수 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||49|||
+49|"뭐지? 재료를 나르다가 흐른 건가... 
+한번 주방으로 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||들어간다|110|들어가지 않는다|50|
+50|"에이 돼지 피겠지... 마을에 이제 이사 온 사람이 주방에 말도 없이 들어가면 
+요리사분이 기분 나쁠 수도 있잖아, 그냥 집으로 돌아가자... 헉!!!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||51|||
+51|"집에 가려고 등을 돌린 나는 바로 뒤에
+주방 칼을 든 채 나를 보고 있는 누군가를 발견했다. 
+누... 누구... 세요?? 
+나는 당황해서 그에게 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||52|||
+52|"..... 
+상대는 대답하지 않고 가만히 나를 응시했다. 
+호... 혹시 요리사님이세요?? 
+나는 다시 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||53|||
+53|"... 
+그 사람은 여전히 대답 없이 나를 바라봤다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||54|||
+54|"아... 안녕하... 세요. 저는 오늘 이 마을로 이사 온 김기자입니다.....
+아까 이장님도 만나고... 휴고도 만났어요...
+아무 말 없는 그가 너무 무서웠던 나는 마치 나는 이 마을 사람이라 괜찮다를 강조하는 것처럼
+오늘 이사 온 사실과 누굴 만났는지를 모두 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||55|||
+55|"요리사: ... 하하하! 반갑습니다. 저는 이 마을에서 요리를 담당하는 요리사라고 합니다!
+처음 보는 사람이 제 식당에 들어와서 주방을 바라보고 있길래 저도 당황해서 가만히 쳐다보고만 있었네요!
+요리사는 이장님과 휴고를 만났다는 소리에 표정을 풀더니 호쾌하게 웃으며 대답했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||56|||
+56|"하... 하하. 하... 그... 그렇죠? 저는 칼로 저를 찌르시는 줄 알았다니까요... 하하하.
+웃으며 대답하는 요리사에게 나도 조금은 안심하여 웃으며 대답했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||57|||
+57|요리사: ... 그래서 식당엔 무슨 일이신가요?|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||58|||
+58|"가벼운 부정을 바랐던 나는 바로 이어지는 질문에 조금 당황했다.
+설마 진짜 찌르려고 한 건 아니겠지...? 
+그렇게 생각하니 등골이 오싹해졌지만, 칼을 들고 있는 그 앞에서 티를 내기엔 너무 무서웠다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||59|||
+59|"아... 오늘 이사 와서 저녁 시간까지 시간이 남아서 다른 분들께 인사드리려고 돌아다니고 있었어요! 
+요리사: 그러시군요. 지금 주방에서 저녁 식사를 준비 중이었어요. 
+고기를 다듬다가 칼 이가 다 나가서... 잠깐 다른 칼을 가지러 나갔다 온 사이에 들어오신 거네요."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||60|||
+60|"어! 그럼 혹시 저녁 식사 메뉴가 뭔가요? 
+칼을 든 요리사가 무서워 나는 저녁 식사로 화제를 돌렸다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||61|||
+61|"요리사: 오늘 저녁은 미트파이에요. 우리 마을은 매일 저녁 7시에 광장에서 같이 식사하는 건 알고 계시죠? 
+네 이장님한테 들었어요!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||62|||
+62|"요리사: 우리 마을은 오래전부터 저녁 7시에 미트파이를 먹는 전통이 있어요. 
+그래서 매일 이 시간대에 미트파이를 만들기 위한 준비를 한답니다. 
+아! 그래서 미트파이 재료를 손질하고 계신 거였네요. 
+식당 바닥에 핏자국이 있어서 좀 당황했었거든요."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||63|||
+63|흠칫!|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||64|||
+64|어? 방금 요리사님의 몸이 떨렸는데?|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||65|||
+65|"요리사: ... 하하! 미트파이에 들어가는 소를 운반하다 흘린 피를 보신 거네요. 
+워낙 대량으로 만들어야 되다 보니 그런 경우가 자주 발생한답니다. 
+한번 보러 들어가 보실래요? 
+주방으로 들어가 보자고? 좀 무서운데..... 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3||들어간다|121|집으로 돌아간다|66|
+66|"아... 아니에요! 맛있는 요리 만들어주시는데 방해할 순 없죠
+저녁 시간까지 한 3시간 남은 것 같은데
+이사 오느라 좀 피곤해서 집에 가서 좀 쉬어야겠어요!
+나는 주방에 들어가면 안 될 것 같다는 느낌이 들어 집으로 돌아가겠다고 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||67|||
+67|"요리사: 그러시군요. 그럼 어여 가서 쉬세요! 저는 맛있는 저녁을 위해서 빨리 요리 좀 해야겠습니다. 
+다음에 또 오세요! 
+네! 수고하세요!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||68|||
+68|"나는 요리사에게 인사를 하고 도망치듯 식당을 나왔다. 
+왠지 모르게 너무 무서운 사람이었어... 오늘 휴고도 그렇고 ... 이 마을 사람들은 다들 이렇게 무서운 건가?? 
+휴고와 요리사 둘 다 너무 강렬한 인상을 남긴 까닭에 나는 급 피로가 몰려왔고 
+집으로 돌아가서 잠깐 눈을 붙였다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||69|||C
+69|"잠에서 깨어나니 6시 50분이었다.
+하아아암! 벌써 7시가 다 됐네... 빨리 광장으로 나가보자!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||70|||C
+70|"마을 광장으로 향한 나는 낮에 먹었던 미트파이 향기를 맡을 수 있었고 
+여러 사람이 탁자에 둘러앉아있는 것을 확인할 수 있었다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||71|||
+71|"안녕하세요!!! 이번에 이사 오게 된 김기자입니다!!! 
+나는 둘러앉아있는 사람들이 모두 들을 수 있는 정도로 큰 소리로 인사했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||72|||
+72|"음...? 왜 다들 아무 반응이 없지?
+보통 인사하면 한 명쯤이라도 반응을 해야 하는 거 아닌가?"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||73|||
+73|"인사를 한 후 탁자에 앉아있는 마을 사람들을 둘러봤지만, 다들 좀 흐리멍덩한 눈으로
+나를 바라봤다. 그중에 한 사람은 노려보는 듯한 느낌이었지만, 딱히 나에게 말을 하진 않았다.
+아무도 말을 하지 않고 나를 쳐다보고 있는 게 뻘쭘해질 때쯤 식당에서 요리사와 이장이 나오면서 나에게 말을 건넸다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||74|||
+74|"이장: 자네 왔구만... 왜 자리에 앉지 않고 그렇게 서 있나? 
+아... 모두에게 인사를 했는데 다들 말씀이 없으셔서... 
+이장: ...아... 다들 좀 숫기가 없고 너무 오랜만에 외지에서 사람이 와서 그런 것 같네. 친해지면 다들 좋은 사람이니 일단 자리에 앉게나 식사해야지. 
+네 알겠습니다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||75|||
+75|"이장의 말 덕에 뻘쭘함에서 벗어날 수 있었던 나는 빈자리에 가서 앉았다.
+이후 이장도 자리에 앉고 나니 요리사가 가져온 미트파이를 소분하여 사람들 앞에 내려놓기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||76|||
+76|"요리사: 자자 오늘 미트파이도 아주 맛있게 나왔습니다!
+다들 맛있게 드세요!!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||77|||
+77|"주민들은 다들 자기 앞에 미트파이가 놓이는 순간 걸신들린 귀신처럼 게걸스럽게 미트파이를 먹기 시작했다.
+일을 너무 많이 해서 배가 많이 고팠나...? 저렇게까지 먹는다고??"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||78|||
+78|"이장: 다들 오늘 낮에 밥도 못 먹고 일을 해서 배가 많이 고팠던 것 같구먼, 자네도 어서 들지
+사람들의 먹는 모습을 보며 놀란 표정을 짓는 나에게 이장이 말을 했다.
+...하하... 네 이장님도 맛있게 드세요!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||79|||
+79|"나는 이장의 말에 답을 하고 미트파이 한 조각을 입에 넣었다.
+음! ... 어? 낮에는 좀 특이한 맛이었던 것 같은데... 이거 굉장히 맛있잖아??
+방금 만든 미트파이라 그런 건가?? 너무 맛있는데??"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||80|||
+80|"낮에 먹었던 좀 식은 미트파이와는 전혀 다른 맛이었다. 
+나는 미트파이를 음미하면서 먹었고, 정신을 차리니 이미 모든 미트파이를 다 먹은 후였다. 
+쩝... 벌써 다 먹었네??? 아쉬워라... 
+다들 미트파이를 다 먹은 것으로 보일 때쯤 이장이 자리에서 일어나며 말했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||81|||
+81|"이장: 다들 오늘도 수고했네, 일용할 양식을 위한 사냥도 성공했으니 오늘 투표는 하지 않도록 하겠네. 
+오늘 하루 마무리 잘하고 어여 집에 들어가서들 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||82|||
+82|"투표...? 무슨 투표를 말하는 거지?
+이장의 말에 의문이 생겼던 나는 주변 사람들에게 물어보고자 했으나, 
+다들 이미 자기 자리를 정리하고 자기 집으로 돌아가고 있었다.
+이장님에게라도 물어볼까 했지만, 이장님은 요리사와 휴고에게 무슨 말을 하고 있어서 말을 걸기가 애매했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||83|||
+83|"흠... 에이! 모르겠다. 나중에 알려주겠지! 
+오늘은 일단 집에 가서 쉬자! 
+배도 부르겠다. 낮잠을 자긴 했지만, 워낙 피곤한 하루였기 때문에 나는 집에 가서 잠을 자기로 했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||132|||

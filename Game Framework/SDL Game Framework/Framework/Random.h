@@ -13,7 +13,7 @@ void Random_Init(void);
 /// <returns>[minInclusive, maxExclusive) 범위의 무작위 정수</returns>
 int32 Random_GetNumberFromRange(int32 minInclusive, int32 maxExclusive);
 
-/// <summary>
+/// <summary> 
 /// 무작위 실수를 가져온다.
 /// </summary>
 /// <param name="minInclusive">최솟값</param>
