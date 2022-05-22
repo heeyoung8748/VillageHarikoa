@@ -65,7 +65,7 @@ void CreateCsvFile(CsvFile* csvFile, const char* filename)
 		const char* lineEnd = lineStart;
 		while (true)
 		{
-			if (csvFile->ColumnCount - 1 == commaCount && '\n' == *lineEnd)
+			if (csvFile->ColumnCount - 1 <= commaCount && '\n' == *lineEnd)
 			{
 				break;
 			}

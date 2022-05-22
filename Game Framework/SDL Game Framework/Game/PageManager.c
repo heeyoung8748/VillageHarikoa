@@ -9,7 +9,7 @@ int32 lineSaveCount=0;
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = {0};
-	CreateCsvFile(&csvFile, "DB_TEST_FINAL.txt");
+	CreateCsvFile(&csvFile, "DB_FINAL.csv");
 
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
