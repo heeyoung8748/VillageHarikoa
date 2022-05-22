@@ -6,8 +6,8 @@
 typedef struct PageManager
 {
 	Page	Pages[MAX_PAGE_COUNT];
-	Page* CurrentPage;
-	Page* NextPage;
+	Page*	 CurrentPage;
+	Page*	 NextPage;
 	wchar_t* saveScript;
 	bool	selectActive;
 } PageManager;

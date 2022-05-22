@@ -2,7 +2,7 @@
 
 #include <wchar.h>
 
-#define MAXIMUM_ROW 1500
+#define MAXIMUM_ROW 500
 
 typedef struct CsvItem
 {

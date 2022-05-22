@@ -9,6 +9,7 @@ typedef struct Option
 	int32		PosY;
 	Text		Text;
 	EPageIndex	NextPage;
+	EPageIndex	NextPage2;
 	SDL_Color	Color;
 } Option;
 

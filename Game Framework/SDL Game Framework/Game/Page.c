@@ -23,12 +23,12 @@ void Page_Update(Page* page)
 {
 	if (Input_GetKeyDown(VK_LEFT))
 	{
-		page->CurrentOption = Max(0, page->CurrentOption - 1);
+		page->CurrentOption = 0;
 	}
 
 	if (Input_GetKeyDown(VK_RIGHT))
 	{
-		page->CurrentOption = Min(1, page->CurrentOption + 1);
+		page->CurrentOption = 1;
 	}
 	
 	for (int32 i = 0; i < 2; ++i)
@@ -79,12 +79,13 @@ void Page_SetOption(Page* page, int32 optionIndex, const CsvItem* csvRow, int32 
 
 	const wchar_t* text = ParseToUnicode(csvRow[startColumn]);
 	int32 len = wcslen(text);
-	int32 nextPageIndex = ParseToInt(csvRow[startColumn + 1]);
+	int32 nextPageIndex = ParseToInt(csvRow[7]);
 	// const char* font = ParseToAscii(csvRow[startColumn + 2]);
-	// int32 fontSize = ParseToInt(csvRow[startColumn + 3]);
+	int32 nextPageIndex2 = ParseToInt(csvRow[9]);
 
 	Text_CreateText(&page->Options[optionIndex].Text, DEFAULT_FONT, DEFAULT_FONT_SIZE, text, len);
-	page->Options[optionIndex].NextPage = nextPageIndex;
+	page->Options->NextPage = nextPageIndex;
+	page->Options->NextPage2 = nextPageIndex2;
 
 	 SafeFree(text);
 	// SafeFree(font);

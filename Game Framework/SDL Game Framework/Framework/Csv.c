@@ -88,7 +88,7 @@ void CreateCsvFile(CsvFile* csvFile, const char* filename)
 			}
 
 			int size = recordEnd - recordStart;
-			csvFile->Items[row][i].RawData = malloc(size + 1);
+			csvFile->Items[row][i].RawData = malloc(size+1);
 			memcpy(csvFile->Items[row][i].RawData, recordStart, size);
 			csvFile->Items[row][i].RawData[size] = '\0';
 

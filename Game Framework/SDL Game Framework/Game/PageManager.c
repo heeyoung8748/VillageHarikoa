@@ -42,14 +42,14 @@ void PageManager_Init(PageManager* pageManager)
 				break;
 			}
 			lineStart = lineEnd + 1;
-			
+			  
 		}
 		
 		//Text_CreateText(&pageManager->Pages[page].Script, DEFAULT_FONT, DEFAULT_FONT_SIZE, saveScript, 128);
-		for (int32 i = 0; i < 5; ++i)
+		/*for (int32 i = 0; i < 5; ++i)
 		{
 			Text_CreateText(&pageManager->Pages[page].TextID, DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page], COL_PAGE_INDEX + i);
-		}
+		}*/
 		
 		const char* backgroundImageFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_IMAGE]);
 		Image_LoadImage(&pageManager->Pages[page].Background, backgroundImageFileName);
@@ -84,7 +84,7 @@ void PageManager_Init(PageManager* pageManager)
 	SafeFree(pageManager->saveScript);
 	
 }
-
+bool selected = 0;
 void PageManager_Update(PageManager* pageManager)
 {
 	if (pageManager->NextPage != NULL)
@@ -94,22 +94,37 @@ void PageManager_Update(PageManager* pageManager)
 	}
 	Page_Update(pageManager->CurrentPage);
 
+	if (Input_GetKeyDown(VK_LEFT))
+	{
+		selected = 0;
+	}
+
+	if (Input_GetKeyDown(VK_RIGHT))
+	{
+		selected = 1;
+	}
 	
-	
-	if (Input_GetKeyDown(VK_SPACE))
+ 	if (Input_GetKeyDown(VK_SPACE))
 	{ 
-		count++;
+ 		count++;
 		pageManager->selectActive = false;
 		if(count == lineSave[ccount-1]-1)
 			pageManager->selectActive = true;
-		
 		if (count == lineSave[ccount-1])
 		{
-			int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
-			pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
+				ccount = nextPageIndex;
+				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+
+			if (selected == 1)
+			{
+				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage2;
+				ccount = nextPageIndex;
+				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+				selected = 0;
+			}
 			count = 0;
 			
-			ccount++;
 		}
 		
 	}
