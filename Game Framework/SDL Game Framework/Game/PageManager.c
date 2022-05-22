@@ -7,6 +7,7 @@ int32 lineSave[500];
 int32 lineSaveCount = 0;
 void PageManager_Init(PageManager* pageManager)
 {
+	
 	CsvFile csvFile = {0};
 	CreateCsvFile(&csvFile, "DB_FINAL.csv");
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
@@ -75,10 +76,9 @@ void PageManager_Init(PageManager* pageManager)
 		Page_Init(&pageManager->Pages[page]);
 	}
 
-	
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_29];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_475];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
@@ -132,6 +132,9 @@ void PageManager_Update(PageManager* pageManager)
 			count = 0;
 		}
 	}
+	if (nextPage == 1000)
+		Scene_SetNextScene(SCENE_CREDIT);
+		
 	
 }
 
@@ -139,14 +142,10 @@ void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
-	//for (int32 i = 0; i < 5; i++)
-	//{
-		//memset(&page->Script[i], 0, sizeof(page->Script));
-		SDL_Color black = { .a = 255 };
-		Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
-		
-		
-	//}
+	
+	SDL_Color black = { .a = 255 };
+	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	
 }
 
 void PageManager_Release(PageManager* pageManager)
