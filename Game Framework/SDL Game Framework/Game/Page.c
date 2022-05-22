@@ -15,13 +15,13 @@ void Page_Init(Page* page)
 	page->CurrentOption = 0;
 
 	//Audio_Play(&page->Bgm, INFINITY_LOOP);
-	
 	Image_SetAlphaValue(&page->Background, 255 * 0.6);
 }
 
 void Page_Update(Page* page)
 {
 	
+		
 	if (Input_GetKeyDown(VK_LEFT))
 	{
 		page->CurrentOption = 0;
@@ -92,3 +92,5 @@ void Page_SetOption(Page* page, int32 optionIndex, const CsvItem* csvRow, int32 
 	 SafeFree(text);
 	// SafeFree(font);
 }
+
+//void Page_Audio(Page* page,)

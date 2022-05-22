@@ -133,8 +133,9 @@ void PageManager_Update(PageManager* pageManager)
 			}
 			count = 0;
 		}
-		if (&pageManager->Pages[nextPage].Bgm != &pageManager->Pages[nextPage + 1].Bgm)
-			Audio_Play(&pageManager->Pages[nextPage + 1].Bgm, INFINITY_LOOP);
+		if(count == 1)
+		Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
+		
 	}
 	if (nextPage == 1000)
 		Scene_SetNextScene(SCENE_CREDIT);
@@ -144,7 +145,6 @@ void PageManager_Update(PageManager* pageManager)
 
 void PageManager_Render(PageManager* pageManager)
 {
-	
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
 	SDL_Color black = { .a = 255 };
