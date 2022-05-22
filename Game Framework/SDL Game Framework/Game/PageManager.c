@@ -2,15 +2,14 @@
 #include "PageManager.h"
 #include "PageIndex.h"
 
-int32 count = 0;
-int32 ccount = 1;
-int32 lineSave[1000];
-int32 lineSaveCount=0;
+
+int32 lineSave[500];
+int32 lineSaveCount = 0;
 void PageManager_Init(PageManager* pageManager)
 {
+	
 	CsvFile csvFile = {0};
 	CreateCsvFile(&csvFile, "DB_FINAL.csv");
-
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
 
@@ -42,14 +41,14 @@ void PageManager_Init(PageManager* pageManager)
 				break;
 			}
 			lineStart = lineEnd + 1;
-			
+			  
 		}
 		
 		//Text_CreateText(&pageManager->Pages[page].Script, DEFAULT_FONT, DEFAULT_FONT_SIZE, saveScript, 128);
-		for (int32 i = 0; i < 5; ++i)
+		/*for (int32 i = 0; i < 5; ++i)
 		{
 			Text_CreateText(&pageManager->Pages[page].TextID, DEFAULT_FONT, DEFAULT_FONT_SIZE, csvFile.Items[page], COL_PAGE_INDEX + i);
-		}
+		}*/
 		
 		const char* backgroundImageFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_IMAGE]);
 		Image_LoadImage(&pageManager->Pages[page].Background, backgroundImageFileName);
@@ -76,15 +75,18 @@ void PageManager_Init(PageManager* pageManager)
 
 		Page_Init(&pageManager->Pages[page]);
 	}
-	
+
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_237];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
 }
-
+bool selected = 0;
+int32 nextPage = 1;
+int32 count = 0;
+int32 ccount = 0;
 void PageManager_Update(PageManager* pageManager)
 {
 	if (pageManager->NextPage != NULL)
@@ -94,25 +96,45 @@ void PageManager_Update(PageManager* pageManager)
 	}
 	Page_Update(pageManager->CurrentPage);
 
-	
-	
-	if (Input_GetKeyDown(VK_SPACE))
-	{ 
-		count++;
-		pageManager->selectActive = false;
-		if(count == lineSave[ccount-1]-1)
-			pageManager->selectActive = true;
-		
-		if (count == lineSave[ccount-1])
-		{
-			int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
-			pageManager->NextPage = &pageManager->Pages[nextPageIndex];
-			count = 0;
-			
-			ccount++;
-		}
-		
+	if (Input_GetKeyDown(VK_LEFT))
+	{
+		selected = 0;
 	}
+
+	if (Input_GetKeyDown(VK_RIGHT) && pageManager->selectActive == true)
+	{
+		selected = 1;
+	}
+	
+ 	if (Input_GetKeyDown(VK_SPACE))
+	{ 
+		
+ 		count++;
+		pageManager->selectActive = false;
+		if (count == lineSave[ccount]-1)
+		pageManager->selectActive = true;
+			
+		if (count == lineSave[ccount])
+		{
+				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
+				nextPage = nextPageIndex;
+				ccount = nextPageIndex - 1;
+				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+
+			if (selected == 1)
+			{
+				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage2;
+				nextPage = nextPageIndex;
+				ccount = nextPageIndex - 1;
+				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
+				selected = 0;
+			}
+			count = 0;
+		}
+	}
+	if (nextPage == 1000)
+		Scene_SetNextScene(SCENE_CREDIT);
+		
 	
 }
 
@@ -120,13 +142,10 @@ void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
-	//for (int32 i = 0; i < 5; i++)
-	//{
-		//memset(&page->Script[i], 0, sizeof(page->Script));
-		SDL_Color black = { .a = 255 };
-		Renderer_DrawTextBlended(&pageManager->Pages[ccount].Script[count], 200, 540, black);
-
-	//}
+	
+	SDL_Color black = { .a = 255 };
+	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	
 }
 
 void PageManager_Release(PageManager* pageManager)

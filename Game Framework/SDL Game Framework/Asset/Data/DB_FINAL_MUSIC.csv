@@ -6,9 +6,9 @@
 여러 마을을 찾아봤지만 마음에 드는 곳을 찾을 수 없었고 오랜 검색 끝에 '하리코아' 마을을 찾을 수 있었다. 
 하리코아는 뉴질랜드 사투리로 행복이라는 뜻이었다."|SCENE_STORY_PROLOGUE1.jpg||BGM_STORY_INTRO.mp3|||2|||
 2|"한적하고 도시와 왕래가 거의 없는 듯한 이 마을은 내가 생각했던 마을과 완벽히 일치했기 때문에 
-나는 그 마을로 이사가기로 마음먹었다."|SCENE_STORY_PROLOGUE2.jpg||BGM_STORY_INTRO.mp3|||3|||
+나는 그 마을로 이사가기로 마음먹었다."|SCENE_STORY_PROLOGUE2.jpg|||||3|||
 3|"드디어 이사 당일! 기쁜 마음으로 나는 비행기에 올랐다. 
-어서 가서 자연을 느끼며 힐링도 하고 소설도 써야지!"|SCENE_STORY_PROLOGUE3.jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_AIRPLANE.wav||4|||G
+어서 가서 자연을 느끼며 힐링도 하고 소설도 써야지!"|SCENE_STORY_PROLOGUE3.jpg|||EFFECT_SOUND_AIRPLANE.wav||4|||G
 4|"비행기를 타고... 택시를 타고 나는 하리코아 마을로 향했다.
 드디어 도착인가?! 하리코아 마을!! 오는데 너무 멀어서 좀 피곤하지만... 
 그래도 도착이다!!! 이 산뜻한 바람! 맑은 공기!! 평화로... 음... 느낌이 좀 음산하긴 하지만... 
@@ -17,7 +17,7 @@
 큰 자루를 메고 나르는 사람, 밭을 가꾸는 사람, 그리고 이장으로 보이는 노인 한 명과 어린 소녀가 있었다.
 아마 저 나이 많은 사람이... 이장님인 것 같으니 인사드리고 내가 살 집이 어디 있는지 물어봐야겠다. 
 나는 노인에게 다가가 말을 건넸다. 
-안녕하세요!! 혹시 이 마을 이장님이신가요?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||5|||
+안녕하세요!! 혹시 이 마을 이장님이신가요?"|SCENE_STORY_TOWN(INTRO).jpg|||||5|||
 5|"노인: ... 자네는 누군가? 
 아! 저는 오늘부로 여기 이사 온 김 기자라고합니다. 이장님인 것 같아서 집 위치를 물을 겸 인사차 왔습니다.
 노인: ... 반갑네. 내가 이 마을의 이장이야. 
@@ -36,7 +36,7 @@
 다음에 또 봬요! 
 이장에게 인사를 하고 돌아서려는데
 이장: ... 잠깐만 기다리게.
-네?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||6|||
+네?"|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png||||6|||
 6|"이장은 나를 불러세우더니 근처에 있던 소녀를 불러 무언가를 지시했다. 
 소녀는 이장의 지시를 듣고는 식당으로 뛰어갔다.
 나는 나를 불러세운 이장에게 물었다. 
@@ -45,13 +45,13 @@
 방금 그 소녀에게 시켰으니, 곧 가져다줄 게야. 
 집에 가서 먹어보게나.
 미트파이?? 이 마을의 명물 음식이 있었던가??? 인터넷에서는 못 봤는데... 
-나는 내가 찾아봤던 정보에 없던 미트파이가 좀 의아했지만, 더 깊이 생각해보기 전에 소녀가 식당에서 미트파이를 가져왔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_FOOTSTEPS(GIRL).wav||7|||G
-7||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||8|||
-8||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||9|||
-9||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||10|||
+나는 내가 찾아봤던 정보에 없던 미트파이가 좀 의아했지만, 더 깊이 생각해보기 전에 소녀가 식당에서 미트파이를 가져왔다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_FOOTSTEPS(GIRL).wav||7|||G
+7||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png||||8|||
+8||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png||||9|||
+9||SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png||||10|||
 10|"소녀: ... 여기요. 
 어? 어.. 고마워! 
-소녀가 불쑥 내민 미트파이를 나는 무의식적으로 받았고, 감사의 인사를 했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_GIRL.png|BGM_STORY_INTRO.mp3|||11|||
+소녀가 불쑥 내민 미트파이를 나는 무의식적으로 받았고, 감사의 인사를 했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_GIRL.png||||11|||
 11|"이장: 이 미트파이가 아까 말한 우리 마을의 명물 음식일세 
 그리고 우리 마을에선 매일 저녁 7시에 광장에 모여서 함께 식사한다네 
 오늘 이 미트파이 먹고도 배가 더 고프다면 나와서 같이 식사하면 되네.
@@ -59,51 +59,51 @@
 인적이 드문 마을이라 이 마을만의 문화가 있는 건가?
 아.. 그렇군요! 저녁에 배고프면 저도 나가서 함께 식사해볼게요! 감사합니다. 
 이제 집에 가서 짐 좀 정리해야 되겠네요. 나중에 뵙겠습니다! 안녕! 나중에 보자! 
-나는 이장과 소녀에게 인사를 하고 집으로 향했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||12|||
+나는 이장과 소녀에게 인사를 하고 집으로 향했다."|SCENE_STORY_HOUSE(LEE).jpg|CHARACTER_MASTER_LEE.png||||12|||
 12|"집에 도착한 나는 짐을 풀고 정리하고, 청소도 하며 시간을 보냈다. 
 아이고! 삭신이야... 이제 어느 정도 정리가 끝난 건가? 
 노트북도 잘 연결된 것 같고... 오랫동안 비행기타고 이동하다보니 피로가 이만저만이 아니네... 
 배도 고프긴 한데... 
 아! 아까 받은 미트파이가 있지! 
-미트파이를 먹어볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||먹는다|13|일단 잔다|241|
+미트파이를 먹어볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||먹는다|13|일단 잔다|241|
 13|"이사 오면서 한 끼도 안 먹어서 너무 배가 고프다...
-일단 아까 받은 미트파이를 먹어야겠어!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|||14|||
+일단 아까 받은 미트파이를 먹어야겠어!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png||||14|||
 14|"음! 맛이 좀... 특이한데??? 
 이 향은 뭐지?? 처음 맡아보는 향인데... 
-그래도 먹다 보니 생각보다 맛있네!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png|BGM_STORY_INTRO.mp3|EFFECT_SOUND_EATING.wav||15|||G
+그래도 먹다 보니 생각보다 맛있네!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_MEATPIE.png||EFFECT_SOUND_EATING.wav||15|||G
 15|"나는 받은 미트파이를 모두 먹은 후 이제 뭘 할지 고민했다. 
 저녁 7시에 광장에서 식사한다 했으니... 거의 5시간 남았네? 
-주민들한테 인사를 좀 해볼까? 아니면... 피곤하니 그때까지 잠을 잘까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||주민을 만난다|16|피곤하니 일단 잔다|39|
+주민들한테 인사를 좀 해볼까? 아니면... 피곤하니 그때까지 잠을 잘까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||주민을 만난다|16|피곤하니 일단 잔다|39|
 16|"그래도 이사 첫날인데!! 피곤하지만 주민들 얼굴도 익힐 겸 인사나 하러 다녀보자! 
 이삿짐을 정리하느라 먼지를 뒤집어쓴 나는 샤워를 하고 주민들을 만나보기 위해 밖으로 나왔다.
 음... 저기 망치 들고 걸어가는 분이랑... 약초 가방을 메고 다니는 분이 보이네. 
-어느 분에게 먼저 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||망치 든 사람|17|약초 가방 멘 사람|40|
+어느 분에게 먼저 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||망치 든 사람|17|약초 가방 멘 사람|40|
 17|"일단 망치를 든 사람에게 가보자! 
 나는 망치를 들고 마을 밖으로 나가려는 사람에게 빠르게 다가가서 인사를 건넸다. 
-안녕하세요!!!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||18|||
+안녕하세요!!!"|SCENE_STORY_TOWN(INTRO).jpg|||||18|||
 18|"내가 인사를 하며 말을 걸자 망치를 든 남자는 순간 표정이 굳더니 
 망치를 치켜세웠다. 
-헉! 나를 처음 봐서 그런가??? 잘못하면 망치로 한 대 맞겠는데?? 어쩌지? 도망갈까? 아니면 이사 온 걸 설명할까?"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3||도망간다|43|설명한다|19|
+헉! 나를 처음 봐서 그런가??? 잘못하면 망치로 한 대 맞겠는데?? 어쩌지? 도망갈까? 아니면 이사 온 걸 설명할까?"|SCENE_STORY_HOUSE(HUGO).jpg||||도망간다|43|설명한다|19|
 19|"저... 저는 수상한 사람이 아니고 오늘 이사 와서 앞으로 이 마을에서 지내게 된 김기자입니다... 
 아까 이장님한테 인사도 하고 미트파이도 선물 받았어요!
 이장님에게 미트파이를 받았다는 말을 들은 그 사람은 표정을 풀고 망치를 내렸다.
-휴... 다행히 내려치려던 건 아니구나... 심장이 멎는 줄 알았네."|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||20|||
+휴... 다행히 내려치려던 건 아니구나... 심장이 멎는 줄 알았네."|SCENE_STORY_HOUSE(HUGO).jpg|||||20|||
 20|"망치를 든 사람: ""... 나한텐 무슨 볼일이지?""
 망치를 든 사람은 낮은 목소리로 나에게 물었다.
 아... 오늘 처음 이사 와서 주민들한테 얼굴도 알릴 겸 인사드리려고 한 거예요!
 다른 의도는 없었습니다!
 망치로 나를 때릴 것 같았던 모습 때문인지 나는 망치를 든 사람의 낮은 목소리에 순간 깜짝 놀라며 대답했다.
 휴고: ""... 난 휴고라고 하네. 앞으로 잘 지내보지.""
-휴고는 이 한마디를 마치고 더 이야기할 생각이 없다는 듯 등을 돌려 마을 밖으로 걸어 나갔다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||21|||
+휴고는 이 한마디를 마치고 더 이야기할 생각이 없다는 듯 등을 돌려 마을 밖으로 걸어 나갔다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png||||21|||
 21|"흠... 되게 무서운 사람이네... 그래도 잘 지내보자는 거 보니 나쁜 사람은 아닌가??? 
 ... 모르겠다!! 이젠 어디로 가볼까? 
-아까 약초 가방 메고 다니던 분은 안 보이고... 저기 식당이 보이는데 식당으로 가볼까?"|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3||식당으로 간다|22|집에 가서 쉰다|39|
+아까 약초 가방 메고 다니던 분은 안 보이고... 저기 식당이 보이는데 식당으로 가볼까?"|SCENE_STORY_HOUSE(HUGO).jpg||||식당으로 간다|22|집에 가서 쉰다|39|
 22|"이제 겨우 한 명한테 인사한 건데 집으로 갈 순 없지! 
 식당에 사람이 있나 한번 가보자! 없으면 요리사분에게라도 인사를 할 수 있겠지!
 식당으로 향한 나는 이상한 냄새를 맡게 되었다. 
 이건... 피비린내 같은데... 오늘 돼지 잡은 날인가??
 애초에 외지와 많이 떨어진 마을이라 돼지고기 & 소고기 등을 직접 도축하고 요리할 수도 있었기 때문에 
-나는 대수롭지 않게 생각하고 식당으로 들어갔다."|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_INTRO.mp3|||23|||
+나는 대수롭지 않게 생각하고 식당으로 들어갔다."|SCENE_STORY_INSIDE(REST).jpg|||||23|||
 23|"안녕하세요!!! 
 문을 열면서 들어가며 나는 크게 인사했다.
 .....
@@ -112,9 +112,9 @@
 주변을 둘러보던 나는 바닥의 핏자국을 발견했고, 
 그 핏자국이 주방을 향하는 것을 볼 수 있었다.
 뭐지? 재료를 나르다가 흐른 건가... 
-한번 주방으로 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||들어간다|51|들어가지 않는다|24|
+한번 주방으로 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|51|들어가지 않는다|24|
 24|"에이 돼지 피겠지... 마을에 이제 이사 온 사람이 주방에 말도 없이 들어가면 
-요리사분이 기분 나쁠 수도 있잖아, 그냥 집으로 돌아가자... 헉!!!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||25|||
+요리사분이 기분 나쁠 수도 있잖아, 그냥 집으로 돌아가자... 헉!!!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||25|||
 25|"집에 가려고 등을 돌린 나는 바로 뒤에
 주방 칼을 든 채 나를 보고 있는 누군가를 발견했다. 
 누... 누구... 세요?? 
@@ -128,7 +128,7 @@
 아... 안녕하... 세요. 저는 오늘 이 마을로 이사 온 김기자입니다..... 
 아까 이장님도 만나고... 휴고도 만났어요... 
 아무 말 없는 그가 너무 무서웠던 나는 마치 나는 이 마을 사람이라 괜찮다를 강조하는 것처럼 
-오늘 이사 온 사실과 누굴 만났는지를 모두 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||26|||
+오늘 이사 온 사실과 누굴 만났는지를 모두 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||26|||
 26|"요리사: ... 하하하! 반갑습니다. 저는 이 마을에서 요리를 담당하는 요리사라고 합니다!
 처음 보는 사람이 제 식당에 들어와서 주방을 바라보고 있길래 저도 당황해서 가만히 쳐다보고만 있었네요!
 요리사는 이장님과 휴고를 만났다는 소리에 표정을 풀더니 호쾌하게 웃으며 대답했다.
@@ -154,20 +154,20 @@
 요리사: ... 하하! 미트파이에 들어가는 소를 운반하다 흘린 피를 보신 거네요. 
 워낙 대량으로 만들어야 되다 보니 그런 경우가 자주 발생한답니다. 
 한번 보러 들어가 보실래요? 
-주방으로 들어가 보자고? 좀 무서운데..... 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3||들어간다|58|집으로 돌아간다|27|
+주방으로 들어가 보자고? 좀 무서운데..... 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|||들어간다|58|집으로 돌아간다|27|
 27|"아... 아니에요! 맛있는 요리 만들어주시는데 방해할 순 없죠
 저녁 시간까지 한 3시간 남은 것 같은데
 이사 오느라 좀 피곤해서 집에 가서 좀 쉬어야겠어요!
 나는 주방에 들어가면 안 될 것 같다는 느낌이 들어 집으로 돌아가겠다고 말했다.
 요리사: 그러시군요. 그럼 어여 가서 쉬세요! 저는 맛있는 저녁을 위해서 빨리 요리 좀 해야겠습니다. 
 다음에 또 오세요! 
-네! 수고하세요!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||28|||
+네! 수고하세요!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||28|||
 28|"나는 요리사에게 인사를 하고 도망치듯 식당을 나왔다. 
 왠지 모르게 너무 무서운 사람이었어... 오늘 휴고도 그렇고 ... 이 마을 사람들은 다들 이렇게 무서운 건가?? 
 휴고와 요리사 둘 다 너무 강렬한 인상을 남긴 까닭에 나는 급 피로가 몰려왔고 
-집으로 돌아가서 잠깐 눈을 붙였다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||29|||C
+집으로 돌아가서 잠깐 눈을 붙였다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||29|||C
 29|"잠에서 깨어나니 6시 50분이었다.
-하아아암! 벌써 7시가 다 됐네... 빨리 광장으로 나가보자!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||30|||C
+하아아암! 벌써 7시가 다 됐네... 빨리 광장으로 나가보자!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||30|||C
 30|"마을 광장으로 향한 나는 낮에 먹었던 미트파이 향기를 맡을 수 있었고
 여러 사람이 탁자에 둘러앉아있는 것을 확인할 수 있었다.
 안녕하세요!!! 이번에 이사 오게 된 김기자입니다!!!
@@ -176,61 +176,61 @@
 보통 인사하면 한 명쯤이라도 반응을 해야 하는 거 아닌가?
 인사를 한 후 탁자에 앉아있는 마을 사람들을 둘러봤지만, 다들 좀 흐리멍덩한 눈으로 
 나를 바라봤다. 그중에 한 사람은 노려보는 듯한 느낌이었지만, 딱히 나에게 말을 하진 않았다. 
-아무도 말을 하지 않고 나를 쳐다보고 있는 게 뻘쭘해질 때쯤 식당에서 요리사와 이장이 나오면서 나에게 말을 건넸다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||31|||
+아무도 말을 하지 않고 나를 쳐다보고 있는 게 뻘쭘해질 때쯤 식당에서 요리사와 이장이 나오면서 나에게 말을 건넸다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||31|||
 31|"이장: 자네 왔구만... 왜 자리에 앉지 않고 그렇게 서 있나? 
 아... 모두에게 인사를 했는데 다들 말씀이 없으셔서... 
 이장: ...아... 다들 좀 숫기가 없고 너무 오랜만에 외지에서 사람이 와서 그런 것 같네. 친해지면 다들 좋은 사람이니 일단 자리에 앉게나 식사해야지. 
-네 알겠습니다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||32|||
+네 알겠습니다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||32|||
 32|"이장의 말 덕에 뻘쭘함에서 벗어날 수 있었던 나는 빈자리에 가서 앉았다.
-이후 이장도 자리에 앉고 나니 요리사가 가져온 미트파이를 소분하여 사람들 앞에 내려놓기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||33|||
+이후 이장도 자리에 앉고 나니 요리사가 가져온 미트파이를 소분하여 사람들 앞에 내려놓기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||33|||
 33|"요리사: 자자 오늘 미트파이도 아주 맛있게 나왔습니다!
-다들 맛있게 드세요!!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||34|||
+다들 맛있게 드세요!!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_COOKER_SMILE.png||||34|||
 34|"주민들은 다들 자기 앞에 미트파이가 놓이는 순간 걸신들린 귀신처럼 게걸스럽게 미트파이를 먹기 시작했다.
-일을 너무 많이 해서 배가 많이 고팠나...? 저렇게까지 먹는다고??"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||35|||
+일을 너무 많이 해서 배가 많이 고팠나...? 저렇게까지 먹는다고??"|SCENE_STORY_INSIDE(PLAZA).jpg|||||35|||
 35|"이장: 다들 오늘 낮에 밥도 못 먹고 일을 해서 배가 많이 고팠던 것 같구먼, 자네도 어서 들지
 사람들의 먹는 모습을 보며 놀란 표정을 짓는 나에게 이장이 말을 했다.
-...하하... 네 이장님도 맛있게 드세요!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||36|||
+...하하... 네 이장님도 맛있게 드세요!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||36|||
 36|"나는 이장의 말에 답을 하고 미트파이 한 조각을 입에 넣었다.
 음! ... 어? 낮에는 좀 특이한 맛이었던 것 같은데... 이거 굉장히 맛있잖아??
 방금 만든 미트파이라 그런 건가?? 너무 맛있는데??
 낮에 먹었던 좀 식은 미트파이와는 전혀 다른 맛이었다. 
 나는 미트파이를 음미하면서 먹었고, 정신을 차리니 이미 모든 미트파이를 다 먹은 후였다. 
 쩝... 벌써 다 먹었네??? 아쉬워라... 
-다들 미트파이를 다 먹은 것으로 보일 때쯤 이장이 자리에서 일어나며 말했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||37|||
+다들 미트파이를 다 먹은 것으로 보일 때쯤 이장이 자리에서 일어나며 말했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||37|||
 37|"이장: 다들 오늘도 수고했네, 일용할 양식을 위한 사냥도 성공했으니 오늘 투표는 하지 않도록 하겠네. 
-오늘 하루 마무리 잘하고 어여 집에 들어가서들 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||38|||
+오늘 하루 마무리 잘하고 어여 집에 들어가서들 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||38|||
 38|"투표...? 무슨 투표를 말하는 거지?
 이장의 말에 의문이 생겼던 나는 주변 사람들에게 물어보고자 했으나, 
 다들 이미 자기 자리를 정리하고 자기 집으로 돌아가고 있었다.
 이장님에게라도 물어볼까 했지만, 이장님은 요리사와 휴고에게 무슨 말을 하고 있어서 말을 걸기가 애매했다.
 흠... 에이! 모르겠다. 나중에 알려주겠지! 
 오늘은 일단 집에 가서 쉬자! 
-배도 부르겠다. 낮잠을 자긴 했지만, 워낙 피곤한 하루였기 때문에 나는 집에 가서 잠을 자기로 했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||65|||
-39|인사를 하러 다니면 좋겠지만… 장시간 비행기를 타서 피곤했던 나는 집으로 가서 잠을 청했다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||29|||C
+배도 부르겠다. 낮잠을 자긴 했지만, 워낙 피곤한 하루였기 때문에 나는 집에 가서 잠을 자기로 했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||65|||
+39|인사를 하러 다니면 좋겠지만… 장시간 비행기를 타서 피곤했던 나는 집으로 가서 잠을 청했다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||29|||C
 40|"약초 가방을 멘 사람한테 가보자!
-나는 약초 가방을 메고 집으로 향하고 있는 사람에게 다가가 인사를 했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||41|||
+나는 약초 가방을 메고 집으로 향하고 있는 사람에게 다가가 인사를 했다."|SCENE_STORY_TOWN(INTRO).jpg|||||41|||
 41|"안녕하세요!! 저는 이번에 이사 온 김 기자라고 합니다!
 약초 가방 든 사람: … 무슨 일인가?
 내가 인사를 하자, 나를 무표정하게 바라보며 답했다.
-아... 다름 아니라 제가 이번에 인사 와서 인사드리려고 말을 걸었습니다!"|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_VENJAMIN.png|BGM_STORY_INTRO.mp3|||42|||
+아... 다름 아니라 제가 이번에 인사 와서 인사드리려고 말을 걸었습니다!"|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_VENJAMIN.png||||42|||
 42|"벤자민: 흠... 나는 벤자민이라고 하네… 지금은 내가 좀 바쁘니 다음에 다시 이야기하게나...
 벤자민은 나에게 말을 마치자마자 등을 돌려 가버렸다.
 조... 조금 무뚝뚝한 사람이구나...
 자기 할 말만 하고 훅 가버린 벤자민으로 인해 나는 무안해졌다.
 음... 벤자민한테 말하고 나니 망치를 든 사람은 안 보이고… 
-저기 식당이 보이는데 식당으로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_FOOTSTEPS(FAR).wav|식당으로 간다|22|피곤하니 집에 들어가서 쉰다|39|G
+저기 식당이 보이는데 식당으로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg|||EFFECT_SOUND_FOOTSTEPS(FAR).wav|식당으로 간다|22|피곤하니 집에 들어가서 쉰다|39|G
 43|"목숨의 위협을 느낀 나는 바로 등을 돌려 집으로 뛰어가기 시작했다.
 아... 아니!!! 난 인사만 했을 뿐인데 망치로 때리려고 한다고?? 미친 거 아니야?? 
-나는 이해할 수 없는 행동을 하는 그 사람에게 화도 났지만 일단 살기 위해 달렸다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||44|||
+나는 이해할 수 없는 행동을 하는 그 사람에게 화도 났지만 일단 살기 위해 달렸다."|SCENE_STORY_TOWN(INTRO).jpg|||||44|||
 44|"벌컥! 끼익 쾅!
 나는 집에 도착하자마자 문을 열고 들어가 문을 세게 닫아버렸다.
 헉... 헉... 죽는 줄 알았네. 헉... 
-나는 전력으로 질주하며 가빠졌던 숨을 고르며 진정하려 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_FOOTSTEPS(RUN_DOOR).wav||45|||G
-45|똑똑똑!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_KNOCK.wav||46|||G
-46|?! 누구지? 설마... 망치 든 사람인가??|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||47|||
-47|똑똑똑!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_KNOCK.wav||48|||G
+나는 전력으로 질주하며 가빠졌던 숨을 고르며 진정하려 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_FOOTSTEPS(RUN_DOOR).wav||45|||G
+45|똑똑똑!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_KNOCK.wav||46|||G
+46|?! 누구지? 설마... 망치 든 사람인가??|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||47|||
+47|똑똑똑!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_KNOCK.wav||48|||G
 48|"누... 누구세요...?
-나는 두려움에 떨며 물었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||49|||
+나는 두려움에 떨며 물었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||49|||
 49|"???: 방금 망치 들고 있던 사람일세.
 왜…왜 그러시죠...?
 망치를 들고 나를 때리려고 했으면서 나를 찾아왔다고???
@@ -244,13 +244,13 @@
 다... 다음에 얘기하시죠!
 나는 방금 겪었던 무서움으로 인해 말을 떨면서 대답했다.
 휴고: ... 알겠네. 내 이름은 휴고라고 하네... 다음에 또 보게나. 
-자신이 휴고라고 알린 그 사람은 그 말과 함께 문 앞에서 떠난 듯했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||50|||
+자신이 휴고라고 알린 그 사람은 그 말과 함께 문 앞에서 떠난 듯했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png||||50|||
 50|"와... 뭐지... 진짜 죽는 줄 알았다고!!
 휴고라는 그 사람... 조심해야겠어...
 목숨의 위협을 느꼈던 나는 지금 밖에 만나면 휴고를 만날 것 같아 더 이상 나가지 않고
 저녁 시간까지 놀란 가슴을 진정시키며 기다리기로 했다
 ... 놀란 것도 진정된... 것 같고 시간이 7시가 다 돼가는 거 같으니 광장으로 나가봐야겠다. 
-나는 저녁에 미트파이도 얻을 겸 마을 사람들에게 인사도 할 겸 광장으로 나섰다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||30|||
+나는 저녁에 미트파이도 얻을 겸 마을 사람들에게 인사도 할 겸 광장으로 나섰다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||30|||
 51|"나는 조심스럽게 주방 커튼을 치며 들어갔다.
 !!!!!!
 헉!!!!
@@ -259,49 +259,49 @@
 생각지도 못한 장면을 보는 속이 올라와 낮에 먹었던 미트파이를 모두 게워냈다.
 이... 이게 뭐야!!! 우욱... 빨리... 나가서 알려…"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||52|||
 52|"퍽!!
-털썩"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||53|||G
-53|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||54|||
-54|어...? 왜 내가 엎드려있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||55|||
-55|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||56|||H
-56|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||57|||
-57|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|23|||
+털썩"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||EFFECT_SOUND_HIT(HAMMER_DIE).wav||53|||G
+53|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg|||||54|||
+54|어...? 왜 내가 엎드려있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg|||||55|||
+55|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg|||||56|||H
+56|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg|||||57|||
+57|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|23|||
 58|"어... 그럼 들어가 볼 수 있을까요?
 나는 요리사의 권유를 거절하지 않고 들어가 보기로 했다.
 요리사: ... 그러시죠. 
-요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||59|||
+요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||59|||
 59|"나는 크게 신경 쓰지 않고 주방 커튼을 치고 들어갔다.
 !!! 헉!! 이... 이게…
 나는 들어가자마자 너무나도 잔인한 광경에 소스라치게 놀랐다.
 그곳에는 사람 형태로 보이는 고기와 뼈 그리고 살가죽 등이 있었다.
-아니...이...이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||60|||
-60|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(KNIFE).wav||61|||G
+아니...이...이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||60|||
+60|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|||EFFECT_SOUND_HIT(KNIFE).wav||61|||G
 61|"컥!!
-나는 등에서 송곳으로 찌르는 듯한 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||62|||
+나는 등에서 송곳으로 찌르는 듯한 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|||||62|||
 62|"컥… 커헉… 컥…
-왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||63|||
+왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|||||63|||
 63|"털썩! ... 컥... 컥 
-나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||64|||
-64|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|26|||
+나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|||||64|||
+64|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|26|||
 65|"다음날, 나는 일어나기 전 꿈을 꾸었다. 
 꿈속에서 나는 미트파이가 차려진 탁자 앞에 앉아 있었고, 그 미트파이를 맛있게 먹었다. 
 미트파이는 천상의 맛이었고, 나는 그 미트파이를 먹으며 행복에 잠겨있었다."|SCENE_DREAM1.jpg||BGM_STORY_INTRO.mp3|||66|||
 66|"빠빠빠 빱빱 빱빠빠빱 빠빱 밥 빠빠빠 빱빱 빱빠빠빱 빠빱 밥 ... 틱! 
 ...쩝... 꿈이었구나... 
 잠에서 깬 나는 꿈속에서 먹었던 미트파이가 없다는 것을 자각하자, 
-강한 허기와 아쉬움이 몰려왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||67|||C
+강한 허기와 아쉬움이 몰려왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||67|||C
 67|"배가 너무 고픈데... 뭐라도 먹어야겠다.
 나는 어제 비행기를 타기 전 사놨던 간식거리를 먹으며 허기를 달랬다.
-하지만 왜인지 모르게 평소보다 배가 덜 차는 느낌이어서 허기가 사라지지 않았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||68|||
+하지만 왜인지 모르게 평소보다 배가 덜 차는 느낌이어서 허기가 사라지지 않았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||68|||
 68|"흠... 아직 배가 덜 찼나? 배가 고프네... 
 일단 먹을 건 더 없으니 좀 돌아다녀 봐야겠다. 
 나는 어제 인사 못한 주민들에게 인사도 하고, 음식거리도 구할 겸 밖으로 나왔다. 
-저기 집 앞에 앉아서 망치를 손질하는 휴고가 보이고... 반대편에는 구멍가게 같은 게 보이는데... 어디로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||휴고|92|구멍가게|69|
+저기 집 앞에 앉아서 망치를 손질하는 휴고가 보이고... 반대편에는 구멍가게 같은 게 보이는데... 어디로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||휴고|92|구멍가게|69|
 69|"일단 집에 먹을 것도 없고... 생필품도 좀 사야 될 거 같은데
 구멍가게로 가보자!
-나는 구멍가게로 보이는 집으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||70|||
+나는 구멍가게로 보이는 집으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg|||||70|||
 70|"""그 곳에는 각종 인스턴트 식품과, 건어물류, 그리고 구멍가게에서 직접 말린 것 같은 육포, 그리고 뉴질랜드 특산품인 키위가 있었다.
 안녕하세요! 계신가요??
-나는 구멍가게에 들어서며 크게 인사했다."""|SCENE_STORY_INSIDE(SHOP).jpg||BGM_STORY_INTRO.mp3|||71|||
+나는 구멍가게에 들어서며 크게 인사했다."""|SCENE_STORY_INSIDE(SHOP).jpg|||||71|||
 71|"구멍가게 주인: ... 누구신가? 
 구석 카운터에 앉아서 무언가를 작성하고 있던 구멍가게 주인이 나에게 물었다. 
 아. 안녕하세요! 어제 식당에서 크게 인사드렸던 이번에 이사 온 김기자라고 합니다. 
@@ -318,23 +318,23 @@
 그 재료가 뭔지 알 수 있을까요? 
 구멍가게 주인: ... 아직 마을에 온 지 얼마 안 됐기 때문에 알려줄 순 없네. 
 내 질문에 구멍가게 주인은 잠깐 멈칫한 듯 보였으나, 이내 알려 줄 수 없다고 답했다. 
-... 알겠습니다. 일단 이것들 구매할게요!"|SCENE_STORY_INSIDE(SHOP).jpg|CHARACTER_SHOP_OWNER.png|BGM_STORY_INTRO.mp3|||72|||
+... 알겠습니다. 일단 이것들 구매할게요!"|SCENE_STORY_INSIDE(SHOP).jpg|CHARACTER_SHOP_OWNER.png||||72|||
 72|"어제 이사 와서 마을 주민이 되었지만, 아직 알려줄 수 없다는 구멍가게 사장의 말에 서운했지만, 
-그럴 수도 있다고 생각이 들긴 해서 일단 계산을 하고 장 본 것들을 집으로 가져갔다."|SCENE_STORY_INSIDE(SHOP).jpg||BGM_STORY_INTRO.mp3|||73|||
+그럴 수도 있다고 생각이 들긴 해서 일단 계산을 하고 장 본 것들을 집으로 가져갔다."|SCENE_STORY_INSIDE(SHOP).jpg|||||73|||
 73|"후! 그러면 이제 집에서 먹을 것들이랑 생필품은 모두 해결한 건가?? 
-이제 곧 점심시간이긴 한데... 미트파이가 먹고 싶군... 얻을 순 없겠지?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||미트파이를 얻으러 나간다|74|라면을 먹는다|93|
+이제 곧 점심시간이긴 한데... 미트파이가 먹고 싶군... 얻을 순 없겠지?"|SCENE_STORY_TOWN(INTRO).jpg||||미트파이를 얻으러 나간다|74|라면을 먹는다|93|
 74|"아무래도 꿈속에서까지 나온 미트파이를 너무 먹고 싶은 것 같아! 
 미트파이를 얻으러 한번 나가보자! 
-이장님에게 가서 물어볼까? 아니면 식당을 가서 요리사한테 물어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||이장|95|요리사|75|
+이장님에게 가서 물어볼까? 아니면 식당을 가서 요리사한테 물어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||이장|95|요리사|75|
 75|"식당에 가면 그래도 좀 얻어먹을 거리가 있을 테니 일단 식당으로 가보자! 
-나는 식당으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||76|||
+나는 식당으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg|||||76|||
 76|"끼이익 - 탁 
 안녕하세요! 요리사님!! 
-나는 식당에 들어가면서 크게 인사했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||77|||
+나는 식당에 들어가면서 크게 인사했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||77|||
 77|"쾅 쾅쾅!! 서걱 서걱 서걱... 쾅!! 쾅!!
-요리사의 대답은 들을 순 없었지만, 주방에서 들려오는 소리로 요리사가 주방 일을 하고 있다는 것을 알 순 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_MAKING(KITCHEN).wav||78|||G
+요리사의 대답은 들을 순 없었지만, 주방에서 들려오는 소리로 요리사가 주방 일을 하고 있다는 것을 알 순 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_MAKING(KITCHEN).wav||78|||G
 78|"재료 손질하느라 많이 바쁜 거 같은데... 
-어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||주방으로 들어간다|79|소리 지른다|80|
+어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||주방으로 들어간다|79|소리 지른다|80|
 79|"손질 중에 소리쳐봤자 못 들으실 것 같은데 한번 들어가 보자! 
 나는 주방을 향해 걸어갔다. 
 쾅 쾅쾅 쾅!! 서걱 서걱 쾅쾅 쾅! 
@@ -342,7 +342,7 @@
 근데... 재료 손질할 때 원래 이렇게 큰 소리가 날 정도로 강하게 내리쳐야 되나...? 
 뚝! 
 내가 거의 주방에 다 도달할 때쯤 재료 손질 소리가 멈췄다. 
-어...? 다 끝났나? 그럼 굳이 안 들어가고 요리사님을 불러도 되는 거 아닌가?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||요리사를 부른다|80|주방에 들어간다|97|
+어...? 다 끝났나? 그럼 굳이 안 들어가고 요리사님을 불러도 되는 거 아닌가?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||요리사를 부른다|80|주방에 들어간다|97|
 80|"요리사님!!! 저 왔어요!!! 김기자에요!!! 
 그래도 주방은 요리사만의 공간인데, 부를 수 있다면 굳이 들어갈 필요가 없다 생각한 나는 주방 앞에서 요리사를 불렀다. 
 요리사: ... 어쩐 일이시죠? 
@@ -364,16 +364,16 @@
 요리사 말에 나는 이틀간 소를 본 적이 없어서 의아해했다.
 요리사: ... 못 믿으시겠으면 한번 들어와 보실래요??
 요리사는 내가 좀 의아해하자 주방으로 들어가 보겠냐고 권했다.
-한번 들어가서 재료 좀 봐볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3||들어간다|104|들어가지 않는다|81|
+한번 들어가서 재료 좀 봐볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|||들어간다|104|들어가지 않는다|81|
 81|"아니에요! 요리 작업하시는데 더 방해할 순 없죠! 
 기다렸다가 저녁 7시에 미트파이 맛있게 먹겠습니다! 
-작업하시는데 방해해서 죄송합니다!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||82|||
+작업하시는데 방해해서 죄송합니다!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||82|||
 82|"나는 요리사에게 인사를 하고 밖으로 나왔다. 
-뒤에서 시선이 느껴지는 것은 기분 탓이겠지..."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||83|||
+뒤에서 시선이 느껴지는 것은 기분 탓이겠지..."|SCENE_STORY_TOWN(INTRO).jpg|||||83|||
 83|"밖으로 나오니 왼쪽 멀리 어제 날 노려보던 한 사람이 보이고, 오른쪽에는 휴고가 자루를 하나 들고 가는 것을 볼 수 있었다.
-누구에게 말을 걸어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||노려보던사람|84|휴고|111|
+누구에게 말을 걸어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||노려보던사람|84|휴고|111|
 84|"저녁시간에 대부분 멍한 표정이었던 다른 주민들과 달리 뭔가... 나를 노려봤던 사람에게 가볼까?
-나는 왼쪽에 있는 사람에게 다가갔다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||85|||
+나는 왼쪽에 있는 사람에게 다가갔다."|SCENE_STORY_TOWN(INTRO).jpg|||||85|||
 85|"안녕하세요!!!
 노려봤던 사람: ...
 나는 그 사람에게 다가가 밝게 인사했지만, 그 사람은 대답하지 않았다.
@@ -389,17 +389,17 @@
 아! 뭔가 만들고 계신 거였군요. 냄새가... 조금 역한 거 같은데...
 올리버: ...! 혹시 이사 오셔서 미트파이를 몇 번 드셨나요?
 음? 아 여기 와서 ... 한번... 두 번... 총 두 번 먹었네요! 참 맛있었어요
-올리버: ... 그렇군요. 좀 바빠서 저는 이만 가보겠습니다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png|BGM_STORY_INTRO.mp3|||86|||
+올리버: ... 그렇군요. 좀 바빠서 저는 이만 가보겠습니다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png||||86|||
 86|"내가 미트파이를 먹었다는 말에 올리버 씨는 표정이 굳더니 바로 자리를 벗어나 버렸다. 
 내가 별로 맘에 안 들었나?? 흠 
-일단 이제 저녁시간이 다 돼가니 광장으로 향해야겠다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||87|||
+일단 이제 저녁시간이 다 돼가니 광장으로 향해야겠다."|SCENE_STORY_TOWN(INTRO).jpg|||||87|||
 87|"저녁 7시 나는 광장으로 가서 사람들과 함께 탁자에 앉았다. 
 크... 미트파이 향기가 벌써부터 나는 군 
 식당에서 날라오는 미트파이 향기를 맡은 나는 침이 고이기 시작했다.
 츄릅... 빨리 왔으면 좋겠는데... 너무 배가 고프다... 
-이런 생각을 하고 있는 사이 식당 문이 열리며 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||88|||
+이런 생각을 하고 있는 사이 식당 문이 열리며 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||88|||
 88|"이장: 자 오늘도 다들 고생했네... 어여들 들고 가서 쉬게나.
-이장은 어제와 같은 말을 하고 사람들에게 미트파이를 나눠줬다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||89|||
+이장은 어제와 같은 말을 하고 사람들에게 미트파이를 나눠줬다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||89|||
 89|"사람들은 이번에도 미트파이를 받자마자 게걸스럽게 먹기 시작했다. 
 음... 이 광경은 어제도 봤지만... 참 뭔가 무섭다고 해야 되나... 좀 그렇네... 
 사람들의 먹는 모습에 거부감이 느껴졌던 나였지만, 미트파이가 내 앞에 놓인 순간 
@@ -407,29 +407,29 @@
 음!!! 캬~~~ 어떻게 이런 맛이 날 수가 있지??? 너!! 무 맛있잖아!!! 그동안 이런 미트파이를 모르고 살았다니... 
 나는 행복에 겨워하며 미트파이를 맛있게 먹었다.
 어...? 벌써 다 먹었네?... 양이 좀 적은 거 아닌가... 아쉽다... 쩝.
-순식간에 미트파이를 먹어치운 나는 아쉬움에 잠겨있었는데"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||90|||
+순식간에 미트파이를 먹어치운 나는 아쉬움에 잠겨있었는데"|SCENE_STORY_INSIDE(PLAZA).jpg|||||90|||
 90|"이장: 아 맞다 내가 깜빡하고 투표를 말 안 했구먼, 오늘도 사냥에 성공했기 때문에 투표는 진행하지 않아도 되네 다 먹었으면 집에 가서 쉬게나. 
 이장이 어제처럼 투표에 대해 언급했다. 
-투표가... 뭐지? 오늘 한번 물어볼까?"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3||물어본다|112|집에서 쉰다|91|
+투표가... 뭐지? 오늘 한번 물어볼까?"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|||물어본다|112|집에서 쉰다|91|
 91|"에이 미트파이도 먹었고 배도 부르겠다... 그냥 가서 잠이나 자자.
-나는 집으로 향했고, 좀 쉬다가 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||114|||C
+나는 집으로 향했고, 좀 쉬다가 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||114|||C
 92|"멈칫! 
 나는 휴고에게 가려고 했으나, 발걸음을 떼는 순간 어제 휴고의 모습이 생각났다.
 ... 휴고는 너무 무서운데... 어차피 집에 생필품도 필요하니... 구멍가게를 가자.
-나는 휴고에게 가는 것을 포기하고 구멍가게를 향했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||70|||
-93|미트파이를 먹고 싶지만... 컵라면을 안 먹은지도 꽤 됐기 때문에 오늘은 컵라면을 먹기로 했다.|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||94|||
+나는 휴고에게 가는 것을 포기하고 구멍가게를 향했다."|SCENE_STORY_TOWN(INTRO).jpg|||||70|||
+93|미트파이를 먹고 싶지만... 컵라면을 안 먹은지도 꽤 됐기 때문에 오늘은 컵라면을 먹기로 했다.|SCENE_STORY_TOWN(INTRO).jpg|||||94|||
 94|"후루룩 쩝쩝…
 흠... 내가 생각했던 맛이 아닌데... 그냥 미트파이 구하러 나가볼걸...
 나는 생각보다 맛없는 컵라면에 실망하며 
 오히려 미트파이를 먹고 싶은 마음이 강해졌다.
-흠... 어쨌든... 배는 채웠으니 다시 마을 사람들에게 인사를 하러 나가보자."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||83|||
+흠... 어쨌든... 배는 채웠으니 다시 마을 사람들에게 인사를 하러 나가보자."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||83|||
 95|"이장님이 어제 미트파이를 주셨으니... 
 오늘도 얻을 수 있는지 한번 찾아가 보자. 
 나는 이장님으로 향했다. 
 똑똑똑! 
 나는 이장님 집 앞에 도착해 문을 두드렸다. 
 이장님: 누구신가?
-이장님! 접니다 어제 이사 온 김기자에요!"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||96|||
+이장님! 접니다 어제 이사 온 김기자에요!"|SCENE_STORY_TOWN(INTRO).jpg|||||96|||
 96|"이장님: 아. 자네구만... 그래 무슨 일로 찾아왔는가?
 이장님은 문을 열어주며 물었다.
 그... 다름 아니라 혹시 미트파이를 얻어먹을 수 있을까 해서…
@@ -442,37 +442,37 @@
 지금 줄 수 없다는 이장님의 말에 나는 왜인지 화가 났다.
 이장님: ... 그래도 매일 저녁마다 먹을 수 있으니 너무 상심하지 말게나.
 하하... 알겠습니다. 감사합니다 이장님! 있다가 저녁 식사때 봬요!
-나는 아쉬움을 뒤로하고 이장님에게 인사한 후 밖으로 나왔다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||83|||
+나는 아쉬움을 뒤로하고 이장님에게 인사한 후 밖으로 나왔다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_MASTER_LEE.png||||83|||
 97|"나는 주방에 있는 요리사에게 미트파이를 얻을 수 있을지도 모르겠다는 생각에 거침없이 들어갔다. 
 안녕하세요 요리ㅅ...
 푹!!! 털썩"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(KNIFE).wav||98|||G
 98|"나는 순간 복부에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.
 헉…허억…
 강렬한 통증이 느껴졌던 복부를 감싼 손에서 뜨거운 액체가 느껴졌다. 바로 피였다.
-허억…억 나는 엎어진 상태로 요리사를 보려 했다."|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||99|||
-99|!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||100|||
+허억…억 나는 엎어진 상태로 요리사를 보려 했다."|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||99|||
+99|!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|||||100|||
 100|"요리사 옆에는 사람 형태를 한 고기와 뼈가 놓여 있었고 
-요리사는 나를 향해 칼을 내려찍고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||101|||
-101|푹!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(KNIFE).wav||102|||G
-102|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||103|||
-103|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|79|||
+요리사는 나를 향해 칼을 내려찍고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|||||101|||
+101|푹!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|||EFFECT_SOUND_HIT(KNIFE).wav||102|||G
+102|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|||||103|||
+103|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|79|||
 104|"어... 그럼 들어가 볼 수 있을까요? 
 나는 요리사의 권유를 거절하지 않고 들어가 보기로 했다.
 요리사: ... 그러시죠.
-요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||105|||
+요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||105|||
 105|"나는 크게 신경 쓰지 않고 주방 커튼을 치고 들어갔다. 
 !!! 헉!! 이... 이게… 
 나는 들어가자마자 너무나도 잔인한 광경에 소스라치게 놀랐다. 
 그곳에는 사람 형태로 보이는 고기와 뼈 그리고 살가죽 등이 있었다.
-아니...이...이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||106|||
-106|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(KNIFE).wav||107|||G
+아니...이...이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||106|||
+106|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|||EFFECT_SOUND_HIT(KNIFE).wav||107|||G
 107|"컥!!
-나는 등에서 송곳으로 찌르는 듯한 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||108|||
+나는 등에서 송곳으로 찌르는 듯한 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|||||108|||
 108|"컥… 커헉… 컥…
-왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||109|||
+왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|||||109|||
 109|"털썩! ... 컥... 컥 
-나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||110|||
-110|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|80|||
+나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|||||110|||
+110|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|80|||
 111|"멈칫! 
 나는 휴고에게 가려고 했으나, 발걸음을 떼는 순간 어제 휴고의 모습이 생각났다.
 ... 휴고는 너무 무서운데... 차라리 저기 노려보는 사람한테 가자...
@@ -484,19 +484,19 @@
 이장님!! 혹시 투표가 뭔지 알 수 있을까요? 
 투표가 궁금했던 나는 이장에게 물었다.
 아... 네... 알겠습니다.
-나는 이장의 말에 좀 서운했지만, 눈앞의 미트파이가 너무 맛있어 보여 다시 미트파이를 먹는데 집중했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||113|||
-113|나는 미트파이를 다 먹고 집으로 가서 잠을 청했다.|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||114|||C
+나는 이장의 말에 좀 서운했지만, 눈앞의 미트파이가 너무 맛있어 보여 다시 미트파이를 먹는데 집중했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||113|||
+113|나는 미트파이를 다 먹고 집으로 가서 잠을 청했다.|SCENE_STORY_INSIDE(PLAZA).jpg|||||114|||C
 114|"나는 또 꿈을 꾸었다. 
 이번엔 아파트만 한 미트파이가 있었고 그 앞에 내가 서 있었다. 그 미트파이는 나를 향해 무너져 내렸고, 
 나는 그 미트파이를 먹기 위해 입을 벌려 받아냈다. 너무 행복한 느낌이었다."|SCENE_DREAM2.jpg||BGM_STORY_MIDDLE.mp3|||115|||
 115|"쩝... 오늘도 미트파이 꿈이었네... 참 맛있었는데... 
 삼시 세끼 모두 미트파이를 먹었으면 좋겠네... 
-오늘은 마을 안뿐만 아니라 바깥도 한번 돌아보는 게 어떨까 싶은데 밖으로 한번 나가볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||마을 밖으로 나간다|116|주민을 만난다|144|
+오늘은 마을 안뿐만 아니라 바깥도 한번 돌아보는 게 어떨까 싶은데 밖으로 한번 나가볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||마을 밖으로 나간다|116|주민을 만난다|144|
 116|"그래도 이사 왔으면 마을 밖도 좀 돌아봐야지! 
-나는 밖을 돌아다니기로 마음먹고 마을 밖으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||117|||
+나는 밖을 돌아다니기로 마음먹고 마을 밖으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||117|||
 117|"마을 밖은 다양한 나무와 저 멀리 산이 보였고, 마을 옆에는 바다 같은 호수가 붙어 있었다.
 캬~~ 외진 마을이라 그런지 경치도 정말 끝내주네!!
-나는 이 아름다운 경치를 보며 힐링하려 했는데..."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||118|||
+나는 이 아름다운 경치를 보며 힐링하려 했는데..."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||118|||
 118|"???: 저기요! 
 갑자기 모르는 사람이 나에게 말을 건네 왔다. 
 어? 누구지? 마을에서 못 보던 사람인데? 
@@ -508,25 +508,25 @@
 그 혹시 저기 보이는 곳이 마을인 것 같은데, 혹시 방문해도 문제 되지 않을까요? 
 그 부부는 우리 마을을 가리키며 말했다.
 우리 마을이라... 솔직히 방문해도 상관없을 것 같긴 한데... 좀 다들 많이 무뚝뚝할 텐데
-방문해도 괜찮을까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3||괜찮다고 말한다|119|안된다고 말한다|142|
+방문해도 괜찮을까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|||괜찮다고 말한다|119|안된다고 말한다|142|
 119|"방문해도 문제 될게, 없을 것 같은데요? 그냥 여행객이라 말하고 돌아보시면 될 것 같아요! 
 아 근데 마을 사람들이 좀 많이... 과묵한 편이라 좀 당황스러우실 순 있을 거예요. 
-여행객 부부: 아~ 그렇군요! 한번 가봐야겠네요! 감사합니다!"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3|||120|||
-120|나는 괜찮을 거라고 말해줬고, 그 부부는 감사 인사를 한 뒤 마을로 향했다.|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||121|||
+여행객 부부: 아~ 그렇군요! 한번 가봐야겠네요! 감사합니다!"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png||||120|||
+120|나는 괜찮을 거라고 말해줬고, 그 부부는 감사 인사를 한 뒤 마을로 향했다.|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||121|||
 121|"자 ~ 그럼 나는 다시 경치 좀 보면서 힐링 좀 할까? 
 나는 주변을 둘러보며 경치 감상을 다시 시작했다.
 흐으음 ~ 역시 좋네. 이런 좋은 경치에는 미트... 어? 미트파이가 왜 갑자기 생각났지? 허허... 
-근데 배고프긴 하네... 점심을 간단히 때우러 집에 돌아갈까? 아니면 좀 더 바깥을 둘러볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3||점심 먹으러 간다|143|바깥을 둘러본다|122|
+근데 배고프긴 하네... 점심을 간단히 때우러 집에 돌아갈까? 아니면 좀 더 바깥을 둘러볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||||점심 먹으러 간다|143|바깥을 둘러본다|122|
 122|"음 조금 더 둘러보자! 이렇게 바깥으로 나올 일도 별로 없을 것 같은데! 
 어? 저기 무슨 밭 같은 게 보이는데... 마을 밖에서도 농사를 짓는 건가? 
 주변을 더 둘러보던 나는 약초밭 같은 것을 볼 수 있었다.
 약초밭에서... 좀 향긋한 냄새가 나는 것 같기도 한데...
-한번 가볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3||약초 밭으로 간다|123|안간다|145|
+한번 가볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||||약초 밭으로 간다|123|안간다|145|
 123|"냄새가 좀... 많이 향긋한데... 한번 가보자!
-나는 약초밭을 향해 걸어갔다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||124|||
+나는 약초밭을 향해 걸어갔다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||124|||
 124|"약초밭에 가까워질수록 약초 냄새가 점점 짙어졌다.
 약초 냄새는 이상하리만치 향기롭고, 왜인지 모르게 군침이 돌기 시작했다.
-음... 왜 갑자기 미트파이 생각이 나는 거지...?"|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3|||125|||
+음... 왜 갑자기 미트파이 생각이 나는 거지...?"|SCENE_STORY_OUTSIDE(GARDEN).jpg|||||125|||
 125|"???: 거기 누구야!!!! 
 갑자기 누군가가 나에게 크게 소리치며 불러 세웠다. 
 헉! 아... 안녕하세요. 이번에 이사 온 김기자라고 합니다. 
@@ -536,40 +536,40 @@
 아... 죄송합니다. 냄새가 너무 좋아서... 혹시 어떤 약초인지만 좀 알려주실 수 있을까요? 집에서 키워보게요... 하하... 
 너무도 강렬하고 향긋한 약초 냄새를 떨쳐버릴 수가 없어 나는 약초에 대해서 물어봤다.
 벤자민: ... 그건 지금 알려줄 순 없네. 빨리 여기서 나가게!
-벤자민은 오히려 성을 내며 나를 내쫓았다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|CHARACTER_VENJAMIN.png|BGM_STORY_MIDDLE.mp3|||126|||
+벤자민은 오히려 성을 내며 나를 내쫓았다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|CHARACTER_VENJAMIN.png||||126|||
 126|"에이... 그것 좀 알려주면 안 되나? 약초가 뭐 그리 중요한 거라고... 좀 화가 나지만 일단 내가 무단 침입자인 셈이니... 나가자... 
 나는 약초에 대해 더 물어보고 싶었지만, 일단 밖으로 나왔다.
 흠... 근데 냄새가 진짜 너무 좋은데... 그리고 왜 이 냄새를 맡으니 미트파이가 생각이 날까... 
-잊을 수 없는 약초 냄새를 다시 떠올리며 나는 마을로 돌아갔다."|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3|||127|||
+잊을 수 없는 약초 냄새를 다시 떠올리며 나는 마을로 돌아갔다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|||||127|||
 127|"마을 입구에 들어서는 순간 오른쪽 끝에서 휴고가 자루를 식당으로 나르는 것을 볼 수 있었다. 
-식당 문 앞에는 자루가 하나 더 놓여있었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||128|||
+식당 문 앞에는 자루가 하나 더 놓여있었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||128|||
 128|"음? 뭐지? 미트파이 재료를 구해서 가지고 가는 건가?
 나는 미트파이의 재료로 생각되는 자루에 호기심이 생겨 조심스럽게 휴고의 행동을 살펴보았다.
 휴고는 들고 있던 자루를 다른 자루 옆에 내려놨는데, 그 순간 옆에 있는 자루가 꿈틀거리는 것 같이 보였다.
 어? 아직 살아있는 건가?
-그 순간 휴고가 얼굴을 찌푸리며 옆에 있는 망치를 들고 그 자루를 세게 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||129|||
+그 순간 휴고가 얼굴을 찌푸리며 옆에 있는 망치를 들고 그 자루를 세게 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||129|||
 129|"퍽!!! 부르르...
-자루를 망치로 내려치는 순간 자루 밖으로 피가 튀었고, 자루는 부르르르 떠는 듯하더니 이내 멈추었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||130|||G
+자루를 망치로 내려치는 순간 자루 밖으로 피가 튀었고, 자루는 부르르르 떠는 듯하더니 이내 멈추었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||130|||G
 130|"헉!!!... 뭐길래 저렇게 피가 많이 튀지... 
 잔인한 장면에 순간적으로 놀라 나는 몸이 굳었다. 
 그 순간 몸이 굳어 가만히 서 있는 나와 휴고의 눈이 마주쳤다. 
 !!?!
 그냥 미트파이 재료를 때린 것뿐인데... 왜 이렇게 무서울까...
 나는 그 자리에서 도망치고 싶다는 생각이 강하게 들었다.
-도망칠까? 아니면 오해를 살 수도 있으니 다가가서 자연스레 행동할까?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3||집으로 도망친다|131|다가간다|146|
+도망칠까? 아니면 오해를 살 수도 있으니 다가가서 자연스레 행동할까?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|||집으로 도망친다|131|다가간다|146|
 131|"휴고의 행동과 눈빛이 너무도 무서웠던 나는 바로 등을 돌려 우리 집을 향해 빠르게 걸어갔다. 
 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 
-집 문 앞에 도착한 나는 문을 열고 들어가 문을 닫으려 했다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||132|||
-132|!!!?!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||133|||
+집 문 앞에 도착한 나는 문을 열고 들어가 문을 닫으려 했다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||132|||
+132|!!!?!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||133|||
 133|"문을 닫으려고 고개를 돌린 순간 식당에서 아직도 나를 쳐다보고 있는 휴고와 눈이 마주쳤다.
-헉!! 아직도 보고 있네..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||134|||
+헉!! 아직도 보고 있네..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png||||134|||
 134|"끼이익 철컥 
 나는 문을 완전히 닫고 잠가버렸다. 
 하... 뭔데 저 사람은 저렇게 무서운 거지... 너무 무섭네
 그나저나... 재료가 뭐길래 자루에 그렇게 꽁꽁 싸맨 걸까?
 망치로 내려치니 피는 그렇게 튀고... 으~ 다시 생각해도 징그럽네...
 일단 저녁시간까지... 시간이 좀 남았으니 좀 쉬다가 밥 먹으러 가야겠다.
-미트파이를 빨리 먹고싶네... 쩝..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||135|||
+미트파이를 빨리 먹고싶네... 쩝..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||135|||
 135|"저녁 7시가 되어 나는 광장을 향했다. 
 어제와 같이 사람들은 탁자에 둘러앉아 있었고, 나도 내 자리에 가서 착석했다. 
 빨리... 빨리 나와라... 빨리 먹고 싶어 미트파이... 
@@ -580,13 +580,13 @@
 오늘 하루 동안 밖을 돌아다니느라 밥을 못 먹었던 나는 미트파이 냄새에 미쳐버릴 것 같았다.
 미트파이가 내게 오는 순간 나는 이성을 잃고 걸신들린 귀신마냥 게걸스럽게 미트파이를 먹기 시작했다. 
 우걱우걱... 쩝쩝... 켁켁... 우걱우걱 
-이장은 그런 나의 모습을 흐뭇하게 쳐다봤다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_EATING.wav||136|||G
+이장은 그런 나의 모습을 흐뭇하게 쳐다봤다."|SCENE_STORY_INSIDE(PLAZA).jpg|||EFFECT_SOUND_EATING.wav||136|||G
 136|"이장: ... 오늘도 역시 사냥에 성공했다네, 무려 2마리나 사냥에 성공해서 당분간은 투표를 하지 않아도 될 것 같네.
-다들 오늘 하루도 고생했고 다 먹으면 어서 집에 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_MIDDLE.mp3|||137|||
+다들 오늘 하루도 고생했고 다 먹으면 어서 집에 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||137|||
 137|"멈칫! 나는 미친 듯이 미트파이를 먹다가, 2마리라는 말에 낮에 봤던 여행객이 떠올랐다. 
 2... 2마리?? 오늘... 마을로 안내한 여행객도 2명이었는데...?
 나는 왠지 모를 불안감에 미트파이를 먹다가 멈추고 이장을 바라봤다.
-여행객에 대해... 물어볼까? 아니면 이 맛있는 미트파이나 마저 먹을까?"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3||물어본다|138|미트파이를 먹는다|149|
+여행객에 대해... 물어볼까? 아니면 이 맛있는 미트파이나 마저 먹을까?"|SCENE_STORY_INSIDE(PLAZA).jpg||||물어본다|138|미트파이를 먹는다|149|
 138|"이장님! 혹시 오늘 제가 여행객 두 분을 마을로 안내했었는데... 만나 보셨나요? 
 나는 여행객에 대한 궁금증을 참지 못하고 이장에게 물어봤다. 
 이장: ... 오후쯤에 왔던 그 부부들 말하는 건가? 
@@ -597,71 +597,71 @@
 어? 그 부부가 차를 끌고 온 것 같진 않고... 마을의 거리상 집으로 돌아가기엔 멀었을 텐데... 그냥 돌아갔다고...? 
 이장의 답변에 위화감을 느낀 나는 고민에 빠졌는데, 이때 이장의 목소리가 들렸다. 
 이장: 자네 그 미트파이 이제 다 먹은 건가? 안 먹을 거면 다른 주민에게 나눠주는 것도 좋을 것 같은데?
-뭐?? 내 미트파이를 나눠준다고!?!! 미친 소리 아니야?!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_MIDDLE.mp3|||139|||
+뭐?? 내 미트파이를 나눠준다고!?!! 미친 소리 아니야?!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||139|||
 139|"나는 갑자기 내 미트파이를 나눠준다는 소리에 대답도 하지 않고 다시 미트파이를 먹기 시작했다. 
 우걱우걱 ... 쩝쩝... 켁켁 ... 우걱우걱...
 크... 맛있어 미트파이... 이걸 남에게 나눠준다고??? 미친 짓이지... 
 근데 내가 뭘 생각하고 있었더라...? 아 몰라 너무 맛있어!!! 일단 먹고 생각하자 
-나는 생각을 멈추기로 마음먹고 내 눈앞에 있는 미트파이에 집중했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||140|||
+나는 생각을 멈추기로 마음먹고 내 눈앞에 있는 미트파이에 집중했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||140|||
 140|"미트파이를 다 먹은 나는 더 먹고 싶은 마음이 가득했지만, 더 먹을 수 있는 미트파이가 남아있지 않았기 때문에 아쉬움을 뒤로하고 집으로 돌아왔다. 
 흠... 내가 아까 뭔가를 생각했었는데... 뭐였지... 중요한 거였는데... 
-근데 미트파이가 참 맛있었지..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||141|||
+근데 미트파이가 참 맛있었지..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||141|||
 141|"미트... 잠을 자면 미트파이 꿈을 또 꿀 수 있지 않을까? 일단 자야겠다. 
-나는 미트파이 꿈을 꾸기를 갈망하며 잠이 들었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||150|||C
+나는 미트파이 꿈을 꾸기를 갈망하며 잠이 들었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||150|||C
 142|"음... 그 마을은 안 가시는 게 좋을 것 같아요! 마을 사람들이 친절하지도 않고 좀… 둘러볼 곳이 없어서 
 차라리 저기 있는 호수를 보시는 게 낫지 않을까 싶습니다. 
 나는 왠지 모르게 마을로 이 부부를 보내면 안 될 것 같아 마을로 가지 말라고 말해줬다. 
 여행객 부부: 아… 그렇군요. 그럼 호수 쪽을 둘러봐야겠네요!! 감사합니다! 
 네 ~ 좋은 여행 되세요! 
-나는 여행객에게 인사를 하고 보낸 뒤 경치를 더 둘러보기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3|||121|||
+나는 여행객에게 인사를 하고 보낸 뒤 경치를 더 둘러보기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png||||121|||
 143|"배도 고픈데… 일단 집에 가서 뭐라도 좀 먹자.
 나는 배를 좀 채우기 위해 집으로 가서 컵라면을 먹었다.
-그리고 나는 다시 마을을 둘러보고자 밖으로 나왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||144|||
+그리고 나는 다시 마을을 둘러보고자 밖으로 나왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||144|||
 144|"밖으로 나와서 주변을 둘러보는데 휴고가 자루를 들고 식당으로 나르는 것을 볼 수 있었다.
-휴고가 향하는 곳에는 자루 하나가 더 놓여있었다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||128|||
+휴고가 향하는 곳에는 자루 하나가 더 놓여있었다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||128|||
 145|"에이 주인이 누구인지도 모르는데 함부로 가면 안 되겠지. 그냥 마을로 돌아가자.
-나는 등을 돌려 마을로 향했다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||146|||
-146|나는 도망가면 오히려 이상하리라 생각하여 휴고에게 다가가려고 마음먹었다.|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||147|||
+나는 등을 돌려 마을로 향했다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||146|||
+146|나는 도망가면 오히려 이상하리라 생각하여 휴고에게 다가가려고 마음먹었다.|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||147|||
 147|"퍼억!!
-근데 휴고가 나에게서 시선을 돌린 뒤 망치를 다시 굳게 다잡고 자루를 다시 한번 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||148|||G
+근데 휴고가 나에게서 시선을 돌린 뒤 망치를 다시 굳게 다잡고 자루를 다시 한번 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||148|||G
 148|"!!!!
-자루에는 다시 피가 튀었고 나는 나도 모르게 등을 돌려 집으로 뛰어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||132|||
+자루에는 다시 피가 튀었고 나는 나도 모르게 등을 돌려 집으로 뛰어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||132|||
 149|"에이 뭘 물어보냐… 이 맛있는 미트파이를 앞에 두고...
 미트파이가 식으면 미트파이에 대한 예의가 아니지!!!!
-나는 생각하는 것을 멈추고 미트파이를 미친 듯이 먹었다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||140|||
+나는 생각하는 것을 멈추고 미트파이를 미친 듯이 먹었다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||140|||
 150|"나는 오늘도 꿈을 꾸었다. 
 꿈에서는 미트파이로 만들어진 두 명의 사람이 있었고, 내 손에는 망치가 들려 있었다. 
 두 미트파이는 나에게서 도망가려 했고, 나는 미트파이를 먹기 위해 그들에게 달려가서 망치로 내려쳐 부숴버렸다. 
 그리고 난 그 미트파이를 먹으며 행복에 잠겨갔다. 
-쩝... 오늘도 꿈이었네... 도망가는 미트파이라니..."|SCENE_DREAM3.jpg||BGM_STORY_MIDDLE.mp3|||151|||
+쩝... 오늘도 꿈이었네... 도망가는 미트파이라니..."|SCENE_DREAM3.jpg|||||151|||
 151|"잡아서 먹긴 했지만... 미트파이가 도망 간다니... 어우 생각만 해도 끔찍하네... 그 맛있는 걸 놓쳐서 못 먹을 수도 있다니... 
 미트파이 꿈을 꿨더니... 미트파이 생각이 너무 난다... 
-저녁시간 외에는 먹을 수 없다고 했지만... 식당을 한번 가볼까? 사정하면 얻을 수 있지 않을까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||식당을 간다|152|집에서 해결한다|175|
+저녁시간 외에는 먹을 수 없다고 했지만... 식당을 한번 가볼까? 사정하면 얻을 수 있지 않을까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||식당을 간다|152|집에서 해결한다|175|
 152|"그래.. 밑져야 본전이지..! 식당으로 가서 미트파이를 얻을 수 없나 한 번 더 물어보자!! 
-나는 미트파이를 먹고 싶은 마음에 식당으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||153|||
+나는 미트파이를 먹고 싶은 마음에 식당으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||153|||
 153|"식당 앞에는 어제 봤던 자루에서 튄 핏자국이 그대로 묻어 있었다.
-어? 바닥에 뭔가 떨어져 있는 것 같은데... 뭐지? 가까이 가볼까?"|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_MIDDLE.mp3||가까이 가본다|154|식당으로 들어간다|176|
+어? 바닥에 뭔가 떨어져 있는 것 같은데... 뭐지? 가까이 가볼까?"|SCENE_STORY_INSIDE(REST).jpg||||가까이 가본다|154|식당으로 들어간다|176|
 154|"나는 바닥에 떨어져 있는 물체를 확인하러 다가갔고 그 물체를 들어 올렸다.
-어..? 이거 반지 아닌가???"|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_MIDDLE.mp3|||155|||
+어..? 이거 반지 아닌가???"|SCENE_STORY_INSIDE(REST).jpg|||||155|||
 155|"들어 올린 물체는 바로 피가 묻은 반지였다.
 반.. 반지?! 왜 여기에 반지가 떨어져 있지....
-서.. 설마 어제 그 부.. 부부?!"|SCENE_STORY_INSIDE(REST).jpg|ITEM_STORY_RING.png|BGM_STORY_MIDDLE.mp3|||156|||
+서.. 설마 어제 그 부.. 부부?!"|SCENE_STORY_INSIDE(REST).jpg|ITEM_STORY_RING.png||||156|||
 156|"확실한 건 아니지만... 어제 마을을 방문하고 사라진 부부... 떨어진 반지... 어제 자루의 크기... 이 모든 것이 뭔가 불길한 느낌을 암시하고 있었다.
-에이... 설마... 아니겠지..."|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_MIDDLE.mp3|||157|||
+에이... 설마... 아니겠지..."|SCENE_STORY_INSIDE(REST).jpg|||||157|||
 157|"일단 반지를 주운 나는 식당 안으로 들어갔다. 
-식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 듯해 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||158|||
+식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 듯해 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||158|||
 158|"저... 저기요~~. 요리사님!~
 나는 요리사에게 미트파이를 부탁하기 위해 크게 소리쳤다.
 요리사님!!! 계시나요!!!
 이렇게 소리를 치는데도 요리사가 답이 없는 것 보면... 지금 식당에 없는 것 같다.
 주방으로 이어진... 핏자국이 좀 신경 쓰이는데...
-주방으로 한번 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3||들어간다|177|들어가지 않는다|159|
+주방으로 한번 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|177|들어가지 않는다|159|
 159|"아냐... 들어갔다가 저번처럼 요리사가 칼 들고 나오면... 상상만 해도 끔찍하다. 
 나는 저번 경험을 떠올리며 부르르 떨었고, 등을 돌려 나가려고 했다. 
 빨리 나가서 다른...!!!! 
-등을 돌리자 요리사가 칼을 들고 나를 바라보고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||160|||
+등을 돌리자 요리사가 칼을 들고 나를 바라보고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||160|||
 160|"허허억!!!
-나는 놀라서 뒤로 넘어졌다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_FALLDOWN.wav||161|||G
+나는 놀라서 뒤로 넘어졌다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_FALLDOWN.wav||161|||G
 161|"요리사: ... 식당엔 무슨 일이시죠? 
 요리사는 나를 내려다보며 물었고, 얼굴은 웃고 있었지만... 눈빛은 마치 살기를 품은 눈처럼 날카로웠다. 
 아.. 아... 미트파이가 너무 머.. 먹고 싶어서... 부탁드려보려고 찾... 찾아왔어요 
@@ -672,7 +672,7 @@
 아니요!!! 아니요. 아니요!! 그래도 주인 없는 주방을 멋대로 들어가는 건 예.. 예의가 아닌 것 같... 같아서 그냥 돌아 나왔어요. 
 요리사는 대답 없이 나를 지긋이 바라봤다. 
 ... 정... 정말이에요! 저는... 저는 그저 미트파이가 먹고 싶었을 뿐이에요.... 
-나는 정말 무서워서 울먹거리며 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_MIDDLE.mp3|||162|||
+나는 정말 무서워서 울먹거리며 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||162|||
 162|"요리사: ... 하하하! 그러시군요! 제가 너무 무섭게 여쭤봤나 보네요 
 말씀하신 대로... 제 주방을 누군가 맘대로 들어갔을 거라 생각하니 좀 화가 나서 그랬습니다. 하하하! 
 너무 겁내지 않으셔도 돼요! 
@@ -680,7 +680,7 @@
 아.. 하.. 하하.. 그렇.. 군요.. 
 나는 놀란 가슴이 진정되지 않아 계속 말을 더듬으며 말을 했다.
 요리사: 주방이 궁금하신 것 같은데 저랑 같이 들어가 보실래요?
-요리사는 자기와 함께 주방에 들어가 볼 것이냐고 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_MIDDLE.mp3||들어간다|184|들어가지 않는다|163|
+요리사는 자기와 함께 주방에 들어가 볼 것이냐고 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|||들어간다|184|들어가지 않는다|163|
 163|"아... 아닙니다. 굳이 안 들어가 봐도 될 거 같아요... 아직 진정이 안 돼서 바람을 좀 쐬러 갈게요... 
 나는 아까의 궁금증은 사라지고, 이곳을 빨리 벗어나야겠다는 생각만 가득했다. 
 요리사: ... 그러시군요. 음... 그래도 제가 너무 놀라게 한 것 같아서... 아! 잠시만 기다리세요! 
@@ -690,23 +690,22 @@
 나는 요리사가 건넨 용기를 받고 안에 있는 것이 무엇인지 살펴봤다. 
 이건... 미... 미트... 파이?!!!?!?!
 감사합니다!!! 감사합니다!!! 이게 너무 먹고 싶었어요!!! 정말 감사합니다!!! 
-나는 미트파이를 보는 순간 방금까지 느꼈던 공포와 놀란 감정을 모두 잊어버린 채 
-요리사에게 미친 듯이 감사 인사를 한 후 식당을 빠르게 나와 집으로 향했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_MIDDLE.mp3|||164|||
+나는 미트파이를 보는 순간 방금까지 느꼈던 공포와 놀란 감정을 모두 잊어버린 채 요리사에게 미친 듯이 감사 인사를 한 후 식당을 빠르게 나와 집으로 향했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||164|||
 164|"집에 도착한 나는 미트파이 먹기 위해 용기를 열려고 했다, 그 순간 
-!!!? 이거 뭐지???"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||165|||
+!!!? 이거 뭐지???"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||165|||
 165|"용기를 열려고 올린 내 손에는 아까 식당에서 넘어지며 짚은 핏자국이 남아있었고 긴... 머리카락이 붙어 있었다. 
 이건 머리카락인... 가? 우리... 마을에 이 머리 색깔을 한 사람은 없는 것 같았는데... 
-나는 긴 머리카락을 보고 생각에 잠기려 했으나..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_STORY_HAIR.png|BGM_STORY_MIDDLE.mp3|||166|||
+나는 긴 머리카락을 보고 생각에 잠기려 했으나..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_STORY_HAIR.png||||166|||
 166|"열린 용기에서 풍겨오는 미트파이 냄새를 맡게 된 순간 미트파이를 먹고 싶은 생각밖에 들지 않았다. 
 그게 뭐가 중요해! 이 맛있는 미트파이가 있는데 딴생각을 하다니!!! 
-내가 미친 건가? 빨리 미트파이나 먹자!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||167|||
-167|우걱우걱...우걱우걱...우걱우걱..우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_EATING.wav||168|||G
+내가 미친 건가? 빨리 미트파이나 먹자!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||167|||
+167|우걱우걱...우걱우걱...우걱우걱..우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱우걱|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_EATING.wav||168|||G
 168|"손에 묻은 피를 신경 쓰지도 않고 미트파이를 모두 먹은 나는 포만감과 행복감에 가득 차서 소파에 기댔다. 
 캬... 이게 바로 행복이지... 이 맛있는 미트파이... 앞으로도 평생 계속 먹 고 싶다... 
-저녁이 되려면... 아직 시간이 남았는데... 이제 뭘 하지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||마을을 둘러본다|169|집에서 쉰다|192|
+저녁이 되려면... 아직 시간이 남았는데... 이제 뭘 하지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||마을을 둘러본다|169|집에서 쉰다|192|
 169|"아니야... 원하던 미트파이도 먹었고... 굳이 돌아다닐 필요가 있을... 까? 
 어차피 미트파이가 없으면 의미 없는 하루... 그냥 저녁 시간까지 쉬자 
-나는 저녁 시간에 먹을 미트파이를 생각하며, 소파에 누워 휴식을 취했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||170|||
+나는 저녁 시간에 먹을 미트파이를 생각하며, 소파에 누워 휴식을 취했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||170|||
 170|"저녁 시간이 되어 나는 광장으로 나갔다. 
 오늘도 탁자에 많은 사람이 앉아 있었고, 나도 그 사이에 앉아 미트파이가 나오기를 기다렸다. 
 잠시 후 이장과 요리사가 식당에서 미트파이를 들고 나왔고, 
@@ -714,23 +713,23 @@
 미트.. 미트파이... 빨리 줘... 
 나는 미트파이 냄새를 맡자 입에 침이 고였고, 빨리 내 앞에 미트파이를 줬으면 하는 생각이 가득해졌다.
 탁! 
-나는 내 앞에 미트파이가 놓이자마자 바로 내 품으로 끌어당겨 미친 듯이 먹기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||171|||
-171|미트파이 ... 너무!!! 너무 맛있어 헤헤헿 미트파이!!! 우걱우걱... 너무 맛있어!!! 우걱우걱...|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_EATING.wav||172|||G
+나는 내 앞에 미트파이가 놓이자마자 바로 내 품으로 끌어당겨 미친 듯이 먹기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||171|||
+171|미트파이 ... 너무!!! 너무 맛있어 헤헤헿 미트파이!!! 우걱우걱... 너무 맛있어!!! 우걱우걱...|SCENE_STORY_INSIDE(PLAZA).jpg|||EFFECT_SOUND_EATING.wav||172|||G
 172|"이장: 오늘은 사냥에 실패했지만, 다행히도 어제 2마리를 잡았기 때문에 재료가 부족하진 않았네. 
-내일도 사냥에 실패하면... 투표를 진행해야 하겠지. 어쨌든 다들 오늘 하루도 고생 많았네 어여들 먹고 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_MIDDLE.mp3|||173|||
+내일도 사냥에 실패하면... 투표를 진행해야 하겠지. 어쨌든 다들 오늘 하루도 고생 많았네 어여들 먹고 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||173|||
 173|"미트파이에 열중해서 먹고 있는 동안, 이장은 어제와 같이 마무리 말을 했다. 
-... 사냥에 실패해서 우걱우걱... 투표를 내일... 우걱우걱.. 한다고? 우걱우걱..."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_EATING.wav||174|||G
+... 사냥에 실패해서 우걱우걱... 투표를 내일... 우걱우걱.. 한다고? 우걱우걱..."|SCENE_STORY_INSIDE(PLAZA).jpg|||EFFECT_SOUND_EATING.wav||174|||G
 174|"근데 그게 중요한가..? 우걱우걱... 미트파이나 먹고 가서 쉬자 우걱우걱... 
-나는 생각하는 것을 멈추고 미트파이를 맛있게 먹은 후 집에 가서 잠이 들었다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||193|||
+나는 생각하는 것을 멈추고 미트파이를 맛있게 먹은 후 집에 가서 잠이 들었다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||193|||
 175|"미트파이가 너무… 먹고 싶었지만.. 
 저녁 시간 외에는 먹을 수 없다고 했으니… 간단하게 때우자. 
 나는 컵라면을 조리해서 먹기 시작했다. 
 후룹… 쩝…. 쩝….. 탁! 
 나는 몇 젓가락 먹다가 젓가락을 내려놨다.
 아냐.. 내가 원하는 건 이게 아니야…
-나는 미트파이 외에는 먹고 싶지 않아 식당으로 가서 사정해 보기로 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||152|||
+나는 미트파이 외에는 먹고 싶지 않아 식당으로 가서 사정해 보기로 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||152|||
 176|"나는 식당 안으로 들어갔다.
-식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 것처럼 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||158|||
+식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 것처럼 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||158|||
 177|나는 조심스럽게 주방 커튼을 치고 들어갔다.|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_FOOTSTEPS(KITCHEN).wav||178|||G
 178|"!!!!!! 
 헉!!!! 
@@ -738,47 +737,47 @@
 욱!! 우욱!! 우웨에에에엑!!! 
 생각지도 못한 장면을 보고는 속이 뒤집혀 낮에 먹었던 미트파이를 모두 게워냈다. 
 이..이게 뭐야!!! 우욱.. 빨리.. 나가서 알려… 
-퍽!! 털썩"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||179|||
-179|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||180|||
-180|어..? 왜 내가 엎드려 있지..|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||181|||
-181|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||182|||H
-182|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||183|||
-183|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|158|||
+퍽!! 털썩"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||179|||
+179|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg|||||180|||
+180|어..? 왜 내가 엎드려 있지..|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg|||||181|||
+181|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg|||||182|||H
+182|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg|||||183|||
+183|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|158|||
 184|"어... 그럼 들어가 볼 수 있을까요? 
 나는 요리사의 권유를 따라 주방 안으로 들어가 보기로 했다. 
 요리사: ... 그러시죠. 
-요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||185|||
-185|나는 크게 신경을 쓰지 않고 주방 커튼을 치고 들어갔다.|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_FOOTSTEPS(KITCHEN).wav||186|||G
+요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||185|||
+185|나는 크게 신경을 쓰지 않고 주방 커튼을 치고 들어갔다.|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||EFFECT_SOUND_FOOTSTEPS(KITCHEN).wav||186|||G
 186|"!!! 헉!! 이... 이게… 
 나는 들어가자마자 너무나도 잔인한 광경에 소스라치게 놀랐다. 
 그곳에는 사람 형태로 보이는 고기와 뼈 그리고 살가죽 등이 있었다.
-아니..이..이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||187|||
-187|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||188|||
+아니..이..이"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||187|||
+187|푹!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|||||188|||
 188|"컥!!
-나는 등에서 타는 듯이 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||189|||
+나는 등에서 타는 듯이 강렬한 통증을 느꼈다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|||||189|||
 189|"컥… 커헉… 컥…
-왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||190|||
+왜인지 말이 나오지 않았고 숨도 쉬어지지 않았다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|||||190|||
 190|"털썩! .. 컥... 컥
-나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||191|||
-191|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|162|||
+나는 점점 눈앞이 흐려지며 의식이 멀어져 갔다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|||||191|||
+191|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|162|||
 192|"어차피 미트파이가 없으면 의미 없는 하루... 그냥 저녁 시간까지 쉬자 
 나는 저녁 시간에 먹을 미트파이를 생각하며, 소파에 누워 휴식을 취했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||170|||
 193|"다음날 나는 또 꿈을 꾸었다. 
 꿈에서는 미트파이로 만들어진 사람들이 어제보다 많이 돌아다니고 있었고, 
 이번에도 나는 망치를 들고 있었다. 
 나는 망치를 휘두르며 모든 사람을 때려잡았고, 그들을 모두 죽인 뒤 떨어진 미트파이를 모두 먹었다. 
-내 망치에는 피가 묻어 있었지만, 나는 그것을 신경 쓰지 않고 미트파이를 먹는 것에 집중했다."|SCENE_DREAM3.jpg||BGM_STORY_MIDDLE.mp3|||194|||
+내 망치에는 피가 묻어 있었지만, 나는 그것을 신경 쓰지 않고 미트파이를 먹는 것에 집중했다."|SCENE_DREAM3.jpg|||||194|||
 194|"미트... 미트파이... 먹고 싶다... 
 꿈에서 깬 나는 미트파이에 대한 강렬한 식욕을 느꼈다.
 요리사한테 어제 미트파이를 받았는데... 또 가는 건 그렇겠지...? 
-오늘은 무엇을 해볼까... 아... 미트파이 먹고 싶다..."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_MIDDLE.mp3||마을을 둘러본다|195|마을 밖을 나가 본다|196|
-195|미트파이가 먹고 싶지만... 구할 수가 없으니... 일단 마을을 둘러보자|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_MIDDLE.mp3|||196|||
+오늘은 무엇을 해볼까... 아... 미트파이 먹고 싶다..."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||||마을을 둘러본다|195|마을 밖을 나가 본다|196|
+195|미트파이가 먹고 싶지만... 구할 수가 없으니... 일단 마을을 둘러보자|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg|||||196|||
 196|"집 밖으로 나와 이동하려는데... 멀리서 휴고가 마을 밖으로 나가는 것이 보였다.
 어? 오늘 사냥을 하려고 나가는 건가? 재료가 뭔지 궁금하긴 한데... 미트파이...
-한번 따라가 볼까?"|SCENE_STORY_TOWN(HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_MIDDLE.mp3||휴고를 미행한다|197|마을을 둘러본다|233|
+한번 따라가 볼까?"|SCENE_STORY_TOWN(HELL).jpg|CHARACTER_HUGO(HELL).png|||휴고를 미행한다|197|마을을 둘러본다|233|
 197|"재료를 알게 되면... 내가 만들 수도 있지 않을까? 한번 따라가 보자
 나는 휴고를 미행하기로 결심하고 그의 뒤를 조심스럽게 따라갔다.
-뒤에서 누군가가 나를 지켜보고 있다는 것을 알아차리지 못한 채...."|SCENE_STORY_TOWN(HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_MIDDLE.mp3|||198|||
+뒤에서 누군가가 나를 지켜보고 있다는 것을 알아차리지 못한 채...."|SCENE_STORY_TOWN(HELL).jpg|CHARACTER_HUGO(HELL).png||||198|||
 198|"휴고는 마을 밖으로 나와 큰 길가로 걸어갔다.
 어..? 저기는 바깥 마을로 나가는 길 아닌가...? 저기에 재료가 있는 건가?
 나는 휴고가 가는 방향이 조금 이상하다 여겼지만, 휴고를 놓칠 순 없어서 조심스럽게 뒤따랐다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FOOTSTEPS(FOLLOWING).wav||199|||G
@@ -790,36 +789,36 @@
 휴고가 지켜보고 있는 방향을 바라봤더니 멀리서 한 사람이 걸어오고 있었다. 
 서... 설마...? 아니겠지??? 지금 저 사람을 치려고 숨은 건가??
 휴고는 그 사람이 나무 근처로 올 때까지 숨어 있다가
-그 사람이 나무를 지나치는 순간 뒤에 나와서 망치를 크게 휘둘렀다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||200|||
+그 사람이 나무를 지나치는 순간 뒤에 나와서 망치를 크게 휘둘렀다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png||||200|||
 200|"휘익
 퍽!!!
-!!! 진짜 머리를 내려쳤어??!!"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||201|||G
-201|파삭|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|ITEM_STORY_WOOD.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_WOODCRACK.wav||202|||G
+!!! 진짜 머리를 내려쳤어??!!"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||201|||G
+201|파삭|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|ITEM_STORY_WOOD.png||EFFECT_SOUND_WOODCRACK.wav||202|||G
 202|"나는 너무 놀라 뒷걸음치다 나뭇가지를 밟아버렸다. 
 그 순간 휴고는 내 쪽을 바라봤고 이쪽을 향해 걸어오기 시작했다. 
 어... 어떡하지...? 어디로 숨어야 하지? 
 나는 당황하여 어찌할 바를 모르고 있었다.
-그 순간"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||203|||
+그 순간"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png||||203|||
 203|"덥석!
 휙!
-누군가가 나를 수풀로 강하게 잡아당겼다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||204|||
-204|흡!|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||205|||
-205|???: 쉿! 일단 조용히 하게. 죽기 싫으면.|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_BLACK.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||206|||
+누군가가 나를 수풀로 강하게 잡아당겼다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||||204|||
+204|흡!|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||||205|||
+205|???: 쉿! 일단 조용히 하게. 죽기 싫으면.|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_BLACK.png||||206|||
 206|"나는 내 뒤에서 속삭이는 사람의 목소리를 들으며 일단 입을 닫았다.
-휴고가 우리를 발견하면... 죽을 것 같기 때문에.."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||207|||
+휴고가 우리를 발견하면... 죽을 것 같기 때문에.."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||||207|||
 207|"저벅 저벅.. 저벅...
-휴고는 우리 쪽에 도착해서 주변을 둘러보는 듯하다 아무도 없는 것을 확인하고 다시 아까 사람을 내려친 곳으로 돌아갔다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FOOTSTEPS(FAR).wav||208|||G
+휴고는 우리 쪽에 도착해서 주변을 둘러보는 듯하다 아무도 없는 것을 확인하고 다시 아까 사람을 내려친 곳으로 돌아갔다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png||EFFECT_SOUND_FOOTSTEPS(FAR).wav||208|||G
 208|"이후 자루를 꺼내서 그 시체를 자루에 담았다. 
 저 자루... 그럼... 그때 그 반지는.. 역시 부부..? 
 나는 휴고가 시체를 담고 있는 자루가 그저께 식당 옆에 놓여있던 자루와 똑같은 것을 알 수 있었다. 
 무... 뭐야.. 그럼 미트파이 재료가... 사.. 사람???!!
 나는 그럼... 사람을 먹은 건가?!! 
-나는 미트파이의 재료가 사람이라는 것을 알게 되었고, 큰 충격에 휩싸이게 되었다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||209|||
+나는 미트파이의 재료가 사람이라는 것을 알게 되었고, 큰 충격에 휩싸이게 되었다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_HUGO(HELL).png||||209|||
 209|"휴고는 시체를 옮겨 담은 자루를 묶은 뒤 어깨에 둘러메고 다시 마을을 향해 걸어갔다.
-휴고가 내 앞을 지나쳐 시야에서 멀어질 때쯤"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FOOTSTEPS(FAR).wav||210|||G
+휴고가 내 앞을 지나쳐 시야에서 멀어질 때쯤"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||EFFECT_SOUND_FOOTSTEPS(FAR).wav||210|||G
 210|"???: ... 갔군. 
-뒤에서 나를 잡아당겼던 사람이 말을 했다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_BLACK.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||211|||
-211|당...당신은?|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||212|||
+뒤에서 나를 잡아당겼던 사람이 말을 했다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_BLACK.png||||211|||
+211|당...당신은?|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||||212|||
 212|"나는 그 사람의 얼굴을 확인했다. 그는 광장에서 나를 노려봤던 올리버였다. 
 올리버: 내가 아니었으면 당신은 죽을뻔했어요..! 어쩌자고 휴고 뒤를 캐신 거예요! 
 저... 저는 그저 미트파이 재료가 궁금해서.... 
@@ -841,90 +840,104 @@
 충격에 빠져 멍하니 있는 나에게 올리버는 상황을 설명해 주었다. 
 그렇다면... 저는 아직 중독이 덜 돼서... 도망갈.. 수 있다는 건가요..?
 올리버: ... 제가 보기에 이미 중증인 것 같긴 하지만... 이 약초를 꾸준히 먹고 의성의 끈을 놓지만 않는다면...
-충분히 원래 생활로 돌아갈 수 있을 것 같아요."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_HELL.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||213|||
+충분히 원래 생활로 돌아갈 수 있을 것 같아요."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|CHARACTER_OLIVER_HELL.png||||213|||
 213|"올리버는 내게 희망이 있다고 말을 하면서 본인 주머니에 있던 약초 가루 한 봉지를 내 손에 쥐여줬다.
 올리버: 이 약초 가루를 물에 타서 매일 아침 점심 저녁 3잔씩 먹으면 돼요...
-저는 이제 다시 집으로 돌아가 볼 테니 어서 이것을 챙기고 도망가세요!"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|ITEM_HERBALPOWDER.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||214|||
+저는 이제 다시 집으로 돌아가 볼 테니 어서 이것을 챙기고 도망가세요!"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|ITEM_HERBALPOWDER.png||||214|||
 214|"올리버는 나에게 말을 마치고는 마을이 있는 곳으로 돌아갔다.
 ... 내가 여태 먹은 미트파이가... 그렇게 맛있는 미트파이가...
 사람이라고...? 그리고 요리사가 중독 약물을 첨가해서... 마을 사람들을 중독시키고 있다고...?
-말도 안 돼... 이제 어떻게 해야 하지...?"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||도망간다|215|마을로 돌아간다|234|
+말도 안 돼... 이제 어떻게 해야 하지...?"|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||||도망간다|215|마을로 돌아간다|234|
 215|"사... 사람을 먹을 순 없지... 집에 가서 짐 몇 개만 챙기고 도망가야겠어...!! 
-나는 집으로 가서 몇 가지 짐만 챙기기로 마음먹고 집으로 향했다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||216|||
+나는 집으로 가서 몇 가지 짐만 챙기기로 마음먹고 집으로 향했다."|SCENE_STORY_OUTSIDE(LOAD_HELL).jpg|||||216|||
 216|"집을 도착해서 정신없이 짐을 챙기고 있는데 갑자기 의문이 들었다. 
 잠깐만... 내가 만약 도망가서 신고를 하면...? 이 마을은 없어질 거고... 그러면.... 
-미.. 미트파이를 못 먹게 되는 거 아니야...? 이 맛있는 것을... 못 먹는다고...?"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||도망간다|217|광장으로 간다|220|
+미.. 미트파이를 못 먹게 되는 거 아니야...? 이 맛있는 것을... 못 먹는다고...?"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||||도망간다|217|광장으로 간다|220|
 217|"그래도!! 사람을 먹는 건 도리가 아니지... 어떻게 사람을 미... 미트파이...? 
-먹고 싶다 미... 트파이... 아니! 내가 왜 이러지??"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||도망간다|218|광장으로 간다|220|
+먹고 싶다 미... 트파이... 아니! 내가 왜 이러지??"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||||도망간다|218|광장으로 간다|220|
 218|"정신 차려 김기자!!! 빨리 나가서 미트파이에 대한 진.. 실... 미트파이... 
-미트파이를 못 먹는다면... 나... 난 너무 불행할 것 같은데..."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||도망간다|219|광장으로 간다|220|
+미트파이를 못 먹는다면... 나... 난 너무 불행할 것 같은데..."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||||도망간다|219|광장으로 간다|220|
 219|"도망..? 내가 왜 도망을 가지...? 
-미트파이 먹을 시간이 다가오는데... 도망...? 미트파이를 먹는 게 더 생산적인 일이 아닐까...?"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||도망간다|220|광장으로 간다|220|
+미트파이 먹을 시간이 다가오는데... 도망...? 미트파이를 먹는 게 더 생산적인 일이 아닐까...?"|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||||도망간다|220|광장으로 간다|220|
 220|"도망... 도망... 도망!!! 그놈의 도망!!! 그만 생각해.. 
 좀 있으면 미트파이를 먹으러 갈 시간이야... 흐흐흐...
 미트파이를 포기할 순 없지.. 광장으로 나가자...
-나는 더 이상 생각하지 않기로 마음먹고 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||221|||
+나는 더 이상 생각하지 않기로 마음먹고 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg|||||221|||
 221|"저녁 7시 광장으로 나가자 역시 많은 사람이 탁자에 앉아있었고, 저 멀리 올리버가 놀란 눈으로 나를 바라보고 있었다. 
 나는 내 자리로 가서 미트파이가 나오기를 기다렸다.
 잠시 후 이장과 요리사가 식당에서 미트파이를 가져와 사람들에게 나눠주기 시작했다. 
 미트파이!!! 그래... 어떻게 이걸 포기해... 
-나는 미트파이가 내 앞에 놓이자마자 미친 듯이 먹기 시작했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||222|||
+나는 미트파이가 내 앞에 놓이자마자 미친 듯이 먹기 시작했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||||222|||
 222|"우걱우걱 쩝쩝쩝 우걱우걱 우걱우걱
-너!!!!!!!!무 맛있어!!!! 하... 너무행복해...."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_EATING.wav||223|||G
-223|우걱우걱 쩝쩝쩝 우걱우걱 우걱우걱|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_EATING.wav||224|||G
+너!!!!!!!!무 맛있어!!!! 하... 너무행복해...."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||EFFECT_SOUND_EATING.wav||223|||G
+223|우걱우걱 쩝쩝쩝 우걱우걱 우걱우걱|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||EFFECT_SOUND_EATING.wav||224|||G
 224|"어..? 내 미트파이.. 어디갔지...? 
 벌써 다 먹은 건가...? 
 나는 내 미트파이가 담겨 있던 빈 접시를 바라봤다. 
 너무 적어... 더 먹고 싶어... 내일을 기다리기에는 너무 오래 남았는데... 
 잠깐만... 내가... 올리버를 고발하면... 잘했다고 더 주지 않을...까?
-하지만 올리버는 나를... 도와주려고 했는데..."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||고발한다|226|참고 집으로 돌아간다|225|
+하지만 올리버는 나를... 도와주려고 했는데..."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||||고발한다|226|참고 집으로 돌아간다|225|
 225|"참아..? 그러면 미트파이를 못 먹잖아...
 미트파..이.. 이 맛있는걸... 참으라고...?
-제 정신인가...?"|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||고발한다|226|참고 집으로 돌아간다|226|
-226|이걸... 어떻게 참아!!! 나는 참지 못하고 자리에서 일어나 조용히 이장에게 다가갔다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||227|||
+제 정신인가...?"|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||||고발한다|226|참고 집으로 돌아간다|226|
+226|이걸... 어떻게 참아!!! 나는 참지 못하고 자리에서 일어나 조용히 이장에게 다가갔다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||||227|||
 227|"이장님... 
 이장: ... 무슨 일인가?
 나는 그동안 내가 봤던 것들과 올리버에게 도움받았던 것들을 모두 이장에게 귓속말로 전했다.
 이장: ... 그런 일이 있었군.. 알았네
-내 말에 표정이 굳어진 이장은 곧 옆 사람에게 작게 말했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_MASTER_LEE(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||228|||
-228|그 사람은 다시 몇몇 사람에게 이야기를 전했고, 이내 여러 명이 몰려가 올리버를 잡았다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||229|||
+내 말에 표정이 굳어진 이장은 곧 옆 사람에게 작게 말했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_MASTER_LEE(HELL).png||||228|||
+228|그 사람은 다시 몇몇 사람에게 이야기를 전했고, 이내 여러 명이 몰려가 올리버를 잡았다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||||229|||
 229|"올리버: ...?? 뭐야??? 왜 이러는 건데??? 놔!!! 
 김기자!!! 설마.. 네가 나..를? 
 야 이 나쁜 새끼야!!!
-올리버는 사람들에게 끌려가며 나에게 소리쳤고 나는 그를 무시하고 이장을 바라보며 말했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_OLIVER_HELL.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||230|||
+올리버는 사람들에게 끌려가며 나에게 소리쳤고 나는 그를 무시하고 이장을 바라보며 말했다."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_OLIVER_HELL.png||||230|||
 230|"그..그럼 미트파이... 미트파이를 좀 더 주시는 건가요...? 
 이장: ... 알겠네. 불순한 의도를 가진 자를 찾아내 줬으니 선물을 줘야겠지... 
 이장은 식당으로 들어가더니, 미트파이를 들고나와 나에게 건네줬다.
-가..감사합니다! 감사합니다!!!"|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_MASTER_LEE(HELL).png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||231|||
+가..감사합니다! 감사합니다!!!"|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|CHARACTER_MASTER_LEE(HELL).png||||231|||
 231|"우걱우걱우걱 쩝쩝...
 나는 미트파이를 낚아채듯 받아서는 미친 듯이 먹기 시작했다 
-이맛이야... 이맛!! 이 눈물 나도록 맛있는 맛... 하... 너무 맛있어..."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_EATING.wav||232|||G
-232|나는 추가로 얻은 미트파이를 마저 먹고 더 먹고 싶었지만... 아쉬움을 뒤로한 채 집으로 돌아가 잠을 청했다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||235|||C
+이맛이야... 이맛!! 이 눈물 나도록 맛있는 맛... 하... 너무 맛있어..."|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||EFFECT_SOUND_EATING.wav||232|||G
+232|나는 추가로 얻은 미트파이를 마저 먹고 더 먹고 싶었지만... 아쉬움을 뒤로한 채 집으로 돌아가 잠을 청했다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||||235|||C
 233|"미트..파이 재료를… 알 수 있을텐데… 휴고를 따라가 보는 게 맞지 않을까…?
 미트파이… 따라가자…
-나는 다시 휴고를 미행하기로 마음을 바꿔 먹었다."|SCENE_STORY_TOWN(HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||198|||
+나는 다시 휴고를 미행하기로 마음을 바꿔 먹었다."|SCENE_STORY_TOWN(HELL).jpg|||||198|||
 234|"미트파이를 포기할 순 없지.. 집으로 돌아가자... 
 나는 집으로 돌아가서 저녁이 되기를 기다렸다.
 저..저녁이 됐으니.. 미..미트파이…먹으러가자…
-나는 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||221|||
+나는 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY_HELL).jpg|||||221|||
 235|"나는, 오늘도 꿈을 꾸었다. 
 그곳에서 여러 사람이 돌아다니는 것을 보았다. 내 손에는 망치가 들려 있었다.
 나는 망설임 없이 사람들을 내려쳤고, 바닥에 떨어진 미트파이를 
 가방에 담은 후 또 다른 사람들을 찾아 돌아다녔다. 
-더 많은 미트파이를 얻기 위해."|SCENE_DREAM4.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||236|||
+더 많은 미트파이를 얻기 위해."|SCENE_DREAM4.jpg|||||236|||
 236|"나는 앞으로도... 
-미트파이를... 위해... 마.. 을을 떠나지... 않을... 것... 이며..."|SCENE_DREAM4.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||237|||C
+미트파이를... 위해... 마.. 을을 떠나지... 않을... 것... 이며..."|SCENE_DREAM4.jpg|||||237|||C
 237|"미트... 파... 이를 위... 해... 살아갈... 것... 이고... 
-미... 트파... 이를... 위... 해..여..행객..을..."|SCENE_DREAM4.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||238|||C
+미... 트파... 이를... 위... 해..여..행객..을..."|SCENE_DREAM4.jpg|||||238|||C
 238|"미... 트... 파이... 를 위... 해... 
-미... 트... 파... 이를... 미... 트... 미트... 파이..."|SCENE_DREAM4.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||239|||C
-239||SCENE_BLACK_MEATPIE.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||240|||B
-240|-END-|SCENE_GAME_END.jpg||BGM_TOTAL_ENDING.mp3|||1000|||
+미... 트... 파... 이를... 미... 트... 미트... 파이..."|SCENE_DREAM4.jpg|||||239|||C
+239|"미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이 
+미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이미트파이"|black.jpg|||||240|||B
+240|-END-|SCENE_GAME_END.jpg||BGM_TOTAL_ENDING.mp3||||||
 241|"미트파이도 미트파이지만… 너무 피곤하다.. 일단 좀 자자…
 나는 긴 이동시간으로 쌓인 피로 때문에 침대에 눕자마자 곯아떨어졌다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||242|||
 242|"음냐.. 완전 뻗었었네… 지금이 몇 시지…
 6시 50분이네.. 7시에 광장에서 미트파이를 먹는다고 했었는데…
-배가 고프기도 하고 졸리기도 하고… 더 잘까? 아니면 광장으로 나갈까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||잔다|254|광장으로 나간다|243|
+배가 고프기도 하고 졸리기도 하고… 더 잘까? 아니면 광장으로 나갈까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||잔다|254|광장으로 나간다|243|
 243|"그래도 마을 사람들이랑 얼굴도 익히고.. 배도 채울 겸 가봐야겠다.. 
 나는 나갈 채비를 해서 광장으로 향했다. 
 마을 광장으로 향한 나는 조금 불쾌한 듯한 냄새를 맡을 수 있었다. 
@@ -936,61 +949,61 @@
 보통 인사하면 한 명쯤이라도 반응을 해야 되는 거 아닌가?
 인사를 한 후 탁자에 앉아있는 마을 사람들을 둘러봤지만, 다들 좀 흐리멍덩한 눈으로
 나를 바라봤다. 그중에 한 사람은 노려보는 듯한 느낌이었지만, 딱히 나에게 말을 하진 않았다.
-아무도 말을 하지 않고 나를 쳐다보고 있는 게 뻘쭘해질 때쯤 식당에서 요리사와 이장이 나오면서 나에게 말을 건넸다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||244|||
+아무도 말을 하지 않고 나를 쳐다보고 있는 게 뻘쭘해질 때쯤 식당에서 요리사와 이장이 나오면서 나에게 말을 건넸다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||244|||
 244|"이장: 자네 왔구만.. 왜 자리에 앉지 않고 그렇게 서있나?
 아... 모두에게 인사를 했는데 다들 말씀이 없으셔서...
 이장: ... 아... 다들 좀 숫기가 없고 너무 오랜만에 외지에서 사람이 와서 그런 것 같네. 친해지면 다들 좋은 사람이니 일단 자리에 앉게나 식사해야지.
-네 알겠습니다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||245|||
+네 알겠습니다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||245|||
 245|"이장의 말 덕에 뻘쭘함에서 벗어날 수 있었던 나는 빈자리에 가서 앉았다.
-이후 이장도 자리에 앉고 나니 요리사가 가져온 미트파이를 소분하여 사람들 앞에 내려놓기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||246|||
+이후 이장도 자리에 앉고 나니 요리사가 가져온 미트파이를 소분하여 사람들 앞에 내려놓기 시작했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||246|||
 246|"요리사: 자자 오늘 미트파이도 아주 맛있게 나왔습니다!
-다들 맛있게 드세요!!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||247|||
+다들 맛있게 드세요!!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_COOKER_SMILE.png||||247|||
 247|"주민들은 다들 자기 앞에 미트파이가 놓이는 순간 걸신들린 귀신처럼 게걸스럽게 미트파이를 먹기 시작했다.
-일을 너무 많이 해서 배가 많이 고팠나...? 저렇게까지 먹는다고??"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||248|||
+일을 너무 많이 해서 배가 많이 고팠나...? 저렇게까지 먹는다고??"|SCENE_STORY_INSIDE(PLAZA).jpg|||||248|||
 248|"이장: 다들 오늘 낮에 밥도 못 먹고 일을 해서 배가 많이 고팠던 것 같구만, 자네도 어서 들지
 사람들의 먹는 모습을 보며 놀란 표정을 짓는 나에게 이장이 말을 했다.
-..하하.. 네 이장님도 맛있게 드세요!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||249|||
+..하하.. 네 이장님도 맛있게 드세요!"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||249|||
 249|"나는 미트파이를 먹으려 했지만, 어딘가 불쾌한 냄새, 미트파이를 먹는 사람들의 이상한 행동으로 인해 
-무언가 께름칙함을 느꼈다. 미트파이를 먹을까?"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3||미트파이를 먹는다|255|속이 안좋다하고 집에 돌아간다|250|
+무언가 께름칙함을 느꼈다. 미트파이를 먹을까?"|SCENE_STORY_INSIDE(PLAZA).jpg||||미트파이를 먹는다|255|속이 안좋다하고 집에 돌아간다|250|
 250|"… 아무래도 이 미트파이를 먹기에는 좀.. 찝찝한 것 같아.. 먹지 말고 집으로 돌아간다고 하자.
-나는 말없이 조용히 미트파이를 들고 자리에서 일어났다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||251|||
+나는 말없이 조용히 미트파이를 들고 자리에서 일어났다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||251|||
 251|"이장: … 왜 갑자기 일어나는 겐가? 
 아… 지금 사실 속이 좀 좋지 않아서요… 오늘은 집에 가서 좀 쉬고 내일 아침에 먹으려구요. 
 이장: … 여기까지 오느라 피곤해서 그런가 보군. 알겠네 어여 들어가서 쉬게나. 
 네! 다들 식사 맛있게 하세요! 
-나는 이장님과 다른 주민들에게 크게 인사하고 미트파이를 들고 집에 왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||252|||
+나는 이장님과 다른 주민들에게 크게 인사하고 미트파이를 들고 집에 왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||252|||
 252|"… 이 미트파이는 당분간 먹으면 안 되겠어… 
 뭔가 쎄한 느낌을 주는 미트파이를 나는 먹지 않기로 마음먹었다.
-그리고 나는 낮에 받은 미트파이와 방금 가져온 미트파이를 쓰레기통에 버렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||253|||
+그리고 나는 낮에 받은 미트파이와 방금 가져온 미트파이를 쓰레기통에 버렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||253|||
 253|"하~암… 낮에 그리 잤는데도 피곤하네… 빨리 자야겠다.
 정말 피곤한 하루였어..
-나는 침대에 누워서 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||254|||C
+나는 침대에 누워서 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||254|||C
 254|"하~암… 낮에 그리 잤는데도 피곤하네… 배가 고프긴 하지만..
 그냥 더 자자…
-나는 다시 눈을 감았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||257|||C
+나는 다시 눈을 감았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||257|||C
 255|"그래도 첫날인데… 처음부터 안 먹고 일어나면… 그렇겠... 지? 
 나는 미트파이를 먹기 시작했다. 
 쩝쩝… 윽… 좀 역한데…. 쩝쩝… 
 뭔지 모를 찝찝함과… 역한 냄새가 정말 맘에 안 드는 미트파이였다. 
 쩝쩝… 먹다 보니 괜... 찮은 것 같... 기도…? 
 나는 미트파이를 모두 먹어 치웠다. 
-휴.. 먹다 보니 역한 냄새도 사라진 것 같고… 맛도... 생각보다 괜찮은 것 같았다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||256|||
+휴.. 먹다 보니 역한 냄새도 사라진 것 같고… 맛도... 생각보다 괜찮은 것 같았다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||256|||
 256|"밥을 다 먹었으니 이제 집에 가서 자자.
-나는 집으로 가서 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||294|||C
+나는 집으로 가서 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||294|||C
 257|"다음날, 나는 알람 소리에 잠에서 깼다.
-빠빠빠 빱빱 빱빠빠빱 빠빱 밥 빠빠빠 빱빱 빱빠빠빱 빠빱 밥 ... . 틱!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||258||C|
+빠빠빠 빱빱 빱빠빠빱 빠빱 밥 빠빠빠 빱빱 빱빠빠빱 빠빱 밥 ... . 틱!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||258||C|
 258|"으아…! 잠을 좀 많이 잤더니 개운하네
-어제 한 끼도 안 먹었더니… 배가 너무 고픈데… 아! 어제 비행기 타기 전에 샀던 간식들!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||259|||
+어제 한 끼도 안 먹었더니… 배가 너무 고픈데… 아! 어제 비행기 타기 전에 샀던 간식들!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||259|||
 259|"나는 허기를 달래기 위해 어제 사놨던 간식을 먹었다. 
-쩝쩝쩝… 음… 양이 너무 적어… 좀 나가서 먹을 걸 구할 곳이 있나 둘러봐야겠다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||260|||
+쩝쩝쩝… 음… 양이 너무 적어… 좀 나가서 먹을 걸 구할 곳이 있나 둘러봐야겠다."|SCENE_STORY_TOWN(INTRO).jpg|||||260|||
 260|"나는 어제 인사 못한 주민들에게 인사도 하고, 음식 거리도 구할 겸 밖으로 나왔다.
-저기 집 앞에 앉아서 망치를 손질하는 사람이 보이고... 반대편에는 구멍가게 같은 게 보이는데... 어디로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||망치를 손질하는 사람|298|구멍가게|261|
+저기 집 앞에 앉아서 망치를 손질하는 사람이 보이고... 반대편에는 구멍가게 같은 게 보이는데... 어디로 가볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||망치를 손질하는 사람|298|구멍가게|261|
 261|"일단 집에 먹을 것도 없고... 생필품도 좀 사야 될 거 같은데
 구멍가게로 가보자!
-나는 구멍가게로 보이는 집으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||262|||
+나는 구멍가게로 보이는 집으로 향했다."|SCENE_STORY_TOWN(INTRO).jpg|||||262|||
 262|"그곳에는 각종 인스턴트식품과, 건어물류, 그리고 구멍가게에서 직접 말린 것 같은 육포, 그리고 뉴질랜드 특산품인 키위가 있었다.
 안녕하세요! 계신가요?
-나는 구멍가게에 들어서며 크게 인사했다."|SCENE_STORY_INSIDE(SHOP).jpg||BGM_STORY_INTRO.mp3|||263|||
+나는 구멍가게에 들어서며 크게 인사했다."|SCENE_STORY_INSIDE(SHOP).jpg|||||263|||
 263|"구멍가게 주인: ... 누구신가? 
 구석 카운터에 앉아서 무언가를 작성하고 있던 구멍가게 주인이 나에게 물었다. 
 아. 안녕하세요! 어제 식당에서 크게 인사드렸던 이번에 이사 온 김기자라고 합니다. 
@@ -1004,49 +1017,49 @@
 사장님! 이것들 구매할게요! 
 나는 계산을 하고 나와 집으로 가져갔다.
 후! 그러면 이제 집에서 먹을 것들이랑 생필품은 모두 해결한 건가??
-이제 곧 점심시간이긴 한데… 뭐 먹지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||컵라면 먹는다|264|키위를 먹는다|299|
+이제 곧 점심시간이긴 한데… 뭐 먹지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||컵라면 먹는다|264|키위를 먹는다|299|
 264|"키위는 간식이지… 컵라면이나 먹어야겠다! 
-나는 컵라면에 물을 부어 먹었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||265|||
+나는 컵라면에 물을 부어 먹었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||265|||
 265|"크… 역시 라면은 진리지…
 누가 만들었는지 모르지만 정말 잘 만들었어.
 맛있게 라면을 먹은 후 나는 다시 주민들에게 인사 좀 하고자 밖으로 나왔다.
-음... 아까 망치 손질하던 사람은 안 보이고… 어제 요리사분에게 인사를 해볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||266|||
-266|밖에 나온 나는 주변에 보이는 사람이 없어 어제 요리사분에게 인사를 하고자 식당으로 향했다.|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_INTRO.mp3|||267|||
+음... 아까 망치 손질하던 사람은 안 보이고… 어제 요리사분에게 인사를 해볼까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||266|||
+266|밖에 나온 나는 주변에 보이는 사람이 없어 어제 요리사분에게 인사를 하고자 식당으로 향했다.|SCENE_STORY_INSIDE(REST).jpg|||||267|||
 267|"끼이익 - 탁
 안녕하세요! 요리사님!!
-나는 식당에 들어가면서 크게 인사했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||268|||
+나는 식당에 들어가면서 크게 인사했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||268|||
 268|"쾅 쾅쾅!! 서걱 서걱 서걱... 쾅!! 쾅!! 
-요리사의 대답은 들을 순 없었지만, 주방에서 들려오는 소리로 요리사가 주방 일을 하고 있다는 것을 알 순 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_MAKING(KITCHEN).wav||269|||G
+요리사의 대답은 들을 순 없었지만, 주방에서 들려오는 소리로 요리사가 주방 일을 하고 있다는 것을 알 순 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_MAKING(KITCHEN).wav||269|||G
 269|"재료 손질하느라 많이 바쁜 거 같은데... 
-어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||들어간다|301|한번 더 소리 지른다|270|
+어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|301|한번 더 소리 지른다|270|
 270|"그래도 허락 없이 주방을 들어가는 건 실례지…
 저기요!!! 요리사님!!!!
-나는 주방을 향해 한 번 더 크게 소리쳤다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||271|||
-271|쾅 쾅쾅쾅!! 서걱 서걱 쾅쾅쾅! 뚝!|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_MAKING(KITCHEN).wav||272|||G
+나는 주방을 향해 한 번 더 크게 소리쳤다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||271|||
+271|쾅 쾅쾅쾅!! 서걱 서걱 쾅쾅쾅! 뚝!|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_MAKING(KITCHEN).wav||272|||G
 272|"내 소리를 들은 건지 주방에서 나는 소리가 멈췄다.
-잠시 후 주방 커튼을 치며 요리사가 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3|||273|||
+잠시 후 주방 커튼을 치며 요리사가 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||273|||
 273|"요리사: …누구시죠? 
 요리사는 나를 경계하는 표정을 지으며 물었다. 
 아… 저는 어제 이 마을로 이사 온 김기자라고 합니다! 인사차 들렸어요 
 요리사: 아… 어제 미트파이를 안 먹고 집으로 돌아가신 분이시군요... ? 
 요리사는 눈빛이 차가워지며 물었다. 
 하하… 어제 제가 좀 기... 긴 시간 비행기 타고 마을에 온 거라... 속이 너무 안 좋아서 들어간 거였어요. 그 미트파이는 오늘 아침에 맛있게 먹었습니다!
-나는 요리사의 눈빛이 미트파이를 안 먹었으면 마치 죽일 것 같은 느낌이 들어, 나도 모르게 거짓말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_INTRO.mp3|||274|||
-274||SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||275|||
+나는 요리사의 눈빛이 미트파이를 안 먹었으면 마치 죽일 것 같은 느낌이 들어, 나도 모르게 거짓말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||274|||
+274||SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||275|||
 275|"요리사: … 하하하 그렇군요! 제 요리를 안 드신 것 같아 좀 서운했었는데… 오늘 드셨다니 마음이 좀 풀리네요. 
 반갑습니다! 앞으로 잘 지내봐요. 
 내가 미트파이를 먹었다고 말하자 요리사는 표정을 풀고 웃으며 말했다. 
 하하... 네! 앞으로 잘 부탁드립니다. 저는 이제 다른 분들에게도 인사드리러 나가볼게요! 
-나는 요리사에게 인사를 마치고 도망치듯 식당 밖으로 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3|||276|||
+나는 요리사에게 인사를 마치고 도망치듯 식당 밖으로 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||276|||
 276|"무슨 요리사가 이렇게 섬뜩하지…
 밖으로 나오니 왼쪽 멀리 어제 날 노려보던 사람이 보이고, 오른쪽에는 망치를 손질하던 사람이 자루를 하나 들고 가는 것을 볼 수 있었다.
-누구에게 말을 걸어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||노려보던 사람|277|망치를 손질하던 사람|309|
+누구에게 말을 걸어볼까?"|SCENE_STORY_TOWN(INTRO).jpg||||노려보던 사람|277|망치를 손질하던 사람|309|
 277|"저녁 시간에 대부분 멍한 표정이었던 다른 주민들과 달리 뭔가... 나를 노려봤던 사람에게 가볼까? 
-나는 왼쪽에 있는 사람에게 다가갔다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||278|||
+나는 왼쪽에 있는 사람에게 다가갔다."|SCENE_STORY_TOWN(INTRO).jpg|||||278|||
 278|"안녕하세요!!!
 노려봤던 사람: ... 
 나는 그 사람에게 다가가 밝게 인사했지만, 그 사람은 대답하지 않았다.
-여기 마을 사람들은 입에 본드가 붙었나…"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||279|||
+여기 마을 사람들은 입에 본드가 붙었나…"|SCENE_STORY_TOWN(INTRO).jpg|||||279|||
 279|"저... 안녕하세요!! 이번에 이사 온 김기자라고 합니다. 
 노려보던 사람: ... 반갑습니다. 저는 올리버라고 합니다. 
 무시당해도 두 번이나 인사를 했더니, 못마땅한 표정으로 인사에 답해줬다. 
@@ -1058,21 +1071,21 @@
 미트파이를 좀 수상하게 여기고 있던 나는 올리버의 질문에 대답을 바로 하지 못했다. 
 올리버: … 안 드신 것 같군요. 잘하셨어요.
 네? 잘했다구요?
-안 먹어서 잘했다니…? 무슨 소리지?"|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png|BGM_STORY_INTRO.mp3|||280|||
+안 먹어서 잘했다니…? 무슨 소리지?"|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png||||280|||
 280|"올리버: 자세한 건… 말씀드릴 순 없지만. 만약 앞으로 미트파이를 먹어야 하는 상황이 온다면 
-꼭!! 먹고 난 다음에 이 가루를 한 숟갈 물에 타드세요! 안 드시면 후회하실 겁니다."|SCENE_STORY_TOWN(INTRO).jpg|ITEM_HERBALPOWDER.png|BGM_STORY_INTRO.mp3|||281|||
+꼭!! 먹고 난 다음에 이 가루를 한 숟갈 물에 타드세요! 안 드시면 후회하실 겁니다."|SCENE_STORY_TOWN(INTRO).jpg|ITEM_HERBALPOWDER.png||||281|||
 281|"예???
 올리버: 그리고 이 이야기는 우리들의 비밀로 하셔야 될 거예요. 전 할 일이 있어서 이만 가보겠습니다.
-올리버는 나에게 흰 가루가 담긴 주머니를 주고 자리에서 벗어났다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png|BGM_STORY_INTRO.mp3|||282|||
+올리버는 나에게 흰 가루가 담긴 주머니를 주고 자리에서 벗어났다."|SCENE_STORY_TOWN(INTRO).jpg|CHARACTER_OLIVER_INTRO.png||||282|||
 282|"이 가루는 뭐지…? 미트파이에 뭐가 있는 건가? 
 나는 뭔가 이상함을 느꼈지만, 미트파이에 대해 느낀 위화감 때문에 그 가루 주머니를 챙겨 넣었다.
-시간을 보니... 7시가 다 된 것 같은데… 어쩌지 광장으로 가야 하나?"|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3||광장으로 간다|283|집에 가서 쉰다|312|
+시간을 보니... 7시가 다 된 것 같은데… 어쩌지 광장으로 가야 하나?"|SCENE_STORY_TOWN(INTRO).jpg||||광장으로 간다|283|집에 가서 쉰다|312|
 283|"그래도... 마을에서 다 같이 가지는 시간인데… 나가야지 
 나는 나가기로 마음먹고 광장으로 향했다.
-광장에 도달할 즘 어제 맡았던 조금 불쾌한 냄새가 나기 시작했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||284|||
+광장에 도달할 즘 어제 맡았던 조금 불쾌한 냄새가 나기 시작했다."|SCENE_STORY_TOWN(INTRO).jpg|||||284|||
 284|"윽... 이 냄새는 적응이 안 되네... 벌써 속이 울렁거리는 것 같네… 
 나는 눈이 마주치는 마을 사람들에게 가볍게 묵례로 인사를 하며 내 자리에 앉았다.
-잠시 뒤 식당 문이 열리며 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||285|||
+잠시 뒤 식당 문이 열리며 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||285|||
 285|"이장: 자 오늘도 다들 고생했네... 어여들 들고 가서 쉬게나. 
 이장은 어제와 같은 말을 하고 사람들에게 미트파이를 나눠줬다. 
 사람들은 이번에도 미트파이를 받자마자 게걸스럽게 먹기 시작했다. 
@@ -1083,74 +1096,74 @@
 아… 잠깐 생각할게 있어서 안 먹고 있었어요. 
 이장: 그렇구만… 식으면 맛없으니 어여 들게나 
 이장은 나에게 미트파이를 권했고, 뒤에 서있는 사람은 무표정하게 나를 쳐다보고 있었다.
-먹기 싫은데… 안 먹으면 뭔 일이 일어날 것 같기도 하고…"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3||일단 먹자|286|먹지말자|322|
+먹기 싫은데… 안 먹으면 뭔 일이 일어날 것 같기도 하고…"|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|||일단 먹자|286|먹지말자|322|
 286|"안 먹으면… 뭔 일이 일어날 것 같으니 일단 먹자… 
 쩝쩝... 윽... 맛이 좀 특이하네… 역한 것 같기도 하고… 
 맛은 마음에 들지 않지만, 티를 내지 않기 위해 노력하며 나는 미트파이를 먹었다. 
 이장: … 잘 먹는구만. 얼마나 보기 좋은가. 허허. 
 그리고 내가 말을 건 것은 다름 아니라, 이 친구를 소개하기 위함이네. 
 이장은 뒤에 있는 사람을 가리키며 말했다. 
-이장: 왼쪽에 있는 이 건장한 친구는 미트파이 재료를 구해다 주는 휴고라고 하네."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||287|||
+이장: 왼쪽에 있는 이 건장한 친구는 미트파이 재료를 구해다 주는 휴고라고 하네."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||287|||
 287|"휴고: … 반갑다. 
 하하... 반갑습니다. 어제 이사 온 김기자라고 합니다. 잘 부탁드려요! 
 나는 휴고에게 인사를 했다.
 휴고: … 딱히 할 말 더 없으시면 가시죠 이장님.
-휴고는 이장에게 말을 하고 바로 등을 돌려 다른 곳으로 이동했다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||288|||
+휴고는 이장에게 말을 하고 바로 등을 돌려 다른 곳으로 이동했다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_HUGO.png||||288|||
 288|"이장: 허허... 원래 좀 무뚝뚝한 사람이라... 이해 부탁하네 그래도 착한 사람이야. 
 식사 맛있게 하게나
 하하 네 알겠습니다. 이장님도 식사 맛있게 하십쇼!
-말을 마치고 이동하는 이장에게 나도 인사를 하고 미트파이를 내려봤다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||289|||
+말을 마치고 이동하는 이장에게 나도 인사를 하고 미트파이를 내려봤다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||289|||
 289|"으… 먹기 싫다… 대충 깨작대다가 집에 가야겠다.
 나는 미트파이를 억지로 몇 숟가락을 더 먹은 후 버리고 집으로 향했다.
-내가 버리는 미트파이를 마을 사람들 여럿이서 쳐다보고 있는 것을 보지 못한 채…"|SCENE_STORY_INSIDE(PLAZA).jpg|ITEM_MANYEYES.png|BGM_STORY_INTRO.mp3|||290|||
+내가 버리는 미트파이를 마을 사람들 여럿이서 쳐다보고 있는 것을 보지 못한 채…"|SCENE_STORY_INSIDE(PLAZA).jpg|ITEM_MANYEYES.png||||290|||
 290|"방에 돌아온 나는 속이 메스꺼워지는 것 같았다.
-미트파이 아무래도 뭔가 이상한 거 같은데… 냄새도 그렇고… 아! 그 가루!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||291|||
+미트파이 아무래도 뭔가 이상한 거 같은데… 냄새도 그렇고… 아! 그 가루!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||291|||
 291|"나는 낮에 올리버가 준 가루가 생각났다. 나는 주머니를 꺼내 열어 그 가루를 봤다. 
 약간 향긋한 향기가 나는 것 같은 느낌이었다.
-미트파이를 먹으면 이 가루를 물에 타서 먹으랬지… 근데 먹어도 될까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png|BGM_STORY_INTRO.mp3||먹는다|292|먹지 않는다|325|
+미트파이를 먹으면 이 가루를 물에 타서 먹으랬지… 근데 먹어도 될까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png|||먹는다|292|먹지 않는다|325|
 292|"그래 먹자! 아무리 봐도 이 미트파이는 뭔가 이상해… 일단 가루를 먹고 생각하자 
 나는 가루를 물에 타서 마셨다.
 꿀꺽 꿀꺽… 흠... 생각보다 맛은 괜찮네. 이제 된 건가?
-가루를 먹었지만, 몸에 딱히 어떤 반응이 일어나는 것 같진 않았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||293|||
+가루를 먹었지만, 몸에 딱히 어떤 반응이 일어나는 것 같진 않았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||293|||
 293|"흠 일단 시간도 늦었으니 이제 자볼까?
-나는 침대에 누워 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||326|||C
+나는 침대에 누워 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||326|||C
 294|"으아…! 잠을 좀 많이 잤더니 개운하네.
-어제 한 끼도 안 먹었더니… 배가 너무 고픈데… 아! 어제 받은 미트파이!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||295|||C
+어제 한 끼도 안 먹었더니… 배가 너무 고픈데… 아! 어제 받은 미트파이!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||295|||C
 295|"생각해보니 어제 낮에 받은 미트파이가 있었다. 
 나는 어제 받은 미트파이를 가져왔다. 
 미트파이에서는 역하기도 하면서 향긋한 것 같은 애매한 냄새가 났다.
-음... 막상 먹어보니 괜찮기도 했는데... 먹을까? 말까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3||먹는다|296|먹지 않는다|297|
+음... 막상 먹어보니 괜찮기도 했는데... 먹을까? 말까?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||먹는다|296|먹지 않는다|297|
 296|"그래도 배가 고프니… 일단 먹자!! 
 나는 눈앞의 미트파이를 먹기로 했다. 
 우걱 우걱… 음… 어제보다 더 맛있는데? 우걱우걱… 
-생각보다 맛있는 미트파이에 나는 놀라며 맛있게 다 먹었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|EFFECT_SOUND_EATING.wav||68|||G
+생각보다 맛있는 미트파이에 나는 놀라며 맛있게 다 먹었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_EATING.wav||68|||G
 297|"아냐... 그래도 좀 찝찝한데… 먹지 말자. 
 아! 어제 비행기 타기 전에 사 놓은 간식들! 
 나는 미트파이는 먹지 않기로 하고 어제 비행기 타기 전에 사놓은 간식들을 가져와 허기를 달랬다.
-흠... 좀 부족한데... 좀 나가서 먹을 걸 구할 곳이 있나 둘러봐야겠다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||260|||
+흠... 좀 부족한데... 좀 나가서 먹을 걸 구할 곳이 있나 둘러봐야겠다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||260|||
 298|"일단 저분에게 갔다가 구멍가게를 가볼까? 
 나는 망치를 손질하는 사람에게 가보려 했다. 
 그때 망치를 손질하던 사람은 손질을 멈추더니 망치를 들고 마을 밖으로 나가버렸다.
 …가버리셨네... 어쩔 수 없지. 구멍가게나 가자.
-말을 걸 사람이 없어져 버린 나는 구멍가게를 가기로 했다."|SCENE_STORY_TOWN(INTRO).jpg||BGM_STORY_INTRO.mp3|||262|||
+말을 걸 사람이 없어져 버린 나는 구멍가게를 가기로 했다."|SCENE_STORY_TOWN(INTRO).jpg|||||262|||
 299|"라면은... 나중에 먹을까? 
 나는 키위를 깎아 먹기로 마음먹었다.
 음~ 키위 맛있네!! 쩝쩝… 어? 벌써 다 먹었네... 아쉬운데... 
-나는 키위 양이 너무 적어 다 먹은 후 컵라면을 응시했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||300|||
+나는 키위 양이 너무 적어 다 먹은 후 컵라면을 응시했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||300|||
 300|"... 먹자
-나는 컵라면에 물을 부었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||265|||
+나는 컵라면에 물을 부었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||265|||
 301|안녕하세요 요리ㅅ...|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||302|||
-302|푹!!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(KNIFE).wav||303|||G
+302|푹!!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|CHARACTER_COOKER.png||EFFECT_SOUND_HIT(KNIFE).wav||303|||G
 303|"나는 순간 복부에 강렬한 통증을 느끼며 바닥으로 쓰러졌다. 
 헉…허억… 
 강렬한 통증이 느껴졌던 복부를 감싼 손에서 뜨거운 액체가 느껴졌다. 바로 피였다.
-허억…억 나는 엎어진 상태로 요리사를 보려 했다."|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||304|||
-304|!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||305|||
+허억…억 나는 엎어진 상태로 요리사를 보려 했다."|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|CHARACTER_COOKER.png||||304|||
+304|!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE1).jpg|CHARACTER_COOKER.png||||305|||
 305|"요리사 옆에는 사람 형태를 한 고기와 뼈가 놓여 있었고
-요리사는 나를 향해 칼을 내려찍고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||306|||
-306|푹!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||307|||
-307|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||308|||
-308|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|269|||
+요리사는 나를 향해 칼을 내려찍고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE2).jpg|CHARACTER_COOKER.png||||306|||
+306|푹!!!|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE3).jpg|CHARACTER_COOKER.png||||307|||
+307|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_INSIDE(REST_INSIDE_KITDIE4).jpg|CHARACTER_COOKER.png||||308|||
+308|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|269|||
 309|나는 망치를 손질하던 사람에게 인사하기로 마음먹고 그에게 향했다.|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||310|||
 310|"안녕하세요! 자루 되게 무거워 보이네요... 
 망치를 든 사람: … 
@@ -1158,48 +1171,48 @@
 하하. 저는 어제 이사 온 김기자라고 합니다. 
 노려보는 게 너무 무서웠지만… 나는 용기를 내서 인사했다.
 휴고: ... 나는 휴고라고 하네. 바쁘니 이야기는 나중에 하지
-휴고는 짧게 말을 한 후 자루를 들고 가버렸다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png|BGM_STORY_INTRO.mp3|||311|||
+휴고는 짧게 말을 한 후 자루를 들고 가버렸다."|SCENE_STORY_HOUSE(HUGO).jpg|CHARACTER_HUGO.png||||311|||
 311|"음... 되게 무뚝뚝한 사람이네 쩝... 
 아직 나를 노려보던 사람이 저기 있으니까 저분에게도 인사나 하자
-나는 그 사람에게 다가갔다."|SCENE_STORY_HOUSE(HUGO).jpg||BGM_STORY_INTRO.mp3|||278|||
+나는 그 사람에게 다가갔다."|SCENE_STORY_HOUSE(HUGO).jpg|||||278|||
 312|"먹기 싫은데 굳이 나갈 필요가 있을까…? 그냥 잠이나 자자.
 미트파이 먹기가 별로 내키지 않은 나는 그냥 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||313|||C
 313|"나는 잠을 자는데 꿈을 꾸었다. 
 나는 물속에 잠겨있고 점점 가라앉고 있었으며, 점점 숨이 막혀왔다. 
 근데 이상하게 꿈속이란 느낌보다 너무 실감 나게 숨이 막혀왔다.
-뭔가... 이상... 컥!! 커헉!!!"|SCENE_STORY_INSIDE(WATER_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||314|||
-314|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||315|||C
+뭔가... 이상... 컥!! 커헉!!!"|SCENE_STORY_INSIDE(WATER_DIE).jpg|||||314|||
+314|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||315|||C
 315|"내 위에는 누군가가 올라타 있었고 내 목을 조르고 있었다.
 컥... 커헉…컥…
-나는 그를 올려다봤다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||316|||
-316|!!!!|SCENE_STORY_INSIDE(HOUSE_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||317|||
-317|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||318|||
+나는 그를 올려다봤다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||316|||
+316|!!!!|SCENE_STORY_INSIDE(HOUSE_DIE).jpg|||||317|||
+317|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg|||||318|||
 318|"컥…커허헉…
-나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||319|||
-319|컥…커헉… 점점 의식이 흐려져 갔다.|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||320|||
+나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg|||||319|||
+319|컥…커헉… 점점 의식이 흐려져 갔다.|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg|||||320|||
 320|"ㅋ... ㅓ... 허… 
 도대체 왜…?
-난 의식의 끈을 놓쳤다."|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||321|||
-321|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3|||282|||
+난 의식의 끈을 놓쳤다."|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg|||||321|||
+321|GAME OVER|SCENE_GAMEOVER.jpg|||||282|||
 322|"나는 미트파이를 먹지 않기로 결심했다.
 미트파이를 들고 일어서려 하는데..."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||323|||
 323|"이장: ... 미트파이를 오늘도 안 먹는 겐가?? 
 이장이 차가운 눈빛으로 나를 바라보며 말을 걸었다. 
 아…집에 가서 먹으려고요! 많은 사람이 보는 앞에서 먹는 게 좀 어색해서... 
 이장: ... 다 같이 먹는 게 어색할 수도 있지. 알겠네.
-이장은 그 말을 하고 돌아갔다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_INTRO.mp3|||324|||
+이장은 그 말을 하고 돌아갔다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||324|||
 324|"후... 안 먹는다 하면 죽일 것 같은 눈이었네... 
-나는 미트파이를 들고 집으로 가서 쓰레기통에 버려 버린 뒤 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_INTRO.mp3|||326|||C
+나는 미트파이를 들고 집으로 가서 쓰레기통에 버려 버린 뒤 잠을 청했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||326|||C
 325|"이 가루도 좀 수상한데… 먹지 말자
-나는 가루를 쓰레기통에 버린 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||114|||C
+나는 가루를 쓰레기통에 버린 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||114|||C
 326|"다음날, 나는 알람이 울리기 전에 일어났다.
 흐아아암~ 오늘은 좀 일찍 눈이 떠졌네."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||327|||C
-327|오늘은... 마을 안뿐만 아니라 바깥도 한번 돌아볼까?|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||밖으로 나간다|328|주민을 만난다|351|
+327|오늘은... 마을 안뿐만 아니라 바깥도 한번 돌아볼까?|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||밖으로 나간다|328|주민을 만난다|351|
 328|"그래도 이사 왔으면 마을 밖도 좀 돌아봐야지! 
 나는 밖을 돌아다니기로 마음먹고 마을 밖으로 향했다.
 마을 밖은 다양한 나무와 저 멀리 산이 보였고, 마을 옆에는 바다 같은 호수가 붙어 있었다.
 캬~~ 외진 마을이라 그런지 경치도 정말 끝내주네!!
-나는 이 아름다운 경치를 보며 힐링을 하려고 했는데…"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||329|||
+나는 이 아름다운 경치를 보며 힐링을 하려고 했는데…"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||329|||
 329|"???: 저기요! 
 갑자기 모르는 사람이 나에게 말을 건네 왔다. 
 어? 누구지? 마을에서 못 보던 사람인데? 
@@ -1211,25 +1224,25 @@
 그 혹시 저기 보이는 곳이 마을인 것 같은데, 혹시 방문해도 문제 되지 않을까요? 
 그 부부는 우리 마을을 가리키며 말했다.
 우리 마을이라... 솔직히 방문해도 상관없을 것 같긴 한데... 좀 다들 많이 무뚝뚝할 텐데
-방문해도 괜찮을까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3||괜찮다고 말한다|353|안된다고 말한다|330|
+방문해도 괜찮을까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|||괜찮다고 말한다|353|안된다고 말한다|330|
 330|"음... 그 마을은 안 가시는 게 좋을 것 같아요! 마을 사람들이 친절하지도 않고 좀… 둘러볼 곳이 없어서 
 차라리 저기 있는 호수를 보시는 게 낫지 않을까 싶습니다. 
 나는 왠지 모르게 마을로 이 부부를 보내면 안 될 것 같아 마을로 가지 말라고 말을 해줬다. 
 여행객 부부: 아… 그렇군요. 그럼 호수 쪽을 둘러봐야겠네요!! 감사합니다! 
 네 ~ 좋은 여행 되세요! 
-나는 여행객에게 인사를 하고 보낸 뒤 경치를 더 둘러보기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3|||331|||
+나는 여행객에게 인사를 하고 보낸 뒤 경치를 더 둘러보기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png||||331|||
 331|"흐으음~ 역시 경치가 좋네. 이런 경치를 가진 마을인데 왜 이렇게 느낌은 싸한 건지… 
 참 모르겠단 말이야…
-그나저나 슬슬 배가 고파오는데… 점심을 간단히 때우러 집으로 돌아갈까? 아니면 좀 더 둘러볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3||점심 먹으러 간다|356|바깥을 더 둘러본다|332|
+그나저나 슬슬 배가 고파오는데… 점심을 간단히 때우러 집으로 돌아갈까? 아니면 좀 더 둘러볼까?"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||||점심 먹으러 간다|356|바깥을 더 둘러본다|332|
 332|"음 조금 더 둘러보자! 이렇게 바깥으로 나올 일도 별로 없을 것 같은데! 
 어? 저기 무슨 밭 같은 게 보이는데... 마을 밖에서도 농사를 짓는 건가? 
 주변을 더 둘러보던 나는 약초밭 같은 것을 볼 수 있었다.
 약초밭에서... 좀 역한 냄새가 나는 것 같기도 한데... 
-한번 가볼까?"|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3||간다|333|가지 않고 마을로 돌아간다|335|
+한번 가볼까?"|SCENE_STORY_OUTSIDE(GARDEN).jpg||||간다|333|가지 않고 마을로 돌아간다|335|
 333|"냄새가 좀... 많이 역하긴 한데... 한번 가보자! 
 나는 약초밭을 향해 걸어갔다.
 약초밭에 가까워질수록 약초 냄새가 점점 짙어졌다.
-약초 냄새는 이상하리만치 역했으며, 왜인지 모르게 속이 울렁거리기 시작했다."|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3|||334|||
+약초 냄새는 이상하리만치 역했으며, 왜인지 모르게 속이 울렁거리기 시작했다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|||||334|||
 334|"???: 거기 누구야!!!???: 거기 누구야!!!! 
 갑자기 누군가가 나에게 크게 소리치며 불러 세웠다. 
 ""헉! 아... 안녕하세요 이번에 이사 온 김기자라고 합니다. 
@@ -1238,103 +1251,103 @@
 나를 멈춰 세운 그 사람은 등에 약초 통을 메고 있었다. 약초밭 주인인 것 같다. 
 아... 들어가면 안 되는 줄 몰랐어요… 죄송합니다…
 벤자민: ... 지금이라도 알았으면 됐네. 어여 여기서 나가게나.
-벤자민은 나를 내쫓듯이 가라고 떠밀었다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|CHARACTER_VENJAMIN.png|BGM_STORY_MIDDLE.mp3|||335|||
+벤자민은 나를 내쫓듯이 가라고 떠밀었다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|CHARACTER_VENJAMIN.png||||335|||
 335|"왜 이리 떠밀지... 그깟 약초가 뭐라고… 조금 화가 나지만 일단 내가 무단 침입자인 셈이니… 나가자 
 나는 화가 났지만 참고 일단 밖으로 나왔다.
 근데 뭐를 재배하길래... 이리 냄새가 역하지... 
-나는 역한 약초 냄새가 내 몸에 밴 것 같아 탈탈 털며 마을로 돌아갔다."|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3|||336|||
+나는 역한 약초 냄새가 내 몸에 밴 것 같아 탈탈 털며 마을로 돌아갔다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|||||336|||
 336|"마을 입구에 들어서는 순간 오른쪽 끝에서 휴고가 자루를 들고 나르는 것을 볼 수 있었다. 
 휴고는 그 자루를 들고 식당으로 향했으며, 식당 문 앞에는 자루가 하나 더 놓여있었다. 
 음? 뭐지? 미트파이 재료를 구해서 가지고 가는 건가? 
 나는 미트파이의 재료로 생각되는 자루에 호기심이 생겨 조심스럽게 휴고의 행동을 살펴보았다.
 휴고는 들고 있던 자루를 다른 자루 옆에 내려놨는데, 그 순간 옆에 있는 자루가 꿈틀거리는 것 같이 보였다.
 어? 아직 살아있는 건가?
-휴고는 그 순간 얼굴을 찌푸리며 옆에 있는 망치를 들고 그 자루를 세게 내리쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||337|||
+휴고는 그 순간 얼굴을 찌푸리며 옆에 있는 망치를 들고 그 자루를 세게 내리쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||337|||
 337|"퍽!!! 부르르... 
-자루를 망치로 내려치는 순간 자루 밖으로 피가 튀었고, 자루는 부르르르 떠는 듯하더니 이내 멈추었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||338|||G
+자루를 망치로 내려치는 순간 자루 밖으로 피가 튀었고, 자루는 부르르르 떠는 듯하더니 이내 멈추었다."|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||338|||G
 338|"헉!!!... 뭐길래 저렇게 피가 많이 튀지... 
 잔인한 장면에 순간적으로 놀라 나는 몸이 굳었다. 
 그 순간 몸이 굳어 가만히 서있는 나와 휴고의 눈이 마주쳤다. 
 !!?! 
 그냥 미트파이 재료를 때린 것뿐인데... 왜 이렇게 무서울까... 
 나는 그 자리에서 도망치고 싶다는 생각이 강하게 들었다. 
-도망칠까? 아니면 오해를 살 수도 있으니 다가가서 자연스레 행동할까?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3||집으로 도망친다|339|다가간다|357|
+도망칠까? 아니면 오해를 살 수도 있으니 다가가서 자연스레 행동할까?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|||집으로 도망친다|339|다가간다|357|
 339|"휴고의 행동과 눈빛이 너무도 무서웠던 나는 바로 등을 돌려 우리 집을 향해 빠르게 걸어갔다.
 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 제발 부르지 마라... 
-집 문 앞에 도착한 나는 문을 열고 들어가 문을 닫으려 했다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||340|||
-340|!!!?!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||341|||
+집 문 앞에 도착한 나는 문을 열고 들어가 문을 닫으려 했다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||340|||
+340|!!!?!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||341|||
 341|"문을 닫으려고 고개를 돌린 순간 식당에서 아직도 나를 쳐다보고 있는 휴고와 눈이 마주쳤다.
-헉!! 아직도 보고 있네…"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||342|||
+헉!! 아직도 보고 있네…"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|CHARACTER_HUGO.png||||342|||
 342|"끼이익 철컥 
 나는 문을 완전히 닫고 잠가버렸다. 
-하... 뭔데 저 사람은 저렇게 무서운 거지... 너무 무섭네"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_BREATHING.wav||343|||G
+하... 뭔데 저 사람은 저렇게 무서운 거지... 너무 무섭네"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||EFFECT_SOUND_BREATHING.wav||343|||G
 343|"그나저나... 재료가 뭐길래 자루에 그렇게 꽁꽁 싸맨 걸까? 
 망치로 내려치니 피는 그렇게 튀고... 으~ 다시 생각해도 징그러운 것 같네 
 일단 저녁시간까지... 시간이 좀 남았으니 좀 쉬어야겠다.
 저녁 7시가 되어 나는 고민에 빠졌다.
-미트파이 먹으러 가긴 싫은데… 안 가면 안 될 것 같기도 하고… 어쩌지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||먹으러 간다|344|집에서 라면을 먹는다|360|
+미트파이 먹으러 가긴 싫은데… 안 가면 안 될 것 같기도 하고… 어쩌지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||먹으러 간다|344|집에서 라면을 먹는다|360|
 344|"어제 안 먹고 있으니 보는 눈빛이 살벌했지… 일단 나가자.
-나는 나갈 채비를 하고 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||345|||
+나는 나갈 채비를 하고 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||345|||
 345|"광장에는 어제와 같은 사람들이 탁자에 둘러앉아 있었고, 나도 내 자리에 가서 착석했다.
 으… 먹기 싫은데… 미트파이가 안 나왔으면 좋겠다…
-하지만, 나의 바람과 달리 식당에서 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||346|||
+하지만, 나의 바람과 달리 식당에서 요리사와 이장이 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||346|||
 346|"이장: … 오늘은 휴고가 사냥에 성공했다네. 무려 2마리나 사냥에 성공해서 당분간은 투표하지 않아도 될 것 같네
-다들 오늘 하루도 고생했고 다 먹으면 어서 집에 가서들 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_MIDDLE.mp3|||347|||
+다들 오늘 하루도 고생했고 다 먹으면 어서 집에 가서들 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||347|||
 347|"멈칫! 나는 미트파이를 먹으려다가, 2마리라는 말에 낮에 봤던 여행객이 떠올랐다. 
 2... 2마리?? 오늘... 마을로 안내한 여행객도 2명이었는데...
 나는 왠지 모를 불안감에 미트파이와 휴고를 바라봤다.
-휴고에게 여행객에 대해... 물어볼까?"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3||물어본다|373|조용히 미트파이를 먹는다|348|
+휴고에게 여행객에 대해... 물어볼까?"|SCENE_STORY_INSIDE(PLAZA).jpg||||물어본다|373|조용히 미트파이를 먹는다|348|
 348|"아니야… 어제부터 나를 보는 눈초리가 심상치 않아… 괜히 긁어 부스럼 만들지 말자. 
 나는 물어보면 왠지 안 될 것 같은 기분이 들어 눈앞에 있는 미트파이를 먹기로 했다.
 쩝쩝… 우욱… 쩝쩝 어제도 그랬지만… 너무 역한 맛이네... 쩝쩝
-나는 미트파이를 어느 정도 먹고 더 이상 먹으면 토할 것 같아서 남은 건 버리고 집으로 향했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||349|||
-349|집에 도착한 나는 어제와 마찬가지로 가루를 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png|BGM_STORY_MIDDLE.mp3|||350|||
+나는 미트파이를 어느 정도 먹고 더 이상 먹으면 토할 것 같아서 남은 건 버리고 집으로 향했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||349|||
+349|집에 도착한 나는 어제와 마찬가지로 가루를 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png||||350|||
 350|"후... 미트파이보다 이 가루가 훨씬 맛있는 것 같은 건 기분 탓인가… 
 이 가루가 없으면 미트파이는 입에도 못 댈 것 같은데…
-가루를 먹은 나는 집 청소를 조금 한 뒤 침대에 누워 잠들었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||376|||
+가루를 먹은 나는 집 청소를 조금 한 뒤 침대에 누워 잠들었다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||376|||
 351|"음 그래도 아직 못 본 주민도 있을 것 같은데… 오늘도 한번 돌아다녀 보자! 
 나는 주민을 만나기로 마음먹고 밖으로 나왔다. 
 ... 근데 왜 아무도 안 보이지... 
 신기하리만치 마을에는 아무도 보이지 않았다.
 다들 밖으로 나갔나?... 
-나는 마을 밖으로 향했다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||352|||
+나는 마을 밖으로 향했다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||352|||
 352|"마을 밖은 다양한 나무와 저 멀리 산이 보였고, 마을 옆에는 바다 같은 호수가 붙어 있었다.
 캬~~ 외진 마을이라 그런지 경치도 정말 끝내주네
-주민을 찾으러 나왔지만 멋진 경치에 나는 감탄을 하고 있었는데..."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||329|||
+주민을 찾으러 나왔지만 멋진 경치에 나는 감탄을 하고 있었는데..."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||329|||
 353|"방문해도 문제 될 게 없을 것 같은데요? 그냥 여행객이라 말하고 돌아보시면 될 것 같아요! 
 아 근데 마을 사람들이 좀 많이... 과묵한 편이라 좀 당황스러우실 순 있을 거예요. 
-여행객 부부: 아~ 그렇군요! 한번 가봐야겠네요! 감사합니다!"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png|BGM_STORY_MIDDLE.mp3|||354|||
+여행객 부부: 아~ 그렇군요! 한번 가봐야겠네요! 감사합니다!"|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|CHARACTER_COUPLE.png||||354|||
 354|"나는 괜찮을 거라고 말해줬고, 그 부부는 감사 인사를 한 뒤 마을로 향했다. 
 음... 주민은 안 보이는 것 같고... 그럼 나는 경치 좀 보면서 힐링이나 해볼까? 
-나는 주변을 둘러보며 경치 감상을 하기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||355|||
+나는 주변을 둘러보며 경치 감상을 하기로 했다."|SCENE_STORY_OUTSIDE(LAKE_MIDDLE).jpg|||||355|||
 355|"어? 저기 무슨 밭 같은 게 보이는데... 마을 밖에서도 농사를 짓는 건가?
-주변을 더 둘러보던 나는 약초밭 같은 것을 볼 수 있었다."|SCENE_STORY_OUTSIDE(GARDEN).jpg||BGM_STORY_MIDDLE.mp3|||332|||
+주변을 더 둘러보던 나는 약초밭 같은 것을 볼 수 있었다."|SCENE_STORY_OUTSIDE(GARDEN).jpg|||||332|||
 356|"배도 고픈데… 집에 가서 밥이나 먹자!
-나는 밥을 먹기 위해 마을로 들어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||336|||
-357|나는 도망가면 오히려 이상할 것이라 생각하여 휴고에게 다가가려고 마음먹었다.|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||358|||
+나는 밥을 먹기 위해 마을로 들어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||336|||
+357|나는 도망가면 오히려 이상할 것이라 생각하여 휴고에게 다가가려고 마음먹었다.|SCENE_STORY_TOWN(MIDDLE).jpg|||||358|||
 358|"퍼억!!
-근데 휴고가 나에게서 시선을 돌린 뒤 망치를 다시 굳게 다잡고 자루를 다시 한번 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||359|||G
+근데 휴고가 나에게서 시선을 돌린 뒤 망치를 다시 굳게 다잡고 자루를 다시 한번 내려쳤다."|SCENE_STORY_TOWN(MIDDLE).jpg|||EFFECT_SOUND_HIT(HAMMER_DIE).wav||359|||G
 359|"!!!!
-자루에는 다시 피가 튀었고 나는 나도 모르게 등을 돌려 집으로 뛰어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||342|||
+자루에는 다시 피가 튀었고 나는 나도 모르게 등을 돌려 집으로 뛰어갔다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||342|||
 360|"먹기 싫은데 굳이 나갈 필요가 있을까…? 라면이나 먹자!
 나는 컵라면에 물을 부어 먹고. 집 청소를 좀 한 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||361|||C
 361|"나는 잠을 자는데 꿈을 꾸었다.
 나는 물속에 잠겨있고 점점 가라앉고 있었으며, 점점 숨이 막혀왔다.
-근데 이상하게 꿈속이란 느낌보다 너무 실감 나게 숨이 막혀왔다."|SCENE_STORY_INSIDE(WATER_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||362|||
-362|뭔가... 이상... 컥!! 커헉!!!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||363|||
-363|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||364|||
-364|내 위에는 누군가가 올라타 있었고 내 목을 조르고 있었다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||365|||C
+근데 이상하게 꿈속이란 느낌보다 너무 실감 나게 숨이 막혀왔다."|SCENE_STORY_INSIDE(WATER_DIE).jpg|||||362|||
+362|뭔가... 이상... 컥!! 커헉!!!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||363|||
+363|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||364|||
+364|내 위에는 누군가가 올라타 있었고 내 목을 조르고 있었다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||365|||C
 365|"컥... 커헉…컥…
-나는 그를 올려다봤다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||366|||
-366|!!!!|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||367|||
-367|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||368|||
+나는 그를 올려다봤다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||366|||
+366|!!!!|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||367|||
+367|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE).jpg|||||368|||
 368|"컥…커허헉…
-나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||369|||
-369|컥…커헉… 점점 의식이 흐려져갔다.|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||370|||
+나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg|||||369|||
+369|컥…커헉… 점점 의식이 흐려져갔다.|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg|||||370|||
 370|"ㅋ... ㅓ... 허… 
-도대체 왜…?"|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||371|||
-371|난 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||372|||
-372|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3|||343|||
+도대체 왜…?"|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg|||||371|||
+371|난 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg|||||372|||
+372|GAME OVER|SCENE_GAMEOVER.jpg|||||343|||
 373|"저 휴... 
 내가 휴고를 부르려고 하는 찰나 휴고가 나를 쳐다봤다. 
 헉!!! 
@@ -1345,40 +1358,40 @@
 나는 휴고에게 아무것도 아니라 말한 뒤 미트파이를 허겁지겁 먹었다.
 그런 나를 휴고가 말없이 바라봤다."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_HUGO.png|BGM_STORY_MIDDLE.mp3|||374|||
 374|"와… 내가 저런 사람에게 물어보려고 했다니... 너무 무섭잖아! 다신 그러지 말자... 
-우욱... 그나저나 이 미트파이는 너무 역하네... 욱"|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||375|||
-375|나는 억지로 미트파이를 욱여넣은 후 집으로 돌아가서 어제 받은 가루를 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||350|||
+우욱... 그나저나 이 미트파이는 너무 역하네... 욱"|SCENE_STORY_INSIDE(PLAZA).jpg|||||375|||
+375|나는 억지로 미트파이를 욱여넣은 후 집으로 돌아가서 어제 받은 가루를 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||350|||
 376|"다음날, 오늘도 알람이 울리기 전에 눈이 떠졌다.
-으아아아~ 오늘도 일찍 일어나졌네... 맑은 공기를 마셔서 그런가? 몸도 개운하고..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||377|||C
+으아아아~ 오늘도 일찍 일어나졌네... 맑은 공기를 마셔서 그런가? 몸도 개운하고..."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||377|||C
 377|"오늘은 딱히 가보고 싶은 곳이 없긴 한데… 그냥 밖을 좀 돌아다녀 보자! 
 나는 일단 나갈 채비를 해서 밖으로 나갔다.
-밖으로 나온 나는 주변을 둘러봤는데, 유독 식당이 눈에 들어왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||378|||
+밖으로 나온 나는 주변을 둘러봤는데, 유독 식당이 눈에 들어왔다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||378|||
 378|"어제 저기서 휴고가... 재료를 망치로 내려쳤지 피 튀기는 게 너무 끔찍했는데… 
 일단 한번 저기로 가보자 
 나는 어제 휴고가 자루를 내리친 장소로 향했다. 
 그곳에는 어제 자루에서 튄 핏자국이 그대로 묻어 있었다.
-어? 바닥에 뭔가 떨어져 있는 것 같은데… 뭐지? 가까이 가볼까?"|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3||가까이 가본다|379|식당으로 들어간다|398|
+어? 바닥에 뭔가 떨어져 있는 것 같은데… 뭐지? 가까이 가볼까?"|SCENE_STORY_TOWN(MIDDLE).jpg||||가까이 가본다|379|식당으로 들어간다|398|
 379|"나는 바닥에 떨어져 있는 물체를 확인하러 다가갔고 그 물체를 들어 올렸다.
-어... ? 이거 반지 아닌가???"|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||380|||
+어... ? 이거 반지 아닌가???"|SCENE_STORY_TOWN(MIDDLE).jpg|||||380|||
 380|"들어 올린 물체는 바로 피 묻은 반지였다.
 반... 반지?! 왜 여기에 반지가 떨어져 있지... 
-서... 설마 어제 그 부... 부부?!"|SCENE_STORY_TOWN(MIDDLE).jpg|ITEM_STORY_RING.png|BGM_STORY_MIDDLE.mp3|||381|||
+서... 설마 어제 그 부... 부부?!"|SCENE_STORY_TOWN(MIDDLE).jpg|ITEM_STORY_RING.png||||381|||
 381|"확실한 건 아니지만... 어제 만났던 부부... 떨어진 반지... 어제 자루의 크기... 이 모든 것이 뭔가 불길한 느낌을 암시하고 있었다. 
 에이... 설마... 아니겠지…
-느낌이 너무 쎄한데… 식당으로 들어가 보자"|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_MIDDLE.mp3|||382|||
+느낌이 너무 쎄한데… 식당으로 들어가 보자"|SCENE_STORY_TOWN(MIDDLE).jpg|||||382|||
 382|"일단 들어가서 자루의 행방을 좀 봐보자… 
-반지를 주운 나는 과거 기자 본능이 발동한 것인지 겁도 없이 식당 안으로 들어갔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||383|||
+반지를 주운 나는 과거 기자 본능이 발동한 것인지 겁도 없이 식당 안으로 들어갔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||383|||
 383|"식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 듯해 보였다.
 저... 저기요~~. 요리사님!~
 나는 다시 한번 요리사를 불렀다.
 요리사님!!! 계신가요!!!
 이렇게 소리를 치는데도 요리사가 답이 없는 것 보면... 지금 식당에 없는 것 같다.
 주방으로 이어진... 핏자국이 좀 신경 쓰이는데... 
-주방으로 한번 들어가 볼까??"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3||들어간다|399|들어가지 않는다|384|
+주방으로 한번 들어가 볼까??"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|399|들어가지 않는다|384|
 384|"아냐... 들어갔다가 들키면 무슨 일이 일어날지 알고… 그냥 나가자 
 빨리 나가서 다른…!!! 
-등을 돌리자 요리사가 칼을 들고 나를 바라보고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||385|||
+등을 돌리자 요리사가 칼을 들고 나를 바라보고 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||385|||
 385|"허허억!!!
-나는 놀라서 뒤로 넘어졌다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|EFFECT_SOUND_FALLDOWN.wav||386|||G
+나는 놀라서 뒤로 넘어졌다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_FALLDOWN.wav||386|||G
 386|"요리사: ... 식당엔 무슨 일이시죠? 
 요리사는 나를 내려다보며 물었고, 얼굴은 웃고 있었지만... 눈빛은 마치 살기를 품은 눈처럼 날카로웠다. 
 아... 아 마을을 돌아보다가 미... 미트파이를 만드시느라 고생하시는 요리사님이 생각나서… 
@@ -1389,14 +1402,17 @@
 아니요!!! 아니요 아니요!! 그래도 주인 없는 주방을 멋대로 들어가는 건 예... 예의가 아닌 것 같... 같아서 그냥 돌아 나왔어요 
 요리사는 대답 없이 나를 지긋이 바라봤다.
 ... 정... 정말이에요! 저는... 저는 그저 고생하셔서 인사드리려고…
-나는 정말 무서워서 울먹거리며 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_MIDDLE.mp3|||387|||
+나는 정말 무서워서 울먹거리며 말했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||387|||
 387|"요리사: ... 하하하! 그러시군요! 제가 너무 무섭게 여쭤봤나 보네요 
 말씀하신 대로... 제 주방을 누군가 맘대로 들어갔을 거라 생각하니 좀 화가 나서 그랬습니다 하하하 
 너무 겁내지 않으셔도 돼요! 
 요리사는 바로 표정을 풀며 나에게 웃으며 말했다. 
 아... 하... 하하... 그렇... 군요... 
 나는 놀란 가슴이 진정되지 않아 계속 말을 더듬으며 말을 했다. 
-요리사: 주방이 궁금하신 것 같은데 저랑 같이 들어가 보실래요? 아... 아닙니다 굳이 안 들어가 봐도 될 거 같아요... 마음 좀 진정하기 위해 바람 좀 쐬어야 될 것 같아요... 
+요리사: 주방이 궁금하신 것 같은데 저랑 같이 들어가 보실래요? 
+요리사는 자기와 함께 주방에 들어가 볼 것이냐고 물었다. 
+들어가 볼까? 들어가지 않는다 
+아... 아닙니다 굳이 안 들어가 봐도 될 거 같아요... 마음 좀 진정하기 위해 바람 좀 쐬어야 될 것 같아요... 
 나는 아까의 궁금증은 사라지고, 이곳을 빨리 벗어나야겠다는 생각만 가득했다. 
 요리사: ... 그러시군요. 음... 그래도 제가 너무 놀라게 해드린 것 같아서... 아! 잠시만 기다리세요! 
 요리사는 아쉽다는 표정을 하고 고민하다가 무언가 깨달은 듯 주방으로 들어가 버렸다. 
@@ -1405,36 +1421,36 @@
 나는 요리사가 건넨 용기를 받고 안에 있는 것이 무엇인지 살펴봤다. 
 이건… 미... 미트파이네… 
 가... 감사합니다! 마침 배... 배가 고팠는데 이거라도 먹으면서 진정해야겠어요 
-나는 정말 먹기 싫었지만, 내색하지 않고 요리사에게 감사 인사를 한 후 도망치듯 식당을 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_MIDDLE.mp3|||388|||
+나는 정말 먹기 싫었지만, 내색하지 않고 요리사에게 감사 인사를 한 후 도망치듯 식당을 나왔다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png||||388|||
 388|"집에 도착한 나는 미트파이를 쓰레기통에 버려버리고, 아까 넘어지며 묻은 피를 닦기 위해 세면대로 향했다. 
 !!!? 이거 뭐지??? 
-손을 씻으려고 세면대에 올리는 순간 나는 내 손을 보고 놀라 굳어버렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||389|||
+손을 씻으려고 세면대에 올리는 순간 나는 내 손을 보고 놀라 굳어버렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||389|||
 389|"내 손에는 아까 넘어지며 짚은 핏자국과…. 긴… 머리카락이 붙어 있었다. 
 이건… 머리카락인데… 우리 마을에 이런 머리색을 한 사람은 없었는데… 
 !!! 어제 부부 아내가 이 머리색이었는데?
-나는 순간 목덜미가 싸해지는 느낌이 들며, 온몸에 소름이 돋았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_STORY_HAIR.png|BGM_STORY_MIDDLE.mp3|||390|||
+나는 순간 목덜미가 싸해지는 느낌이 들며, 온몸에 소름이 돋았다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_STORY_HAIR.png||||390|||
 390|"에... 에이... 아닐 거야... 설마 그럴 리가 없어... 
 나는 내가 생각하는 것이 아니길 바랬다. 
 지... 지금 아직 확실한 것은 아니니까... 아닐 거야… 
 나는 패닉에 빠져 더 이상 무언가를 할 생각을 하지 못하고 생각에 잠겼다. 
 한참 뒤 나는 생각에서 깨어나며 시계를 봤다.
-… 벌써 7시가 다 돼가네… 광장으로… 나가야겠... 지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||나간다.|391|나가지 않는다|406|
+… 벌써 7시가 다 돼가네… 광장으로… 나가야겠... 지?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||나간다.|391|나가지 않는다|406|
 391|"... 나가자... 안 나가면 무슨 일이 일어날지 몰라…
-나는 일단 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||392|||
+나는 일단 광장으로 향했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||392|||
 392|"광장으로 나가자 어제와 같은 주민들이 탁자에서 미트파이를 기다리고 있었다. 
 나는 내 자리에 가서 앉으며 다시 생각에 잠겼다. 
 만약… 만약… 어제 부부가 자루 속에 있던 거고… 그 부부가 재료였으면… 미트파이의 재료는 인…육인건가... ? 
 아냐... 설마 그런 미친 짓을 하는 사람이 있을까…
-내가 생각에 잠겨있는 사이 식당에서 이장과 요리사가 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||393|||
+내가 생각에 잠겨있는 사이 식당에서 이장과 요리사가 미트파이를 가지고 나왔다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||393|||
 393|"이장: 오늘은 사냥에 실패했지만, 다행히 어제 2마리를 잡았기 때문에 재료가 부족하진 않았네.
-내일도 사냥에 실패하면… 투표를 진행해야겠지. 어쨌든 다들 오늘 하루도 고생 많았네 어여들 먹고 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png|BGM_STORY_MIDDLE.mp3|||394|||
+내일도 사냥에 실패하면… 투표를 진행해야겠지. 어쨌든 다들 오늘 하루도 고생 많았네 어여들 먹고 가서 쉬게나."|SCENE_STORY_INSIDE(PLAZA).jpg|CHARACTER_MASTER_LEE.png||||394|||
 394|"이장이 말하는 투표에 대해서도 의문이 들었지만, 인육 미트파이일지도 모른다는 생각에 나는 제대로 된 사고를 할 수 없었다. 
 미트파이가 모두에게 나눠진 후 나는 내 미트파이를 보며 다시 한번 생각에 잠겼다. 
 이게 인육이라면… 우욱… 내가 이걸 먹을 수... 있을까? 
 ... 안 먹으면 의심을 살 거야… 일단 먹자, 확실한 것도 아니잖아?... 
 나는 일단 미트파이를 먹기로 마음먹었다.
 쩝쩝쩝… 욱... 쩝쩝... 우욱... 
-미트파이를 먹는 내내 나는 속이 울렁거리고 다 게워내고 싶은 마음만 가득했다."|SCENE_STORY_INSIDE(PLAZA).jpg||BGM_STORY_MIDDLE.mp3|||395|||
+미트파이를 먹는 내내 나는 속이 울렁거리고 다 게워내고 싶은 마음만 가득했다."|SCENE_STORY_INSIDE(PLAZA).jpg|||||395|||
 395|"나는 미트파이를 반쯤 먹은 후 버리고, 빠르게 집으로 간 뒤 화장실로 직행했다. 
 욱 우욱 우웨에에에엑!!!! 콜록. 콜록. 우에에에엑!!! 
 나는 내가 먹은 모든 것을 토해내기 위해 억지로 먹은 것을 모두 게워냈다. 
@@ -1451,14 +1467,14 @@
 이 모든게… 인육 파이라고 하면 설... 설명이 되는데… 우욱… 
 인육파이라는 생각하자 다시 속이 울렁거렸다.
 하... 아닐 거야… 아냐... 그래서 올리버씨가 가루를 준 건가…? 모르겠다... 
-뭔가 확실한 게 없어… 이... 일단 가루부터 먹자"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||396|||
-396|나는 올리버씨가 준 가루가 생각나자마자 바로 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png|BGM_STORY_MIDDLE.mp3|||397|||
+뭔가 확실한 게 없어… 이... 일단 가루부터 먹자"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||396|||
+396|나는 올리버씨가 준 가루가 생각나자마자 바로 물에 타서 마셨다.|SCENE_STORY_INSIDE(HOUSE_MY).jpg|ITEM_HERBALPOWDER.png||||397|||
 397|"이 가루를 안 먹으면… 미트파이를 먹었을 때 뭔가가 일어나는 건가??? 
 내일 올리버씨에게 물어봐야겠어… 그리고 내일 좀 더 조사를 해보자
-오늘은 시간이 늦었기 때문에 나는 일단 자고 내일 조사를 해보기로 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||416|||
+오늘은 시간이 늦었기 때문에 나는 일단 자고 내일 조사를 해보기로 했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||416|||
 398|"일단 들어가서 자루의 행방을 좀 보자…
 나는 과거 기자 본능이 발동한 것인지 겁도 없이 식당 안으로 들어갔다.
-식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 듯해 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_MIDDLE.mp3|||383|||
+식당에는 주방으로 이어진 핏자국이 있었고, 요리사는 식당에 없는 듯해 보였다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||383|||
 399|"나는 조심스럽게 주방 커튼을 치고 들어갔다. 
 !!!!!! 
 헉!!!! 
@@ -1466,37 +1482,37 @@
 욱!! 우욱!! 우웨에에에엑!!! 
 생각지도 못한 장면을 보는 속이 올라와 낮에 먹었던 미트파이를 모두 게워냈다.
 이... 이게 뭐야!!! 우욱... 빨리... 나가서 알려…"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||400|||
-400|퍽!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||401|||G
-401|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||402|||
-402|어... ? 왜 내가 엎드려있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||403|||
-403|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||404|||H
-404|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||405|||
-405|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|383|||
+400|퍽!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||EFFECT_SOUND_HIT(HAMMER_DIE).wav||401|||G
+401|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg|||||402|||
+402|어... ? 왜 내가 엎드려있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg|||||403|||
+403|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg|||||404|||H
+404|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg|||||405|||
+405|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|383|||
 406|"먹기 싫은데 굳이 나갈 필요가 있을까…? 라면이나 먹자!
-나는 컵라면에 물을 부어 먹고. 집 청소를 좀 한 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||407|||C
+나는 컵라면에 물을 부어 먹고. 집 청소를 좀 한 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||407|||C
 407|"나는 잠을 자는데 꿈을 꾸었다. 
 나는 물속에 잠겨있고 점점 가라앉고 있었으며, 점점 숨이 막혀왔다. 
 근데 이상하게 꿈속이란 느낌보다 너무 실감 나게 숨이 막혀왔다.
-뭔가... 이상... 컥!! 커헉!!!"|SCENE_STORY_INSIDE(WATER_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||408|||
-408|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||409|||C
+뭔가... 이상... 컥!! 커헉!!!"|SCENE_STORY_INSIDE(WATER_DIE).jpg|||||408|||
+408|나는 진짜 숨이 안 쉬어져 눈을 떴다. 그런데...|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||409|||C
 409|"내 위에는 누군가가 올라타 있었고 내 목을 조르고 있었다. 
 컥... 커헉…컥… 
 나는 그를 올려다봤다.
-!!!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||410|||
-410|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||411|||
+!!!!"|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||410|||
+410|그는 낮에 봤던 휴고였다.|SCENE_STORY_INSIDE(HOUSE_DIE).jpg|||||411|||
 411|"컥…커허헉…
-나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||412|||
-412|컥…커헉… 점점 의식이 흐려져갔다.|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||413|||
+나는 벗어나고자 발버둥 치려 했지만, 그의 힘이 너무 강해 아무것도 하지 못했다."|SCENE_STORY_INSIDE(HOUSE_DIE1).jpg|||||412|||
+412|컥…커헉… 점점 의식이 흐려져갔다.|SCENE_STORY_INSIDE(HOUSE_DIE2).jpg|||||413|||
 413|"ㅋ... ㅓ... 허… 
-도대체 왜…?"|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||414|||
-414|난 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||415|||
-415|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|390|||
+도대체 왜…?"|SCENE_STORY_INSIDE(HOUSE_DIE3).jpg|||||414|||
+414|난 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(HOUSE_DIE4).jpg|||||415|||
+415|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|390|||
 416|"다음날, 나는 일어나서 다시 생각을 정리하고 계획을 짰다.
 내가 생각하는 것이 진실이 아니길 바라며…"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||417|||
 417|"지금... 휴고가 매일 사냥을 나가는 것 같으니까... 휴고를 몰래 미행해 보면 뭔가 알 수 있을 것 같긴 한데…
-아니면… 몰래 식당을 가볼까…?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3||휴고를 미행한다|418|식당을 간다|452|
+아니면… 몰래 식당을 가볼까…?"|SCENE_STORY_INSIDE(HOUSE_MY).jpg||||휴고를 미행한다|418|식당을 간다|452|
 418|"그래… 휴고가 사냥을 하는 것 같으니... 휴고를 미행 해보자. 
-나는 창문 밖을 응시하며 휴고가 밖으로 나오길 기다렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_MIDDLE.mp3|||419|||
+나는 창문 밖을 응시하며 휴고가 밖으로 나오길 기다렸다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||419|||
 419|"잠시 후 휴고는 문을 열고 집 밖으로 나왔고 마을 밖으로 나가기 시작했다. 
 휴고의 손에는 망치가 들려 있었다. 
 휴고를 뒤따라 보자... !! 
@@ -1513,21 +1529,21 @@
 휴고가 지켜보고 있는 방향을 바라봤더니 멀리서 한 사람이 걸어오고 있었다.
 서... 설마... ? 아니겠지??? 지금 저 사람을 치려고 숨은 건가??
 휴고는 그 사람이 나무 근처로 올 때까지 숨어있다가 
-그 사람이 나무를 지나치는 순간 뒤에 나와서 망치를 크게 휘둘렀다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FOOTSTEPS(FOLLOWING).wav||421|||G
+그 사람이 나무를 지나치는 순간 뒤에 나와서 망치를 크게 휘둘렀다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_FOOTSTEPS(FOLLOWING).wav||421|||G
 421|"휘익
 퍽!!!
-!!! 진짜 머리를 내려쳤어??!!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||422|||G
-422|파삭|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|ITEM_STORY_WOOD.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_WOODCRACK.wav||423|||G
-423|나는 너무 놀라 뒷걸음치다. 나뭇가지를 밟아 버렸다.|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||424|||
+!!! 진짜 머리를 내려쳤어??!!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||422|||G
+422|파삭|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|ITEM_STORY_WOOD.png||EFFECT_SOUND_WOODCRACK.wav||423|||G
+423|나는 너무 놀라 뒷걸음치다. 나뭇가지를 밟아 버렸다.|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||424|||
 424|"그 순간 휴고는 내 쪽을 바라봤고 내 쪽을 향해 걸어오기 시작했다.
 어... 어떡하지... ? 어디로 숨어야 하지?
-나는 당황하여 어찌할 바를 모르고 있었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||425|||
-425|그 순간|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||426|||
+나는 당황하여 어찌할 바를 모르고 있었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||||425|||
+425|그 순간|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||426|||
 426|"덥석! 
 휙! 
 누군가 나를 수풀로 강하게 잡아당겼다. 
 흡!
-???: 쉿! 일단 조용히 하게 죽기 싫으면"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_BLACK.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||427|||
+???: 쉿! 일단 조용히 하게 죽기 싫으면"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_BLACK.png||||427|||
 427|"나는 내 뒤에서 속삭이는 사람의 목소리를 들으며 일단 조용히 했다. 
 휴고가 우리를 발견하면... 죽을 것 같기 때문에... 
 저벅 저벅... 저벅... 
@@ -1539,10 +1555,10 @@
 나는 미트파이의 재료가 인육이라는 것을 알게 되자 속 깊은 곳에서 무언가가 올라왔다. 
 하지만, 아직 소리를 내면 안되기 때문에 나는 필사적으로 소리를 죽였다.
 휴고는 시체를 옮겨 담은 자루를 묶은 뒤 어깨에 들쳐메고 다시 마을을 향해 걸어갔다.
-휴고가 내가 숨어있는 곳을 지나 시야에서 멀어질 때쯤"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FOOTSTEPS(FAR).wav||428|||G
+휴고가 내가 숨어있는 곳을 지나 시야에서 멀어질 때쯤"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_FOOTSTEPS(FAR).wav||428|||G
 428|"???: ... 갔군. 
 뒤에서 나를 잡아당겼던 사람이 말했다.
-당... 당신은?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_BLACK.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||429|||
+당... 당신은?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_BLACK.png||||429|||
 429|"나는 그 사람의 얼굴을 확인했다. 그는 광장에서 나를 노려봤던 올리버였다. 
 올리버: 내가 아니었으면 당신은 죽을뻔했어요... ! 어쩌자고 휴고 뒤를 캐신 거예요! 
 저... 저는 그저 제가 생각... 한 게 맞는지 확인하려고... 
@@ -1575,22 +1591,22 @@
 올리버: 제가 드린 약초 가루만 꾸준히 드신 거면… 중독은 문제없을 거예요. 
 약초 가루 여분을 더 드릴 테니 이걸 챙기고 도망가세요! 
 올리버는 본인 주머니에 있던 약초 가루 한 봉지를 내 손에 쥐여줬다.
-올리버: 밤이 되어 사라진 것을 확인하면… 휴고가 찾으러 다닐 수도 있으니 지금 어서 도망가세요!!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||430|||
+올리버: 밤이 되어 사라진 것을 확인하면… 휴고가 찾으러 다닐 수도 있으니 지금 어서 도망가세요!!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||||430|||
 430|"올리버는 나에게 도망가라고 말한 후 마을로 돌아갔다.
-…어떡하지…? 도망가야 되는 게 맞는데… 지금 당장 도망갈까? 아니면… 집에 가서 짐 좀 챙기고 도망갈까?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3||지금 당장 도망간다|431|짐을 챙겨 도망간다|461|
+…어떡하지…? 도망가야 되는 게 맞는데… 지금 당장 도망갈까? 아니면… 집에 가서 짐 좀 챙기고 도망갈까?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||||지금 당장 도망간다|431|짐을 챙겨 도망간다|461|
 431|"집에 갔다가 잡힐 수도 있으니... 지금 당장 도망가자!!! 걸어서 타 마을로 가기엔 멀긴 하지만… 가다 보면 되겠지. 
 나는 길로 나와 다른 마을 방향으로 걸어가려 했다. 
 인육을 먹는 마을이라니… 이런 미친마… 
 쿠당탕 
-나는 뒤통수에 느껴지는 쎄한 느낌에 앞으로 굴렀다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||432|||
+나는 뒤통수에 느껴지는 쎄한 느낌에 앞으로 굴렀다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||432|||
 432|"후우우웅!!! 
-그 순간 내 머리가 있던 자리에 둔탁한 느낌의 바람 소리와 함께 무언가가 빠르게 지나갔다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_LIVE).wav||433|||G
-433|헉…!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||434|||
+그 순간 내 머리가 있던 자리에 둔탁한 느낌의 바람 소리와 함께 무언가가 빠르게 지나갔다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||EFFECT_SOUND_HIT(HAMMER_LIVE).wav||433|||G
+433|헉…!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||434|||
 434|"내 뒤에는 휴고가 망치를 들고 서 있었다. 
 휴고: … 신고하러 가는 건가?
-어... 어떻게 휴고가 여기 있는 거... 지? 그쪽으론 올리버가 갔을 텐데…?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||435|||
+어... 어떻게 휴고가 여기 있는 거... 지? 그쪽으론 올리버가 갔을 텐데…?"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||||435|||
 435|"후우우웅!!!
-쾅!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_LIVE).wav||436|||G
+쾅!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_HIT(HAMMER_LIVE).wav||436|||G
 436|"휴고를 보고 충격에 빠진 나에게 휴고는 다시 한번 망치를 휘둘렀다. 
 나는 뒷걸음질로 피했고 망치는 바닥을 강타했다. 
 나... 나한테 왜 그러는 거야!!! 난 아무 짓도 안 했다고!!! 
@@ -1600,47 +1616,47 @@
 나는 휴고의 말도 안 되는 소리에 말문이 턱 막혔다. 
 후우우웅 
 쿠당탕!
-으악!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||437|||
+으악!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||||437|||
 437|"휴고는 다시 한번 나에게 망치를 휘둘렀고 나는 그것을 피하다 돌부리에 걸려 넘어졌다.
-넘어지면서 무릎에 돌이 박힌 것인지 무릎에서 통증이 강하게 느껴졌다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_FALLDOWN.wav||438|||G
+넘어지면서 무릎에 돌이 박힌 것인지 무릎에서 통증이 강하게 느껴졌다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||EFFECT_SOUND_FALLDOWN.wav||438|||G
 438|"아악… 지익… 지익… 
 나는 어떻게든 휴고에게서 벗어나기 위해 피가 흐르는 무릎을 잡고 기어가기 시작했다. 
 휴고: … 쓸데없는 발악을 하는군... 
-휴고는 기어가는 나를 무심하게 바라보며 망치를 치켜들었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||439|||
+휴고는 기어가는 나를 무심하게 바라보며 망치를 치켜들었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||||439|||
 439|"이렇게… 죽는 건가…?
-나는 휴고가 망치를 내려치는 순간 눈을 질끈 감았다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||440|||C
+나는 휴고가 망치를 내려치는 순간 눈을 질끈 감았다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_HUGO.png||||440|||C
 440|"빡!!!
-털썩"|SCENE_BLACK.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||441|||G
-441|갑자기 어마어마한 타격 소리와 함께 누군가 쓰러지는 소리가 들렸다.|SCENE_BLACK.jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||442|||
+털썩"|SCENE_BLACK.jpg|||EFFECT_SOUND_HIT(HAMMER_DIE).wav||441|||G
+441|갑자기 어마어마한 타격 소리와 함께 누군가 쓰러지는 소리가 들렸다.|SCENE_BLACK.jpg|||||442|||
 442|"뭐…뭐지?
-나는 내가 아직 살아있음에 어리둥절하며 눈을 떴다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||443|||C
+나는 내가 아직 살아있음에 어리둥절하며 눈을 떴다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||443|||C
 443|"올리버: 도망가라니까 왜 이러고 있는 거예요!!
-올리버는 피가 묻은 큰 돌을 들고 있었고 그 앞에는 휴고가 쓰러져 있었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||444|||
+올리버는 피가 묻은 큰 돌을 들고 있었고 그 앞에는 휴고가 쓰러져 있었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||||444|||
 444|"휘익!
-빠각!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||445|||G
+빠각!"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||445|||G
 445|"올리버는 다시 돌을 들어 올려 휴고의 한쪽 발을 내려찍었다. 
 그 후 나를 부축하여 일으켜 세웠다. 
 올리버: 어서 가세요!! 다른 마을 사람들이 몰려오기 전에!! 
 올리버 다... 당신은요? 
 나는 올리버를 보며 말했다.
-올리버: 저는 남아…"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||446|||
-446|빡!!!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||447|||G
+올리버: 저는 남아…"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||||446|||
+446|빡!!!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||EFFECT_SOUND_HIT(HAMMER_DIE).wav||447|||G
 447|"올리버: 아아아악!!! 
 무언가를 말하려던 올리버가 비명을 지르며 쓰러졌다. 
 휴고가 앉아서 망치로 올리버 다리를 가격한 것이었다.
 올리버: 으으… 빨리 가라고!!!!
-올리버는 나에게 소리쳤다"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||448|||
+올리버는 나에게 소리쳤다"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|CHARACTER_OLIVER_MIDDLE.png||||448|||
 448|"나는 올리버의 말에 나도 모르게 뒤를 돌아 절뚝이며 걷기 시작했다. 
 흐…흑…흑…흐… 
 나는 지금 겪은 이 무서운 상황과… 올리버의 희생으로 인해 눈물이 흐르기 시작했다. 
 흑…흑…흐…. 
-넘어지면서 부딪힌 무릎도 너무 아프고 피도 흘러 정신이 몽롱해지는 것 같았지만 계속해서 걸었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||449|||
-449|철푸덕!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||450|||
+넘어지면서 부딪힌 무릎도 너무 아프고 피도 흘러 정신이 몽롱해지는 것 같았지만 계속해서 걸었다."|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||449|||
+449|철푸덕!|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||450|||
 450|"한 30분쯤 걸었을까… 나는 더 이상 걸을 힘이 없어 넘어졌다. 
 더…가야 되는데… 벗어나야 되는데…. 
 오랫 동안 피를 흘려 점점 의식이 흐려져갔다.
-도망... 가…"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||451|||
-451|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||466|||C
+도망... 가…"|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||451|||
+451|나는 의식의 끈을 놓아버렸다.|SCENE_STORY_OUTSIDE(LOAD_MIDLLE).jpg|||||466|||C
 452|"주방을… 가보면… 재료를 알 수 있지 않을까?
 휴고를 따라 가기에는 무서웠던 나는 식당으로 향했다."|SCENE_STORY_INSIDE(REST).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||453|||
 453|"조심스럽게 식당에 들어간 나는 먼저 주방 쪽을 살폈다. 
@@ -1648,20 +1664,20 @@
 식당은 이상하리만치 조용했다. 
 바닥에는 청소를 한 건지 어제 보였던 핏자국은 모두 제거되어 있었다. 
 일단 한번 주방 쪽으로 가봐야겠다... ! 
-나는 주방 쪽으로 향했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||454|||
+나는 주방 쪽으로 향했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||454|||
 454|"나는 조심스럽게 주방 커튼을 치며 들어갔다. 
 !!!!!! 
 헉!!!! 
 나는 그곳에서 사람 형태로 보이는 고기와 뼈 그리고 살가죽 등을 보았다. 
 욱!! 우욱!! 우웨에에에엑!!! 
 생각지도 못한 장면을 보자 속이 뒤집혀 낮에 먹었던 미트파이를 모두 게워냈다. 
-이... 이게 뭐야!!! 우욱... 빨리... 나가서 알려…"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||455|||
-455|퍽!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg||BGM_STORY_CLIMAX(REASONING).mp3|EFFECT_SOUND_HIT(HAMMER_DIE).wav||456|||G
-456|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||457|||
-457|어... ? 왜 내가 엎드려 있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||458|||
-458|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||459|||H
-459|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||460|||
-460|GAME OVER|SCENE_GAMEOVER.jpg||BGM_STORY_CLIMAX(REASONING).mp3||이전 선택지로|416|||
+이... 이게 뭐야!!! 우욱... 빨리... 나가서 알려…"|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||||455|||
+455|퍽!! 털썩|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||EFFECT_SOUND_HIT(HAMMER_DIE).wav||456|||G
+456|나는 뒤통수에 강렬한 통증을 느끼며 바닥으로 쓰러졌다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE1).jpg|||||457|||
+457|어... ? 왜 내가 엎드려 있지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE2).jpg|||||458|||
+458|세상이 왜 빨갛게 변하는... 거지...|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE3).jpg|||||459|||H
+459|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg|||||460|||
+460|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|416|||
 461|"이... 일단... 다른 마을까지는 머니까... 집에 가서 짐부터 챙기자... 
 나는 도망가기 위한 몇 가지 짐을 챙기러 집으로 향했다.
 빠... 빨리…빨리 챙겨야 해…
@@ -1671,26 +1687,26 @@
 마을 밖으로 나와 나는 다른 마을로 향하는 길로 걸어갔다. 
 올리버씨가 아니었으면... 생각만 해도 끔찍했다. 
 그 순간
-나는 뒤통수에 느껴지는 싸한 느낌에 앞으로 굴렀다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||463|||
+나는 뒤통수에 느껴지는 싸한 느낌에 앞으로 굴렀다."|SCENE_STORY_TOWN(MIDDLE).jpg|||||463|||
 463|"후우우웅!!! 
-그 순간 내 머리가 있던 자리에 둔탁한 느낌의 바람 소리와 함께 무언가가 빠르게 지나갔다."|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|EFFECT_SOUND_HIT(HAMMER_LIVE).wav||464|||G
-464|헉…!|SCENE_STORY_TOWN(MIDDLE).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||465|||
+그 순간 내 머리가 있던 자리에 둔탁한 느낌의 바람 소리와 함께 무언가가 빠르게 지나갔다."|SCENE_STORY_TOWN(MIDDLE).jpg|||EFFECT_SOUND_HIT(HAMMER_LIVE).wav||464|||G
+464|헉…!|SCENE_STORY_TOWN(MIDDLE).jpg|||||465|||
 465|"내 뒤에는 휴고가 망치를 들고 서 있었다. 
 휴고: … 신고하러 가는 건가? 
-어... 어떻게 휴고가 따라 왔... 지?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png|BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||435|||
+어... 어떻게 휴고가 따라 왔... 지?"|SCENE_STORY_TOWN(MIDDLE).jpg|CHARACTER_HUGO.png||||435|||
 466|…. 삑 …... 삑…...|SCENE_STORY_LAST(HOSPITAL_STARTING1).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||467|||
 467|"여…여긴 어디지…?
 어디선가 들리는 규칙적인 기계음에 나는 눈을 떴다."|SCENE_STORY_LAST(HOSPITAL_STARTING2).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||468|||C
 468|"새하얀 천장에 내 팔에 꽂혀있는 링거 바늘과 옆에 걸려있는 링거…
-내 무릎에 감겨있는 붕대... 여긴 병원인 것 같다"|SCENE_STORY_LAST(HOSPITAL_STARTING3).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||469|||
+내 무릎에 감겨있는 붕대... 여긴 병원인 것 같다"|SCENE_STORY_LAST(HOSPITAL_STARTING3).jpg|||||469|||
 469|"흑….흑흑…흑….
-나는 살았다는 안도감에 하염없이 눈물을 흘렸다."|SCENE_STORY_LAST(HOSPITAL_STARTING4).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||470|||
-470|간호사: 어, 의사선생님!! 여기 환자분 깨어나셨어요!!!!|SCENE_STORY_LAST(HOSPITAL_INTRO).jpg|CHARACTER_NURSE.png|BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||471|||
+나는 살았다는 안도감에 하염없이 눈물을 흘렸다."|SCENE_STORY_LAST(HOSPITAL_STARTING4).jpg|||||470|||
+470|간호사: 어, 의사선생님!! 여기 환자분 깨어나셨어요!!!!|SCENE_STORY_LAST(HOSPITAL_INTRO).jpg|CHARACTER_NURSE.png||||471|||
 471|"오늘은 퇴원하는 날이다.
-나는 병원에서 모든 치료를 받고 무릎 재활까지 하여 일상생활이 가능할 정도로 회복했다."|SCENE_STORY_LAST(HOSPITAL_MIDDLE).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||472|||
+나는 병원에서 모든 치료를 받고 무릎 재활까지 하여 일상생활이 가능할 정도로 회복했다."|SCENE_STORY_LAST(HOSPITAL_MIDDLE).jpg|||||472|||
 472|"올리버의 희생 덕에... 난 살아남았다... 
 일상으로 돌아가 하리코아 마을도 신고하고… 삶을 올리버의 몫까지 열심히 살아갈 것이다.
-나는 퇴원 수속을 하러 병원 로비로 향했다."|SCENE_STORY_LAST(HOSPITAL_END).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||473|||
+나는 퇴원 수속을 하러 병원 로비로 향했다."|SCENE_STORY_LAST(HOSPITAL_END).jpg|||||473|||
 473|"간호사: 어 기자님! 오늘 퇴원하시는 날이시군요! 
 어디 보자... 금액은 000원입니다! 카드로 하시겠어요? 
 네 카드로 해주세요 
@@ -1698,16 +1714,15 @@
 네 
 간호사: 네 여기 처리가 다 되었습니다! 가보시면 돼요~
 네 수고하세요
-나는 간호사가 다시 건넨 카드를 지갑에 넣은 후 영수증을 봤다."|SCENE_STORY_LAST(HOSPITAL_END).jpg|CHARACTER_NURSE.png|BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||474|||
+나는 간호사가 다시 건넨 카드를 지갑에 넣은 후 영수증을 봤다."|SCENE_STORY_LAST(HOSPITAL_END).jpg|CHARACTER_NURSE.png||||474|||
 474|"해외라 보험이 안돼서 돈이 좀 많이 나오긴 하네… 
-근데 입원해 놓고 여기 병원 이름…"|SCENE_STORY_LAST(HOSPITAL_END).jpg||BGM_STORY_ENDING(HOSPITAL_INTRO).mp3|||475|||
+근데 입원해 놓고 여기 병원 이름…"|SCENE_STORY_LAST(HOSPITAL_END).jpg|||||475|||
 475|"흠칫!! 
 나는 영수증에 쓰여있는 병원 이름을 보고 온몸이 굳었다. 
 하…리…코…아??? 
 왜…왜... 하리...코아 이름이…? 
 나는 무언가 잘못됨을 느껴 빠르게 병원을 나가야겠다고 생각했다. 
 병원을 나가려고 정문을 바라보는 순간.
-!!!!!!!"|SCENE_STORY_LAST(HOSPITAL_END).jpg||BGM_STORY_ENDING(HOSPITAL).mp3|||476|||
-476|병원 문 앞에는 이장과 휴고가 차가운 눈으로 날 바라보고 있었다.|SCENE_STORY_LAST(HOSPITAL_END).jpg|CHARACTER_HUGO_AND_MASTERLEE.png|BGM_STORY_ENDING(HOSPITAL).mp3|||477|||
-477|END|SCENE_GAME_END.jpg||BGM_TOTAL_ENDING.mp3|||1000|||
-478||||||||||
+!!!!!!!"|SCENE_STORY_LAST(HOSPITAL_END).jpg|||||476|||
+476|병원 문 앞에는 이장과 휴고가 차가운 눈으로 날 바라보고 있었다.|SCENE_STORY_LAST(HOSPITAL_END).jpg|CHARACTER_HUGO_AND_MASTERLEE.png||||477|||
+477|END|SCENE_GAME_END.jpg||BGM_TOTAL_ENDING.mp3||||||
