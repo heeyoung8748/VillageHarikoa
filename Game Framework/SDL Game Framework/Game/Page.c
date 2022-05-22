@@ -14,13 +14,14 @@ void Page_Init(Page* page)
 
 	page->CurrentOption = 0;
 
-	Audio_Play(&page->Bgm, INFINITY_LOOP);
-
+	//Audio_Play(&page->Bgm, INFINITY_LOOP);
+	
 	Image_SetAlphaValue(&page->Background, 255 * 0.6);
 }
 
 void Page_Update(Page* page)
 {
+	
 	if (Input_GetKeyDown(VK_LEFT))
 	{
 		page->CurrentOption = 0;
@@ -48,12 +49,13 @@ void Page_Update(Page* page)
 void Page_Render(Page* page, bool selectActive)
 {
 	
+	
 	Renderer_DrawImage(&page->Background, 0, 0);
 	Renderer_DrawImage(&page->Character, 0, 0);
 
 	SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
-
+	
 	
 	for (int32 i = 0; i < 2; ++i)
 	{

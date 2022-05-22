@@ -2,15 +2,13 @@
 #include "PageManager.h"
 #include "PageIndex.h"
 
-int32 count = 0;
-int32 ccount = 1;
+
 int32 lineSave[500];
-int32 lineSaveCount=0;
+int32 lineSaveCount = 0;
 void PageManager_Init(PageManager* pageManager)
 {
 	CsvFile csvFile = {0};
 	CreateCsvFile(&csvFile, "DB_FINAL.csv");
-
 	for (int32 page = 1; page < csvFile.RowCount; ++page)
 	{
 
@@ -76,6 +74,7 @@ void PageManager_Init(PageManager* pageManager)
 
 		Page_Init(&pageManager->Pages[page]);
 	}
+
 	
 	FreeCsvFile(&csvFile);
 
@@ -86,6 +85,8 @@ void PageManager_Init(PageManager* pageManager)
 }
 bool selected = 0;
 int32 nextPage = 1;
+int32 count = 0;
+int32 ccount = 0;
 void PageManager_Update(PageManager* pageManager)
 {
 	if (pageManager->NextPage != NULL)
@@ -107,29 +108,29 @@ void PageManager_Update(PageManager* pageManager)
 	
  	if (Input_GetKeyDown(VK_SPACE))
 	{ 
+		
  		count++;
 		pageManager->selectActive = false;
-		if(count == lineSave[ccount-1]-1)
-			pageManager->selectActive = true;
-		if (count == lineSave[ccount-1])
+		if (count == lineSave[ccount]-1)
+		pageManager->selectActive = true;
+			
+		if (count == lineSave[ccount])
 		{
 				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
 				nextPage = nextPageIndex;
-				ccount = nextPageIndex;
+				ccount = nextPageIndex - 1;
 				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
 
 			if (selected == 1)
 			{
 				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage2;
 				nextPage = nextPageIndex;
-				ccount = nextPageIndex;
+				ccount = nextPageIndex - 1;
 				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
 				selected = 0;
 			}
 			count = 0;
-			
 		}
-		
 	}
 	
 }
@@ -143,7 +144,8 @@ void PageManager_Render(PageManager* pageManager)
 		//memset(&page->Script[i], 0, sizeof(page->Script));
 		SDL_Color black = { .a = 255 };
 		Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
-
+		
+		
 	//}
 }
 
