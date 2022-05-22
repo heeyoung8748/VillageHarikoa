@@ -4,7 +4,7 @@
 
 int32 count = 0;
 int32 ccount = 1;
-int32 lineSave[1000];
+int32 lineSave[500];
 int32 lineSaveCount=0;
 void PageManager_Init(PageManager* pageManager)
 {
@@ -85,6 +85,7 @@ void PageManager_Init(PageManager* pageManager)
 	
 }
 bool selected = 0;
+int32 nextPage = 1;
 void PageManager_Update(PageManager* pageManager)
 {
 	if (pageManager->NextPage != NULL)
@@ -113,12 +114,14 @@ void PageManager_Update(PageManager* pageManager)
 		if (count == lineSave[ccount-1])
 		{
 				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage;
+				nextPage = nextPageIndex;
 				ccount = nextPageIndex;
 				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
 
 			if (selected == 1)
 			{
 				int32 nextPageIndex = pageManager->CurrentPage->Options->NextPage2;
+				nextPage = nextPageIndex;
 				ccount = nextPageIndex;
 				pageManager->NextPage = &pageManager->Pages[nextPageIndex];
 				selected = 0;
@@ -139,7 +142,7 @@ void PageManager_Render(PageManager* pageManager)
 	//{
 		//memset(&page->Script[i], 0, sizeof(page->Script));
 		SDL_Color black = { .a = 255 };
-		Renderer_DrawTextBlended(&pageManager->Pages[ccount].Script[count], 200, 540, black);
+		Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
 
 	//}
 }
