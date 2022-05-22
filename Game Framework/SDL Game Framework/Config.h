@@ -28,8 +28,8 @@
 #define PAGE_OPTION_POS_X	200
 #define PAGE_OPTION_POS_Y	640
 #define PAGE_OPTION_WIDTH	500
-#define TEXT_MAX_LINE       5
+#define TEXT_MAX_LINE       20
 #define SPACE_BETWEEN_LINES 50
 
 // PageManager 관련 설정
-#define MAX_PAGE_COUNT		1000
+#define MAX_PAGE_COUNT		500
