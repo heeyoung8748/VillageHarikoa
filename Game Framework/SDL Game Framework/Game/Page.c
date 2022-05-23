@@ -19,7 +19,6 @@ void Page_Init(Page* page)
 
 void Page_Update(Page* page)
 {
-	
 		
 	if (Input_GetKeyDown(VK_LEFT))
 	{
