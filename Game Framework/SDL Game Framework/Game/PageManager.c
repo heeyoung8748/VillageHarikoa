@@ -17,7 +17,6 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
 		
-
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -93,8 +92,6 @@ int32 count = 0;
 int32 ccount = 0;
 void PageManager_Update(PageManager* pageManager)
 {
-	
-	
 	if (pageManager->NextPage != NULL)
 	{
 		pageManager->CurrentPage = pageManager->NextPage;
