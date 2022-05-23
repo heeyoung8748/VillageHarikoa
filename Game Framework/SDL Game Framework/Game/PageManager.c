@@ -17,7 +17,6 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
 		
-
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -58,7 +57,7 @@ void PageManager_Init(PageManager* pageManager)
 		const char* backgroundMusicFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_MUSIC]);
 		Audio_LoadMusic(&pageManager->Pages[page].Bgm, backgroundMusicFileName);
 		const char* effectMusicFileName = ParseToAscii(csvFile.Items[page][COL_EFFECT_MUSIC]);
-		Audio_LoadMusic(&pageManager->Pages[page].Effect, effectMusicFileName);
+		Audio_LoadSoundEffect(&pageManager->Pages[page].Effect, effectMusicFileName);
 
 		int32 diff = COL_OPTION2 - COL_OPTION1;
 		for (int32 i = 0; i < 2; ++i)
@@ -89,8 +88,6 @@ int32 count = 0;
 int32 ccount = 0;
 void PageManager_Update(PageManager* pageManager)
 {
-	
-	
 	if (pageManager->NextPage != NULL)
 	{
 		pageManager->CurrentPage = pageManager->NextPage;
@@ -134,8 +131,8 @@ void PageManager_Update(PageManager* pageManager)
 			count = 0;
 		}
 		if(count == 1)
-		Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
-		
+		Audio_PlayFadeIn(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP, 1000);
+		Audio_PlaySoundEffect(&pageManager->Pages[ccount].Effect, 1);
 	}
 	if (nextPage == 1000)
 		Scene_SetNextScene(SCENE_CREDIT);
@@ -147,8 +144,8 @@ void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
 	
-	SDL_Color black = { .a = 255 };
-	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	SDL_Color white = { .r = 255, .g = 255, .b =  255, .a = 255 };
+	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, white);
 	
 }
 

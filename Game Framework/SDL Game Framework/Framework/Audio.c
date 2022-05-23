@@ -135,7 +135,7 @@ void Audio_LoadSoundEffect(SoundEffect* soundEffect, const char* filename)
 
 	sprintf_s(s_path, sizeof(s_path), "%s/%s", SOUND_DIRECTORY, filename);
 	soundEffect->Chunk = Mix_LoadWAV(s_path);
-	Audio_SetEffectVolume(soundEffect, 1.0f);
+	//Audio_SetEffectVolume(soundEffect, 1.0f);
 }
 
 void Audio_FreeSoundEffect(SoundEffect* soundEffect)
