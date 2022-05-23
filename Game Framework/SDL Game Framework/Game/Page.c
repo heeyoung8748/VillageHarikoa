@@ -37,7 +37,7 @@ void Page_Update(Page* page)
 	}
 
 	const static SDL_Color SELECTED_COLOR_RED = { .r = 255, .a = 255 };
-	const static SDL_Color NON_SELECTED_COLOR_WHITE = { .r = 255 ,.g = 255, .b = 255, .a = 255 };
+	const static SDL_Color NON_SELECTED_COLOR_WHITE = { .r = 255, .g = 255, .b = 255, .a = 255 };
 	for (int32 i = 0; i < 2; ++i)
 	{
 		page->Options[i].Color = NON_SELECTED_COLOR_WHITE;
@@ -48,12 +48,13 @@ void Page_Update(Page* page)
 void Page_Render(Page* page, bool selectActive)
 {
 	
-	Audio_PlaySoundEffect(&page->Effect, 0);
+	//Audio_PlaySoundEffect(&page->Effect, 0);
 	Renderer_DrawImage(&page->Background, 0, 0);
 	Renderer_DrawImage(&page->Character, 0, 0);
 
-	SDL_Color red = { .r = 255, .a = 255 };
-	// Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);
+	/*SDL_Color red = { .r = 255, .a = 255 };
+	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);*/
+
 	
 	
 	for (int32 i = 0; i < 2; ++i)

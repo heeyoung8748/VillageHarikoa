@@ -109,7 +109,7 @@
 주변을 둘러보던 나는 바닥의 핏자국을 발견했고, 
 그 핏자국이 주방을 향하는 것을 볼 수 있었다.
 뭐지? 재료를 나르다가 흐른 건가... 
-한번 주방으로 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||들어간다|51|들어가지 않는다|24|
+한번 주방으로 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|51|들어가지 않는다|24|
 24|"에이 돼지 피겠지... 마을에 이제 이사 온 사람이 주방에 말도 없이 들어가면 
 요리사분이 기분 나쁠 수도 있잖아, 그냥 집으로 돌아가자... 헉!!!"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||25|||
 25|"집에 가려고 등을 돌린 나는 바로 뒤에
@@ -151,7 +151,7 @@
 요리사: ... 하하! 미트파이에 들어가는 소를 운반하다 흘린 피를 보신 거네요. 
 워낙 대량으로 만들어야 되다 보니 그런 경우가 자주 발생한답니다. 
 한번 보러 들어가 보실래요? 
-주방으로 들어가 보자고? 좀 무서운데..... 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_INTRO.mp3||들어간다|58|집으로 돌아간다|27|
+주방으로 들어가 보자고? 좀 무서운데..... 들어가 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|||들어간다|58|집으로 돌아간다|27|
 27|"아... 아니에요! 맛있는 요리 만들어주시는데 방해할 순 없죠
 저녁 시간까지 한 3시간 남은 것 같은데
 이사 오느라 좀 피곤해서 집에 가서 좀 쉬어야겠어요!
@@ -265,7 +265,7 @@
 58|"어... 그럼 들어가 볼 수 있을까요?
 나는 요리사의 권유를 거절하지 않고 들어가 보기로 했다.
 요리사: ... 그러시죠. 
-요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||59|||
+요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||59|||
 59|"나는 크게 신경 쓰지 않고 주방 커튼을 치고 들어갔다.
 !!! 헉!! 이... 이게…
 나는 들어가자마자 너무나도 잔인한 광경에 소스라치게 놀랐다.
@@ -339,7 +339,7 @@
 근데... 재료 손질할 때 원래 이렇게 큰 소리가 날 정도로 강하게 내리쳐야 되나...? 
 뚝! 
 내가 거의 주방에 다 도달할 때쯤 재료 손질 소리가 멈췄다. 
-어...? 다 끝났나? 그럼 굳이 안 들어가고 요리사님을 불러도 되는 거 아닌가?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||요리사를 부른다|80|주방에 들어간다|97|
+어...? 다 끝났나? 그럼 굳이 안 들어가고 요리사님을 불러도 되는 거 아닌가?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||요리사를 부른다|80|주방에 들어간다|97|
 80|"요리사님!!! 저 왔어요!!! 김기자에요!!! 
 그래도 주방은 요리사만의 공간인데, 부를 수 있다면 굳이 들어갈 필요가 없다 생각한 나는 주방 앞에서 요리사를 불렀다. 
 요리사: ... 어쩐 일이시죠? 
@@ -675,7 +675,7 @@
 아.. 하.. 하하.. 그렇.. 군요.. 
 나는 놀란 가슴이 진정되지 않아 계속 말을 더듬으며 말을 했다.
 요리사: 주방이 궁금하신 것 같은데 저랑 같이 들어가 보실래요?
-요리사는 자기와 함께 주방에 들어가 볼 것이냐고 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|BGM_STORY_MIDDLE.mp3||들어간다|184|들어가지 않는다|163|
+요리사는 자기와 함께 주방에 들어가 볼 것이냐고 물었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER_SMILE.png|||들어간다|184|들어가지 않는다|163|
 163|"아... 아닙니다. 굳이 안 들어가 봐도 될 거 같아요... 아직 진정이 안 돼서 바람을 좀 쐬러 갈게요... 
 나는 아까의 궁금증은 사라지고, 이곳을 빨리 벗어나야겠다는 생각만 가득했다. 
 요리사: ... 그러시군요. 음... 그래도 제가 너무 놀라게 한 것 같아서... 아! 잠시만 기다리세요! 
@@ -741,7 +741,7 @@
 184|"어... 그럼 들어가 볼 수 있을까요? 
 나는 요리사의 권유를 따라 주방 안으로 들어가 보기로 했다. 
 요리사: ... 그러시죠. 
-요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png|BGM_STORY_CLIMAX(REASONING).mp3|||185|||
+요리사는 왠지 모르게 차갑게 말을 했다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|CHARACTER_COOKER.png||||185|||
 185|나는 크게 신경을 쓰지 않고 주방 커튼을 치고 들어갔다.|SCENE_STORY_INSIDE(REST_INSIDE_KIT).jpg|||EFFECT_SOUND_FOOTSTEPS(KITCHEN).wav||186|||G
 186|"!!! 헉!! 이... 이게… 
 나는 들어가자마자 너무나도 잔인한 광경에 소스라치게 놀랐다. 
@@ -896,7 +896,7 @@
 232|나는 추가로 얻은 미트파이를 마저 먹고 더 먹고 싶었지만... 아쉬움을 뒤로한 채 집으로 돌아가 잠을 청했다.|SCENE_STORY_INSIDE(PLAZA_HELL).jpg|||||235|||C
 233|"미트..파이 재료를… 알 수 있을텐데… 휴고를 따라가 보는 게 맞지 않을까…?
 미트파이… 따라가자…
-나는 다시 휴고를 미행하기로 마음을 바꿔 먹었다."|SCENE_STORY_TOWN(HELL).jpg||BGM_STORY_CLIMAX(MOUNTAIN PATH).mp3|||198|||
+나는 다시 휴고를 미행하기로 마음을 바꿔 먹었다."|SCENE_STORY_TOWN(HELL).jpg|||||198|||
 234|"미트파이를 포기할 순 없지.. 집으로 돌아가자... 
 나는 집으로 돌아가서 저녁이 되기를 기다렸다.
 저..저녁이 됐으니.. 미..미트파이…먹으러가자…
@@ -912,7 +912,7 @@
 미... 트파... 이를... 위... 해..여..행객..을..."|SCENE_DREAM4.jpg|||||238|||C
 238|"미... 트... 파이... 를 위... 해... 
 미... 트... 파... 이를... 미... 트... 미트... 파이..."|SCENE_DREAM4.jpg|||||239|||C
-239||SCENE_BLACK_MEATPIE.jpg|||||240|||B
+239| |SCENE_BLACK_MEATPIE.jpg|||||240|||B
 240|-END-|SCENE_GAME_END.jpg||BGM_TOTAL_ENDING.mp3|||1000|||
 241|"미트파이도 미트파이지만… 너무 피곤하다.. 일단 좀 자자…
 나는 긴 이동시간으로 쌓인 피로 때문에 침대에 눕자마자 곯아떨어졌다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_INTRO.mp3|||242|||
@@ -1012,7 +1012,7 @@
 268|"쾅 쾅쾅!! 서걱 서걱 서걱... 쾅!! 쾅!! 
 요리사의 대답은 들을 순 없었지만, 주방에서 들려오는 소리로 요리사가 주방 일을 하고 있다는 것을 알 순 있었다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||EFFECT_SOUND_MAKING(KITCHEN).wav||269|||G
 269|"재료 손질하느라 많이 바쁜 거 같은데... 
-어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||BGM_STORY_INTRO.mp3||들어간다|301|한번 더 소리 지른다|270|
+어쩌지??? 주방으로 들어가 볼까? 아니면 한 번 더 크게 소리 질러 볼까?"|SCENE_STORY_INSIDE(REST_INSIDE).jpg||||들어간다|301|한번 더 소리 지른다|270|
 270|"그래도 허락 없이 주방을 들어가는 건 실례지…
 저기요!!! 요리사님!!!!
 나는 주방을 향해 한 번 더 크게 소리쳤다."|SCENE_STORY_INSIDE(REST_INSIDE).jpg|||||271|||
@@ -1469,7 +1469,7 @@
 404|나는 의식의 끈을 놓쳤다.|SCENE_STORY_INSIDE(REST_INSIDE_HITDIE4).jpg|||||405|||
 405|GAME OVER|SCENE_GAMEOVER.jpg||||이전 선택지로|383|||
 406|"먹기 싫은데 굳이 나갈 필요가 있을까…? 라면이나 먹자!
-나는 컵라면에 물을 부어 먹고. 집 청소를 좀 한 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg||BGM_STORY_CLIMAX(REASONING).mp3|||407|||C
+나는 컵라면에 물을 부어 먹고. 집 청소를 좀 한 뒤 잠을 청했다."|SCENE_STORY_INSIDE(HOUSE_MY).jpg|||||407|||C
 407|"나는 잠을 자는데 꿈을 꾸었다. 
 나는 물속에 잠겨있고 점점 가라앉고 있었으며, 점점 숨이 막혀왔다. 
 근데 이상하게 꿈속이란 느낌보다 너무 실감 나게 숨이 막혀왔다.
