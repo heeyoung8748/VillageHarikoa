@@ -10,6 +10,7 @@ typedef struct PageManager
 	Page*	 NextPage;
 	wchar_t* saveScript;
 	bool	selectActive;
+	
 } PageManager;
 
 void PageManager_Init(PageManager* pageManager);

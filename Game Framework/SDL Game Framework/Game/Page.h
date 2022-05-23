@@ -12,7 +12,7 @@ typedef struct Page
 	Image		Background;
 	Image		Character;
 	Music		Bgm;
-	Music		Effect;
+	SoundEffect		Effect;
 	Option		Options[2];
 	int32		CurrentOption;
 } Page;

@@ -17,7 +17,6 @@ void PageManager_Init(PageManager* pageManager)
 		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = 대사 엔터포함
 		const wchar_t* lineStart = pageManager->saveScript;
 		
-
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -57,8 +56,12 @@ void PageManager_Init(PageManager* pageManager)
 
 		const char* backgroundMusicFileName = ParseToAscii(csvFile.Items[page][COL_BACKGROUND_MUSIC]);
 		Audio_LoadMusic(&pageManager->Pages[page].Bgm, backgroundMusicFileName);
+		
 		const char* effectMusicFileName = ParseToAscii(csvFile.Items[page][COL_EFFECT_MUSIC]);
-		Audio_LoadMusic(&pageManager->Pages[page].Effect, effectMusicFileName);
+		if (*effectMusicFileName)
+		{
+			Audio_LoadSoundEffect(&pageManager->Pages[page].Effect, effectMusicFileName);
+		}
 
 		int32 diff = COL_OPTION2 - COL_OPTION1;
 		for (int32 i = 0; i < 2; ++i)
@@ -78,7 +81,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_9];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
@@ -109,6 +112,13 @@ void PageManager_Update(PageManager* pageManager)
  	if (Input_GetKeyDown(VK_SPACE))
 	{ 
 		
+		if (count == 1)
+		{
+			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 0);
+			Audio_FadeOutSoundEffect(1000);
+		//Audio_PlaySoundEffect(&pageManager->Pages[nextPage].Effect, 0);
+		//Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
+		}
  		count++;
 		pageManager->selectActive = false;
 		if (count == lineSave[ccount]-1)
@@ -131,20 +141,19 @@ void PageManager_Update(PageManager* pageManager)
 			}
 			count = 0;
 		}
+	//Audio_SetEffectVolume(&pageManager->Pages[nextPage].Effect, 1.0f);
 	}
 	if (nextPage == 1000)
 		Scene_SetNextScene(SCENE_CREDIT);
-		
+	//Audio_SetEffectVolume(&pageManager->Pages[nextPage].Effect, 0.3f);
 	
 }
 
 void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
-	
-	
-	SDL_Color black = { .a = 255 };
-	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	SDL_Color white = { .r = 255 ,.g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 90, 480, white);
 	
 }
 

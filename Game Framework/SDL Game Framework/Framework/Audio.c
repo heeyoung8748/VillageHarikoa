@@ -121,6 +121,7 @@ void Audio_LoadMusic(Music* music, const char* filename)
 
 	sprintf_s(s_path, sizeof(s_path), "%s/%s", SOUND_DIRECTORY, filename);
 	music->Music = Mix_LoadMUS(s_path);
+
 }
 
 void Audio_FreeMusic(Music* music)
@@ -135,7 +136,7 @@ void Audio_LoadSoundEffect(SoundEffect* soundEffect, const char* filename)
 
 	sprintf_s(s_path, sizeof(s_path), "%s/%s", SOUND_DIRECTORY, filename);
 	soundEffect->Chunk = Mix_LoadWAV(s_path);
-	Audio_SetEffectVolume(soundEffect, 1.0f);
+	Audio_SetEffectVolume(soundEffect, 0.15f);
 }
 
 void Audio_FreeSoundEffect(SoundEffect* soundEffect)
@@ -150,7 +151,7 @@ void Audio_SetEffectVolume(SoundEffect* soundEffect, float volume)
 
 	int32 realVolume = 0 + soundEffect->Volume * MIX_MAX_VOLUME;
 	Mix_VolumeChunk(soundEffect->Chunk, realVolume);
-}
+ }
 
 void Audio_PlaySoundEffect(const SoundEffect* soundEffect, int32 loops)
 {
