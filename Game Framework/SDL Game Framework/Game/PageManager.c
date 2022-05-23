@@ -9,8 +9,8 @@ void PageManager_Init(PageManager* pageManager)
 {
 	
 	CsvFile csvFile = {0};
-	CreateCsvFile(&csvFile, "DB_FINAL.csv");
-	for (int32 page = 1; page < csvFile.RowCount; ++page)
+	CreateCsvFile(&csvFile, "dbfinal2.csv");
+	for (int32 page = 1; page < 479; ++page)
 	{
 
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
@@ -91,6 +91,7 @@ bool selected = 0;
 int32 nextPage = 1;
 int32 count = 0;
 int32 ccount = 0;
+bool effectPlay = false;
 void PageManager_Update(PageManager* pageManager)
 {
 	
@@ -114,13 +115,15 @@ void PageManager_Update(PageManager* pageManager)
 	
  	if (Input_GetKeyDown(VK_SPACE))
 	{ 
-		
-		if (count == 1)
+ 		effectPlay = true;
+		if (effectPlay == true && count == 0)
 		{
-			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 1);
-			Audio_FadeOutSoundEffect(1000);
-		//Audio_PlaySoundEffect(&pageManager->Pages[nextPage].Effect, 0);
-		//Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
+			Audio_PlaySoundEffect(&pageManager->Pages[nextPage].Effect, 0);
+			effectPlay = false;
+		}
+		if (count == 0)
+		{
+		    Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
 		}
  		count++;
 		pageManager->selectActive = false;
@@ -144,19 +147,25 @@ void PageManager_Update(PageManager* pageManager)
 			}
 			count = 0;
 		}
-	//Audio_SetEffectVolume(&pageManager->Pages[nextPage].Effect, 1.0f);
+	
 	}
 	if (nextPage == 1000)
 		Scene_SetNextScene(SCENE_CREDIT);
-	//Audio_SetEffectVolume(&pageManager->Pages[nextPage].Effect, 0.3f);
+
+	
+	
 	
 }
 
 void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
-	SDL_Color black = { .a = 255 };
-	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	SDL_Color white = { .r = 255, .b = 255, .g = 255, .a = 255 };
+	
+	if (pageManager->Pages[nextPage].Script->Length > 0)
+	{
+		Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 90, 480, white);
+	}
 	
 }
 
