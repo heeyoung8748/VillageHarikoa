@@ -115,9 +115,9 @@ void PageManager_Update(PageManager* pageManager)
  	if (Input_GetKeyDown(VK_SPACE))
 	{ 
 		
-		if (count == 0)
+		if (count == 1)
 		{
-			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 0);
+			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 1);
 			Audio_FadeOutSoundEffect(1000);
 		//Audio_PlaySoundEffect(&pageManager->Pages[nextPage].Effect, 0);
 		//Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
