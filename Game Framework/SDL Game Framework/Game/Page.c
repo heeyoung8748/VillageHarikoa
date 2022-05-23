@@ -20,7 +20,6 @@ void Page_Init(Page* page)
 
 void Page_Update(Page* page)
 {
-	
 		
 	if (Input_GetKeyDown(VK_LEFT))
 	{
@@ -55,6 +54,7 @@ void Page_Render(Page* page, bool selectActive)
 
 	/*SDL_Color red = { .r = 255, .a = 255 };
 	Renderer_DrawTextBlended(&page->TextID, PAGE_INDEX_POS_X, PAGE_INDEX_POS_Y, red);*/
+
 	
 	
 	for (int32 i = 0; i < 2; ++i)

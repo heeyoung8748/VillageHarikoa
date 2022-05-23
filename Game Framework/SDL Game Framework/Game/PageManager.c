@@ -14,10 +14,9 @@ void PageManager_Init(PageManager* pageManager)
 	{
 
 		pageManager->Pages[page].ID = ParseToInt(csvFile.Items[page][COL_PAGE_INDEX]);
-		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = ´ë»ç ¿£ÅÍÆ÷ÇÔ
+		pageManager->saveScript = ParseToUnicode(csvFile.Items[page][COL_TEXT]); // saveScript = Â´Ã«Â»Ã§ Â¿Â£Ã…ÃÃ†Ã·Ã‡Ã”
 		const wchar_t* lineStart = pageManager->saveScript;
 		
-
 		for  (int32 line = 0; line < TEXT_MAX_LINE; line++) // 
 		{
 			
@@ -94,8 +93,6 @@ int32 ccount = 0;
 bool effectPlay = false;
 void PageManager_Update(PageManager* pageManager)
 {
-	
-	
 	if (pageManager->NextPage != NULL)
 	{
 		pageManager->CurrentPage = pageManager->NextPage;
@@ -123,6 +120,7 @@ void PageManager_Update(PageManager* pageManager)
 		}
 		if (count == 0)
 		{
+        jaehyuk_0523_last
 		    Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
 		}
  		count++;
