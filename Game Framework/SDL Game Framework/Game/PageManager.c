@@ -82,7 +82,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_9];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
@@ -117,7 +117,7 @@ void PageManager_Update(PageManager* pageManager)
 		
 		if (count == 1)
 		{
-			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 1);
+			Audio_PlaySoundEffect(&pageManager->Pages->Effect, 0);
 			Audio_FadeOutSoundEffect(1000);
 		//Audio_PlaySoundEffect(&pageManager->Pages[nextPage].Effect, 0);
 		//Audio_Play(&pageManager->Pages[nextPage].Bgm, INFINITY_LOOP);
@@ -155,8 +155,8 @@ void PageManager_Update(PageManager* pageManager)
 void PageManager_Render(PageManager* pageManager)
 {
 	Page_Render(pageManager->CurrentPage, pageManager->selectActive);
-	SDL_Color black = { .a = 255 };
-	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 200, 540, black);
+	SDL_Color white = { .r = 255 ,.g = 255, .b = 255, .a = 255 };
+	Renderer_DrawTextBlended(&pageManager->Pages[nextPage].Script[count], 90, 480, white);
 	
 }
 

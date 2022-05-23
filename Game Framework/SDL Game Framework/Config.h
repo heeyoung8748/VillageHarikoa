@@ -22,14 +22,14 @@
 
 // Page 备己 夸家
 #define DEFAULT_FONT		"H2HDRM.ttf"
-#define DEFAULT_FONT_SIZE	16
+#define DEFAULT_FONT_SIZE	17
 #define PAGE_INDEX_POS_X	10
 #define PAGE_INDEX_POS_Y	10
-#define PAGE_OPTION_POS_X	200
-#define PAGE_OPTION_POS_Y	640
-#define PAGE_OPTION_WIDTH	500
+#define PAGE_OPTION_POS_X	90
+#define PAGE_OPTION_POS_Y	600
+#define PAGE_OPTION_WIDTH	200
 #define TEXT_MAX_LINE       50
-#define SPACE_BETWEEN_LINES 50
+#define SPACE_BETWEEN_LINES 40
 
 // PageManager 包访 汲沥
 #define MAX_PAGE_COUNT		500
