@@ -81,7 +81,7 @@ void PageManager_Init(PageManager* pageManager)
 
 	FreeCsvFile(&csvFile);
 
-	pageManager->CurrentPage = &pageManager->Pages[PAGE_9];
+	pageManager->CurrentPage = &pageManager->Pages[PAGE_1];
 	pageManager->NextPage = NULL;
 	SafeFree(pageManager->saveScript);
 	
