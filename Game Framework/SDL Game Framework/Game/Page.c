@@ -49,7 +49,7 @@ void Page_Update(Page* page)
 void Page_Render(Page* page, bool selectActive)
 {
 	
-	
+	Audio_PlaySoundEffect(&page->Effect, 0);
 	Renderer_DrawImage(&page->Background, 0, 0);
 	Renderer_DrawImage(&page->Character, 0, 0);
 

@@ -5,7 +5,7 @@
 typedef struct Music
 {
 	Mix_Music* Music;
-} Music;
+}Music;
 
 
 /// <summary>
